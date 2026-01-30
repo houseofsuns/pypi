@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all datasets datasets-builder deepspeech developer engine jupyter math pytorch tensorflow yolo"
+IUSE="all datasets datasets-builder deepspeech developer engine jupyter"
 DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
 	dev-python/docker[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
@@ -74,23 +74,6 @@ DEPENDENCIES="dev-python/CairoSVG[${PYTHON_USEDEP}]
 	engine? ( dev-python/tidecv[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
 	jupyter? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )
-	math? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	math? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	math? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	math? ( <dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}] )
-	math? ( >=dev-python/scipy-1.4.1[${PYTHON_USEDEP}] )
-	pytorch? ( dev-python/armory-testbed[${PYTHON_USEDEP}] )
-	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	pytorch? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
-	pytorch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/armory-testbed[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tf-models-official[${PYTHON_USEDEP}] )
-	yolo? ( dev-python/armory-testbed[${PYTHON_USEDEP}] )
-	yolo? ( dev-python/armory-testbed[${PYTHON_USEDEP}] )
-	yolo? ( ~dev-python/numpy-1.23.4[${PYTHON_USEDEP}] )
-	yolo? ( dev-python/pytorchyolo[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

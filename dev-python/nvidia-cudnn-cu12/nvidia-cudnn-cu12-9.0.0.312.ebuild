@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="cuDNN runtime libraries [top-max 9.17.1.4]"
+DESCRIPTION="cuDNN runtime libraries [top-max 9.18.1.3]"
 
 HOMEPAGE="https://developer.nvidia.com/cuda-zone"
 LICENSE="NVIDIA Proprietary Software"

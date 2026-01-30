@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="full test"
+IUSE="full"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	<=dev-python/scipy-1.5.4[${PYTHON_USEDEP}]
 	dev-python/seaborn[${PYTHON_USEDEP}]
@@ -73,33 +73,6 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	full? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	full? ( dev-python/fugue[${PYTHON_USEDEP}] )
 	full? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	full? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/moto[${PYTHON_USEDEP}] )
-	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/dask[${PYTHON_USEDEP}] )
-	test? ( dev-python/shap[${PYTHON_USEDEP}] )
-	test? ( dev-python/interpret[${PYTHON_USEDEP}] )
-	test? ( dev-python/tune-sklearn[${PYTHON_USEDEP}] )
-	test? ( dev-python/ray[${PYTHON_USEDEP}] )
-	test? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
-	test? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )
-	test? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	test? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	test? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	test? ( dev-python/explainerdashboard[${PYTHON_USEDEP}] )
-	test? ( dev-python/m2cgen[${PYTHON_USEDEP}] )
-	test? ( dev-python/evidently[${PYTHON_USEDEP}] )
-	test? ( dev-python/autoviz[${PYTHON_USEDEP}] )
-	test? ( dev-python/fairlearn[${PYTHON_USEDEP}] )
-	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	test? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	test? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	test? ( dev-python/fugue[${PYTHON_USEDEP}] )
-	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	test? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	test? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )"
+	full? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

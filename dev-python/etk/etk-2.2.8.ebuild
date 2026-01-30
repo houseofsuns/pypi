@@ -73,7 +73,6 @@ DEPENDENCIES=">=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	dev-python/pyexcel-xls[${PYTHON_USEDEP}]
 	dev-python/pyexcel-xlsx[${PYTHON_USEDEP}]
 	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
-	dev-python/pyshacl[${PYTHON_USEDEP}]
-	dev-python/tabula-py[${PYTHON_USEDEP}]"
+	dev-python/pyshacl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

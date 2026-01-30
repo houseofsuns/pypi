@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev server"
+IUSE="dev"
 DEPENDENCIES="dev? ( dev-python/flask-swagger-ui[${PYTHON_USEDEP}] )
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -73,42 +73,6 @@ DEPENDENCIES="dev? ( dev-python/flask-swagger-ui[${PYTHON_USEDEP}] )
 	dev? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-beautifulsoup4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-oauthlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-Flask[${PYTHON_USEDEP}] )
-	server? ( dev-python/alembic[${PYTHON_USEDEP}] )
-	server? ( dev-python/apispec[${PYTHON_USEDEP}] )
-	server? ( dev-python/apispec-webframeworks[${PYTHON_USEDEP}] )
-	server? ( dev-python/bokeh[${PYTHON_USEDEP}] )
-	server? ( dev-python/click[${PYTHON_USEDEP}] )
-	server? ( dev-python/dacite[${PYTHON_USEDEP}] )
-	server? ( dev-python/email-validator[${PYTHON_USEDEP}] )
-	server? ( dev-python/flask[${PYTHON_USEDEP}] )
-	server? ( dev-python/Flask-Bootstrap[${PYTHON_USEDEP}] )
-	server? ( dev-python/flask-login[${PYTHON_USEDEP}] )
-	server? ( dev-python/flask-swagger-ui[${PYTHON_USEDEP}] )
-	server? ( dev-python/Flask-WTF[${PYTHON_USEDEP}] )
-	server? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	server? ( dev-python/marshmallow[${PYTHON_USEDEP}] )
-	server? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	server? ( dev-python/oauthlib[${PYTHON_USEDEP}] )
-	server? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )
-	server? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	server? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	server? ( dev-python/prometheus-client[${PYTHON_USEDEP}] )
-	server? ( dev-python/prometheus-flask-exporter[${PYTHON_USEDEP}] )
-	server? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	server? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	server? ( dev-python/py-cpuinfo[${PYTHON_USEDEP}] )
-	server? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
-	server? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	server? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	server? ( dev-python/requests[${PYTHON_USEDEP}] )
-	server? ( dev-python/tenacity[${PYTHON_USEDEP}] )
-	server? ( >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/types-beautifulsoup4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

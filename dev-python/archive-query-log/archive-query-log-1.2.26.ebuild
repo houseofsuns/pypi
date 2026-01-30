@@ -73,13 +73,6 @@ DEPENDENCIES="~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pylint-2.17[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-7.4[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-beautifulsoup4[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-bleach[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-lxml[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-python-slugify[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/types-beautifulsoup4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

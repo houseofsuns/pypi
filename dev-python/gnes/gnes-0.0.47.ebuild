@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aiohttp all annoy audio bert chinese cn_nlp flair flask http leveldb nlp onnx scipy test transformers vision"
+IUSE="aiohttp all annoy audio bert chinese cn_nlp flair flask http leveldb nlp onnx scipy"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
@@ -73,15 +73,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	nlp? ( dev-python/pytorch-transformers[${PYTHON_USEDEP}] )
 	onnx? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
 	scipy? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	scipy? ( dev-python/sklearn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/psutil-5.6.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/pytorch-transformers[${PYTHON_USEDEP}] )
-	vision? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	vision? ( dev-python/ImageHash[${PYTHON_USEDEP}] )
-	vision? ( dev-python/image[${PYTHON_USEDEP}] )
-	vision? ( dev-python/PeakUtils[${PYTHON_USEDEP}] )"
+	scipy? ( dev-python/sklearn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

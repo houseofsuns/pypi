@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all alldev benchmarking deployment dev docs metrics modeling"
+IUSE="all alldev benchmarking deployment"
 DEPENDENCIES="dev-python/PyXB[${PYTHON_USEDEP}]
 	dev-python/h5py[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -73,30 +73,6 @@ DEPENDENCIES="dev-python/PyXB[${PYTHON_USEDEP}]
 	benchmarking? ( dev-python/MedPy[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/gdown[${PYTHON_USEDEP}] )
 	deployment? ( dev-python/requests[${PYTHON_USEDEP}] )
-	deployment? ( dev-python/iocursor[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-22.12.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/MedPy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wrapt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pooch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gdown[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	dev? ( <=dev-python/tifffile-2022.5.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	metrics? ( dev-python/lpips[${PYTHON_USEDEP}] )
-	modeling? ( dev-python/monai[${PYTHON_USEDEP}] )"
+	deployment? ( dev-python/iocursor[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="data-science dev telemetry test-plugins"
+IUSE="data-science"
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-4.1.2[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.34.56[${PYTHON_USEDEP}]
@@ -73,68 +73,6 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/syft-rpc[${PYTHON_USEDEP}]
 	dev-python/syftbox[${PYTHON_USEDEP}]
 	data-science? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	data-science? ( dev-python/opendp[${PYTHON_USEDEP}] )
-	data-science? ( dev-python/evaluate[${PYTHON_USEDEP}] )
-	data-science? ( dev-python/recordlinkage[${PYTHON_USEDEP}] )
-	data-science? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-parallel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
-	dev? ( dev-python/distro[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dynaconf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/anyio[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/opentelemetry-api-1.27.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/opentelemetry-sdk-1.27.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
-	dev? ( dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}] )
-	dev? ( dev-python/opentelemetry-instrumentation-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/opentelemetry-instrumentation-botocore[${PYTHON_USEDEP}] )
-	dev? ( dev-python/opentelemetry-instrumentation-logging[${PYTHON_USEDEP}] )
-	dev? ( dev-python/opentelemetry-instrumentation-sqlalchemy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/opentelemetry-instrumentation-threading[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/bandit-1.7.8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/debugpy[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/importlib-metadata-7.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/isort-5.13.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/safety[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/aiosmtpd-1.4.6[${PYTHON_USEDEP}] )
-	telemetry? ( >=dev-python/opentelemetry-api-1.27.0[${PYTHON_USEDEP}] )
-	telemetry? ( >=dev-python/opentelemetry-sdk-1.27.0[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/opentelemetry-instrumentation[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/opentelemetry-instrumentation-requests[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/opentelemetry-instrumentation-fastapi[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/opentelemetry-instrumentation-botocore[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/opentelemetry-instrumentation-logging[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/opentelemetry-instrumentation-sqlalchemy[${PYTHON_USEDEP}] )
-	telemetry? ( dev-python/opentelemetry-instrumentation-threading[${PYTHON_USEDEP}] )
-	test-plugins? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/pytest-parallel[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/pytest-randomly[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/faker[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/distro[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/dynaconf[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test-plugins? ( dev-python/anyio[${PYTHON_USEDEP}] )"
+	data-science? ( dev-python/opendp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

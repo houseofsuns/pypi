@@ -73,23 +73,6 @@ DEPENDENCIES="docs? ( dev-python/alabaster[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-SQL[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8_strict[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-string-format[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-todo[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-variables-names[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas-vet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	dev-python/pygments[${PYTHON_USEDEP}]
-	docs? ( dev-python/pygments-github-lexers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	docs? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev-python/toml[${PYTHON_USEDEP}]
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev? ( dev-python/wemake-python-styleguide[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

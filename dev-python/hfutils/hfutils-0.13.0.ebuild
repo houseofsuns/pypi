@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="7z build doc rar test transfer"
+IUSE="7z build doc rar test"
 DEPENDENCIES="dev-python/hbutils[${PYTHON_USEDEP}]
 	dev-python/huggingface-hub[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -72,10 +72,6 @@ DEPENDENCIES="dev-python/hbutils[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-timeout-2.0.2[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	test? ( dev-python/easydict[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/testtools-2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/where[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/responses-0.20.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/natsort[${PYTHON_USEDEP}] )
-	transfer? ( dev-python/hf-transfer[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/testtools-2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

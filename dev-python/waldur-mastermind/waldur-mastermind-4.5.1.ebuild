@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="test"
+IUSE=""
 DEPENDENCIES="dev-python/ansible-waldur-module[${PYTHON_USEDEP}]
 	<dev-python/apache-libcloud-2.3.0[${PYTHON_USEDEP}]
 	dev-python/azure-mgmt-compute[${PYTHON_USEDEP}]
@@ -73,19 +73,6 @@ DEPENDENCIES="dev-python/ansible-waldur-module[${PYTHON_USEDEP}]
 	>=dev-python/python-novaclient-9.1.0[${PYTHON_USEDEP}]
 	dev-python/pyvat[${PYTHON_USEDEP}]
 	dev-python/pyvmomi[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
-	dev-python/pyzabbix[${PYTHON_USEDEP}]
-	<dev-python/redis-3.3[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
-	>=dev-python/sqlparse-0.1.11[${PYTHON_USEDEP}]
-	>=dev-python/pyjwt-1.5.3[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	test? ( <dev-python/ddt-1.1.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/docker[${PYTHON_USEDEP}] )
-	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/freezegun-0.3.7[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock-django[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/responses[${PYTHON_USEDEP}] )"
+	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

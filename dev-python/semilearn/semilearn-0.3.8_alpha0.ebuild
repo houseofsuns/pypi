@@ -73,20 +73,6 @@ DEPENDENCIES="~dev-python/absl-py-1.1.0[${PYTHON_USEDEP}]
 	dev-python/tensorboard-data-server[${PYTHON_USEDEP}]
 	dev-python/tensorboard-plugin-wit[${PYTHON_USEDEP}]
 	~dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}]
-	~dev-python/tifffile-2021.11.2[${PYTHON_USEDEP}]
-	dev-python/timm[${PYTHON_USEDEP}]
-	dev-python/tokenizers[${PYTHON_USEDEP}]
-	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/torchaudio[${PYTHON_USEDEP}]
-	dev-python/torchvision[${PYTHON_USEDEP}]
-	~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}]
-	dev-python/transformers[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
-	~dev-python/werkzeug-2.1.2[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.8.0[${PYTHON_USEDEP}]
-	dev-python/pynacl[${PYTHON_USEDEP}]
-	dev-python/wandb[${PYTHON_USEDEP}]
-	dev-python/aimstack[${PYTHON_USEDEP}]"
+	~dev-python/tifffile-2021.11.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

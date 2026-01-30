@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all deployment training"
+IUSE="all training"
 DEPENDENCIES="all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	all? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	all? ( dev-python/librosa[${PYTHON_USEDEP}] )
@@ -73,36 +73,6 @@ DEPENDENCIES="all? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	training? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	training? ( dev-python/peft[${PYTHON_USEDEP}] )
 	training? ( ~dev-python/numpy-1.26.4[${PYTHON_USEDEP}] )
-	training? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	training? ( dev-python/holoviews[${PYTHON_USEDEP}] )
-	training? ( dev-python/panel[${PYTHON_USEDEP}] )
-	training? ( dev-python/tf-keras[${PYTHON_USEDEP}] )
-	training? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	training? ( dev-python/keras[${PYTHON_USEDEP}] )
-	training? ( ~dev-python/scipy-1.12.0[${PYTHON_USEDEP}] )
-	training? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
-	training? ( dev-python/faster-whisper[${PYTHON_USEDEP}] )
-	training? ( ~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}] )
-	training? ( dev-python/pyannote-audio[${PYTHON_USEDEP}] )
-	training? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	training? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	training? ( dev-python/ctranslate2[${PYTHON_USEDEP}] )
-	training? ( ~dev-python/pandas-2.2.2[${PYTHON_USEDEP}] )
-	training? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	training? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	training? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	deployment? ( dev-python/torch[${PYTHON_USEDEP}] )
-	deployment? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	deployment? ( ~dev-python/pydantic-2.7.3[${PYTHON_USEDEP}] )
-	deployment? ( ~dev-python/prometheus-client-0.20.0[${PYTHON_USEDEP}] )
-	deployment? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	deployment? ( ~dev-python/uvicorn-0.30.1[${PYTHON_USEDEP}] )
-	deployment? ( ~dev-python/python-dotenv-1.0.1[${PYTHON_USEDEP}] )
-	deployment? ( dev-python/faster-whisper[${PYTHON_USEDEP}] )
-	deployment? ( dev-python/pyannote-audio[${PYTHON_USEDEP}] )
-	deployment? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	deployment? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	deployment? ( dev-python/ctranslate2[${PYTHON_USEDEP}] )
-	deployment? ( ~dev-python/pandas-2.2.2[${PYTHON_USEDEP}] )"
+	training? ( dev-python/wandb[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

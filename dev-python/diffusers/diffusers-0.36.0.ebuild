@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="bitsandbytes dev docs flax gguf nvidia-modelopt optimum-quanto quality test torch torchao training"
+IUSE="bitsandbytes docs gguf optimum-quanto quality test torch torchao training"
 DEPENDENCIES="training? ( dev-python/timm[${PYTHON_USEDEP}] )
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
 	dev-python/filelock[${PYTHON_USEDEP}]
@@ -73,46 +73,6 @@ DEPENDENCIES="training? ( dev-python/timm[${PYTHON_USEDEP}] )
 	optimum-quanto? ( dev-python/optimum-quanto[${PYTHON_USEDEP}] )
 	optimum-quanto? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	torchao? ( dev-python/torchao[${PYTHON_USEDEP}] )
-	torchao? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	nvidia-modelopt? ( dev-python/nvidia-modelopt[${PYTHON_USEDEP}] )
-	flax? ( dev-python/jax[${PYTHON_USEDEP}] )
-	flax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	flax? ( dev-python/flax[${PYTHON_USEDEP}] )
-	dev? ( <=dev-python/urllib3-2.0.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
-	dev? ( dev-python/compel[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
-	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/k-diffusion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	dev? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/requests-mock-1.10.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/safetensors[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	dev? ( dev-python/phonemizer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/peft[${PYTHON_USEDEP}] )
-	dev? ( dev-python/timm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hf-doc-builder[${PYTHON_USEDEP}] )
-	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jax[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flax[${PYTHON_USEDEP}] )"
+	torchao? ( dev-python/accelerate[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

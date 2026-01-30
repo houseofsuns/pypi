@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all benchmark benchmarks common dameraulevenshtein extra extras hamming jaro jarowinkler levenshtein lint test"
+IUSE="all benchmark benchmarks common dameraulevenshtein extra hamming jaro jarowinkler levenshtein"
 DEPENDENCIES="dameraulevenshtein? ( >=dev-python/rapidfuzz-2.6.0[${PYTHON_USEDEP}] )
 	dameraulevenshtein? ( dev-python/jellyfish[${PYTHON_USEDEP}] )
 	dameraulevenshtein? ( dev-python/pyxdameraulevenshtein[${PYTHON_USEDEP}] )
@@ -73,30 +73,6 @@ DEPENDENCIES="dameraulevenshtein? ( >=dev-python/rapidfuzz-2.6.0[${PYTHON_USEDEP
 	extra? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	extra? ( dev-python/levenshtein[${PYTHON_USEDEP}] )
 	extra? ( dev-python/pyxdameraulevenshtein[${PYTHON_USEDEP}] )
-	extra? ( >=dev-python/rapidfuzz-2.6.0[${PYTHON_USEDEP}] )
-	extras? ( dev-python/jellyfish[${PYTHON_USEDEP}] )
-	extras? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	extras? ( dev-python/levenshtein[${PYTHON_USEDEP}] )
-	extras? ( dev-python/pyxdameraulevenshtein[${PYTHON_USEDEP}] )
-	extras? ( >=dev-python/rapidfuzz-2.6.0[${PYTHON_USEDEP}] )
-	lint? ( dev-python/twine[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	lint? ( dev-python/isort[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-commas[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-logging-format[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-pep3101[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-string-format[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	extra? ( >=dev-python/rapidfuzz-2.6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

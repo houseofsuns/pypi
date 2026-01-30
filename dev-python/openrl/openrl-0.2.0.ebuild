@@ -73,20 +73,6 @@ DEPENDENCIES=">=dev-python/setuptools-67.0[${PYTHON_USEDEP}]
 	test? ( dev-python/isort[${PYTHON_USEDEP}] )
 	test? ( dev-python/black[${PYTHON_USEDEP}] )
 	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/gpustat[${PYTHON_USEDEP}] )
-	test? ( dev-python/gym-super-mario-bros[${PYTHON_USEDEP}] )
-	test? ( dev-python/ray[${PYTHON_USEDEP}] )
-	test? ( dev-python/ray[${PYTHON_USEDEP}] )
-	test? ( dev-python/async-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
-	test? ( dev-python/trueskill[${PYTHON_USEDEP}] )
-	test? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	test? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
-	test? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
-	test? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
-	test? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
-	test? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	test? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	test? ( dev-python/evaluate[${PYTHON_USEDEP}] )"
+	test? ( dev-python/gpustat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

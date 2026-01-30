@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all cli dev dice io plot sync"
+IUSE="all cli dice io plot sync"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/schedula[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -73,43 +73,6 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	all? ( dev-python/plotly[${PYTHON_USEDEP}] )
 	all? ( dev-python/co2mpas-dice[${PYTHON_USEDEP}] )
 	all? ( dev-python/syncing[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	all? ( dev-python/asteval[${PYTHON_USEDEP}] )
-	all? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	all? ( dev-python/dill[${PYTHON_USEDEP}] )
-	all? ( dev-python/regex[${PYTHON_USEDEP}] )
-	all? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xlref[${PYTHON_USEDEP}] )
-	dev? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pandas-0.21.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click-log[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	dev? ( dev-python/co2mpas-dice[${PYTHON_USEDEP}] )
-	dev? ( dev-python/syncing[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask[${PYTHON_USEDEP}] )
-	dev? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	dev? ( dev-python/asteval[${PYTHON_USEDEP}] )
-	dev? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dill[${PYTHON_USEDEP}] )
-	dev? ( dev-python/regex[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gitchangelog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mako[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/setuptools-36.0.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-restbuilder[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ddt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )"
+	all? ( dev-python/flask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

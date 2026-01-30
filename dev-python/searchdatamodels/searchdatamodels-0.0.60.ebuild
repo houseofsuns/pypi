@@ -73,7 +73,6 @@ DEPENDENCIES="~dev-python/annotated-types-0.5.0[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	dev-python/deepl[${PYTHON_USEDEP}]
-	dev-python/langdetect[${PYTHON_USEDEP}]"
+	dev-python/deepl[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

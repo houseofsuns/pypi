@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="build cms4 dev mysql newsblog psql test"
+IUSE="dev test"
 DEPENDENCIES="dev-python/django-cms[${PYTHON_USEDEP}]
 	dev-python/django-filer[${PYTHON_USEDEP}]
 	dev-python/djangocms-admin-style[${PYTHON_USEDEP}]
@@ -73,15 +73,6 @@ DEPENDENCIES="dev-python/django-cms[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-sugar-1.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pyvirtualdisplay-3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/webdriverwrapper[${PYTHON_USEDEP}] )
-	test? ( dev-python/django-simple-captcha[${PYTHON_USEDEP}] )
-	test? ( dev-python/testfixtures[${PYTHON_USEDEP}] )
-	test? ( dev-python/tzdata[${PYTHON_USEDEP}] )
-	build? ( <dev-python/jinja2-3.1.0[${PYTHON_USEDEP}] )
-	build? ( ~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
-	psql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	mysql? ( ~dev-python/mysqlclient-2.2[${PYTHON_USEDEP}] )
-	newsblog? ( dev-python/djangocms-aldryn-newsblog[${PYTHON_USEDEP}] )
-	cms4? ( dev-python/django-cms[${PYTHON_USEDEP}] )"
+	test? ( dev-python/webdriverwrapper[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

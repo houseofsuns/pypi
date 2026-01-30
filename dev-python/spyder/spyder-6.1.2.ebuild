@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="test"
+IUSE=""
 DEPENDENCIES="<dev-python/pyqt5-5.16[${PYTHON_USEDEP}]
 	dev-python/pyqtwebengine[${PYTHON_USEDEP}]
 	<dev-python/qtconsole-5.8.0[${PYTHON_USEDEP}]
@@ -73,22 +73,6 @@ DEPENDENCIES="<dev-python/pyqt5-5.16[${PYTHON_USEDEP}]
 	>=dev-python/textdistance-4.2.0[${PYTHON_USEDEP}]
 	>=dev-python/three-merge-0.1.1[${PYTHON_USEDEP}]
 	>=dev-python/watchdog-0.10.3[${PYTHON_USEDEP}]
-	>=dev-python/yarl-1.9.4[${PYTHON_USEDEP}]
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/cython[${PYTHON_USEDEP}] )
-	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-lazy-fixture[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-qt[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/sympy[${PYTHON_USEDEP}] )"
+	>=dev-python/yarl-1.9.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

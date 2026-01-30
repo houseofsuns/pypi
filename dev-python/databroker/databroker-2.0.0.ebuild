@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all back-compat client complete server"
+IUSE="back-compat client complete server"
 DEPENDENCIES="dev-python/tiled[${PYTHON_USEDEP}]
 	client? ( dev-python/bluesky-tiled-plugins[${PYTHON_USEDEP}] )
 	client? ( >=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}] )
@@ -73,49 +73,6 @@ DEPENDENCIES="dev-python/tiled[${PYTHON_USEDEP}]
 	complete? ( dev-python/mongomock[${PYTHON_USEDEP}] )
 	complete? ( dev-python/mongoquery[${PYTHON_USEDEP}] )
 	complete? ( >=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}] )
-	complete? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	complete? ( dev-python/PIMS[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	complete? ( <=dev-python/pymongo-4.11[${PYTHON_USEDEP}] )
-	complete? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	complete? ( dev-python/rich[${PYTHON_USEDEP}] )
-	complete? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	complete? ( dev-python/suitcase-mongo[${PYTHON_USEDEP}] )
-	complete? ( dev-python/tiled[${PYTHON_USEDEP}] )
-	complete? ( dev-python/tiled[${PYTHON_USEDEP}] )
-	complete? ( dev-python/toolz[${PYTHON_USEDEP}] )
-	complete? ( dev-python/typer[${PYTHON_USEDEP}] )
-	complete? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
-	complete? ( dev-python/zarr[${PYTHON_USEDEP}] )
-	all? ( dev-python/area-detector-handlers[${PYTHON_USEDEP}] )
-	all? ( dev-python/bluesky-tiled-plugins[${PYTHON_USEDEP}] )
-	all? ( dev-python/boltons[${PYTHON_USEDEP}] )
-	all? ( dev-python/cachetools[${PYTHON_USEDEP}] )
-	all? ( dev-python/doct[${PYTHON_USEDEP}] )
-	all? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
-	all? ( dev-python/event-model[${PYTHON_USEDEP}] )
-	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	all? ( dev-python/humanize[${PYTHON_USEDEP}] )
-	all? ( dev-python/jinja2[${PYTHON_USEDEP}] )
-	all? ( dev-python/json-merge-patch[${PYTHON_USEDEP}] )
-	all? ( dev-python/jsonpatch[${PYTHON_USEDEP}] )
-	all? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	all? ( dev-python/mongomock[${PYTHON_USEDEP}] )
-	all? ( dev-python/mongoquery[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/orjson[${PYTHON_USEDEP}] )
-	all? ( dev-python/PIMS[${PYTHON_USEDEP}] )
-	all? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	all? ( <=dev-python/pymongo-4.11[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	all? ( dev-python/rich[${PYTHON_USEDEP}] )
-	all? ( dev-python/starlette[${PYTHON_USEDEP}] )
-	all? ( dev-python/suitcase-mongo[${PYTHON_USEDEP}] )
-	all? ( dev-python/tiled[${PYTHON_USEDEP}] )
-	all? ( dev-python/tiled[${PYTHON_USEDEP}] )
-	all? ( dev-python/toolz[${PYTHON_USEDEP}] )
-	all? ( dev-python/typer[${PYTHON_USEDEP}] )
-	all? ( dev-python/tzlocal[${PYTHON_USEDEP}] )
-	all? ( dev-python/zarr[${PYTHON_USEDEP}] )"
+	complete? ( dev-python/orjson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

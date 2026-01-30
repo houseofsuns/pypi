@@ -74,22 +74,6 @@ DEPENDENCIES="dev-python/odoo10-addon-portal-sale-personal-data-only[${PYTHON_US
 	dev-python/odoo10-addon-sale-procurement-group-by-requested-date-sale-sourced-by-line[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-sale-product-multi-add[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-sale-product-set[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-product-set-layout[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-promotion-rule[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-promotion-rule-assortment[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-promotion-rule-delivery[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-quotation-number[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-rental[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-revert-done[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-shipping-info-helper[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-sourced-by-line[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-start-end-dates[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-stock-picking-blocking[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-stock-picking-blocking-proc-group-by-line[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-stock-picking-blocking-sale-manual-delivery[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-stock-picking-note[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-triple-discount[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-sale-validity[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

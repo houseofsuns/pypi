@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all all-strict docs docs-strict optional optional-strict runtime runtime-strict tests tests-strict"
+IUSE="all all-strict docs optional runtime tests"
 DEPENDENCIES=">=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}]
 	all? ( >=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/xdoctest-1.1.5[${PYTHON_USEDEP}] )
@@ -61,33 +61,6 @@ DEPENDENCIES=">=dev-python/ubelt-1.3.6[${PYTHON_USEDEP}]
 	all-strict? ( ~dev-python/xdoctest-1.1.5[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/lazy-loader-0.3[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/coverage-7.3.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/black[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
-	runtime-strict? ( ~dev-python/ubelt-1.3.6[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/xdoctest-1.1.5[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/lazy-loader-0.3[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/coverage-7.3.0[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/coverage-6.1.1[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/packaging-21.3[${PYTHON_USEDEP}] )
-	optional-strict? ( dev-python/black[${PYTHON_USEDEP}] )
-	optional-strict? ( ~dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
-	docs-strict? ( ~dev-python/sphinx-4.3.2[${PYTHON_USEDEP}] )
-	docs-strict? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs-strict? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
-	docs-strict? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	docs-strict? ( ~dev-python/sphinx-autoapi-1.8.4[${PYTHON_USEDEP}] )
-	docs-strict? ( ~dev-python/pygments-2.9.0[${PYTHON_USEDEP}] )
-	docs-strict? ( ~dev-python/myst-parser-0.16.1[${PYTHON_USEDEP}] )
-	docs-strict? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )"
+	all-strict? ( ~dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

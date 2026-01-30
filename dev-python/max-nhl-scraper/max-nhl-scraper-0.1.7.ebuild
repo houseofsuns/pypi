@@ -73,14 +73,6 @@ DEPENDENCIES="dev-python/appnope[${PYTHON_USEDEP}]
 	~dev-python/seaborn-0.13.0[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/soupsieve-2.5[${PYTHON_USEDEP}]
-	~dev-python/stack-data-0.6.3[${PYTHON_USEDEP}]
-	~dev-python/tornado-6.4[${PYTHON_USEDEP}]
-	~dev-python/traitlets-5.14.0[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
-	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.18[${PYTHON_USEDEP}]
-	~dev-python/wcwidth-0.2.12[${PYTHON_USEDEP}]
-	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]"
+	~dev-python/stack-data-0.6.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

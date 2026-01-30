@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all appdirs audio-encoder bert-for-tf2 clip clip-by-openai core encoders-audio-pytorch encoders-audio-tfhub encoders-code-transformers encoders-image encoders-image-cv2 encoders-image-fastai encoders-image-tf-face-detection encoders-image-tfhub encoders-text-sentence-transformers encoders-text-tf-transformers encoders-text-tfhub encoders-text-tfhub-windows encoders-text-torch-transformers encoders-video fairseq fastai_2-1-8 imageio librosa moviepy mtcnn numpy opencv-python pillow pytest pyyaml requests scikit-image sentence-transformers soundfile sphinx-rtd-theme_0-5-0 tensorflow tensorflow_hub tensorflow_text test tf-models-official torch_1-6-0 transformers vectorai"
+IUSE="all appdirs audio-encoder bert-for-tf2 clip clip-by-openai core encoders-audio-pytorch encoders-audio-tfhub pillow pyyaml"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -73,63 +73,6 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	encoders-audio-pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	encoders-audio-tfhub? ( dev-python/soundfile[${PYTHON_USEDEP}] )
 	encoders-audio-tfhub? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	encoders-audio-tfhub? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	encoders-audio-tfhub? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	encoders-code-transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	encoders-code-transformers? ( dev-python/torch[${PYTHON_USEDEP}] )
-	encoders-image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	encoders-image? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	encoders-image-cv2? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	encoders-image-fastai? ( dev-python/fastai[${PYTHON_USEDEP}] )
-	encoders-image-fastai? ( dev-python/torch[${PYTHON_USEDEP}] )
-	encoders-image-tf-face-detection? ( dev-python/appdirs[${PYTHON_USEDEP}] )
-	encoders-image-tf-face-detection? ( dev-python/mtcnn[${PYTHON_USEDEP}] )
-	encoders-image-tf-face-detection? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	encoders-image-tf-face-detection? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	encoders-image-tf-face-detection? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	encoders-image-tfhub? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	encoders-image-tfhub? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	encoders-image-tfhub? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	encoders-image-tfhub? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	encoders-text-sentence-transformers? ( dev-python/torch[${PYTHON_USEDEP}] )
-	encoders-text-sentence-transformers? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	encoders-text-tf-transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	encoders-text-tf-transformers? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	encoders-text-tfhub? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
-	encoders-text-tfhub? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	encoders-text-tfhub? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	encoders-text-tfhub? ( dev-python/bert-for-tf2[${PYTHON_USEDEP}] )
-	encoders-text-tfhub? ( dev-python/tf-models-official[${PYTHON_USEDEP}] )
-	encoders-text-tfhub-windows? ( dev-python/bert-for-tf2[${PYTHON_USEDEP}] )
-	encoders-text-tfhub-windows? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	encoders-text-tfhub-windows? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	encoders-text-tfhub-windows? ( dev-python/tf-models-official[${PYTHON_USEDEP}] )
-	encoders-text-torch-transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	encoders-text-torch-transformers? ( dev-python/torch[${PYTHON_USEDEP}] )
-	encoders-video? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	encoders-video? ( dev-python/moviepy[${PYTHON_USEDEP}] )
-	fairseq? ( dev-python/fairseq[${PYTHON_USEDEP}] )
-	fastai_2-1-8? ( dev-python/fastai[${PYTHON_USEDEP}] )
-	imageio? ( dev-python/imageio[${PYTHON_USEDEP}] )
-	librosa? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	moviepy? ( dev-python/moviepy[${PYTHON_USEDEP}] )
-	mtcnn? ( dev-python/mtcnn[${PYTHON_USEDEP}] )
-	numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	opencv-python? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	requests? ( dev-python/requests[${PYTHON_USEDEP}] )
-	scikit-image? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	sentence-transformers? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	soundfile? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	sphinx-rtd-theme_0-5-0? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tensorflow_hub? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	tensorflow_text? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/sphinx-rtd-theme-0.5.0[${PYTHON_USEDEP}] )
-	tf-models-official? ( dev-python/tf-models-official[${PYTHON_USEDEP}] )
-	torch_1-6-0? ( dev-python/torch[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	vectorai? ( dev-python/vectorai[${PYTHON_USEDEP}] )"
+	encoders-audio-tfhub? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

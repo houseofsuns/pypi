@@ -73,14 +73,6 @@ DEPENDENCIES="test? ( ~dev-python/attrs-21.2.0[${PYTHON_USEDEP}] )
 	test-old-python? ( dev-python/coveralls[${PYTHON_USEDEP}] )
 	test-old-python? ( ~dev-python/pygments-2.5.2[${PYTHON_USEDEP}] )
 	test-old-python? ( ~dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )
-	test-old-python? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )
-	test-old-python? ( ~dev-python/pytest-mock-2.0.0[${PYTHON_USEDEP}] )
-	test-old-python? ( ~dev-python/pytest-sugar-0.9.4[${PYTHON_USEDEP}] )
-	test-old-python? ( ~dev-python/pytest-4.6.9[${PYTHON_USEDEP}] )
-	test-old-python? ( ~dev-python/readme-renderer-29.0[${PYTHON_USEDEP}] )
-	test-old-python? ( dev-python/tox-pyenv[${PYTHON_USEDEP}] )
-	test-old-python? ( dev-python/tox-gh-actions[${PYTHON_USEDEP}] )
-	test-old-python? ( ~dev-python/tox-3.23.1[${PYTHON_USEDEP}] )
-	test-old-python? ( ~dev-python/twine-1.15.0[${PYTHON_USEDEP}] )"
+	test-old-python? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

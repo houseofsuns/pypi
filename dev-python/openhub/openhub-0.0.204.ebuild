@@ -73,18 +73,6 @@ DEPENDENCIES="dev-python/markdown[${PYTHON_USEDEP}]
 	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	~dev-python/secretstorage-2.3.1[${PYTHON_USEDEP}]
 	~dev-python/service-identity-21.1.0[${PYTHON_USEDEP}]
-	~dev-python/six-1.12.0[${PYTHON_USEDEP}]
-	~dev-python/sqlparse-0.4.1[${PYTHON_USEDEP}]
-	dev-python/ssh-import-id[${PYTHON_USEDEP}]
-	dev-python/sysv-ipc[${PYTHON_USEDEP}]
-	~dev-python/twisted-21.2.0[${PYTHON_USEDEP}]
-	~dev-python/txaio-21.2.1[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.24.1[${PYTHON_USEDEP}]
-	~dev-python/websockets-9.1[${PYTHON_USEDEP}]
-	~dev-python/zeroconf-0.31.0[${PYTHON_USEDEP}]
-	~dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]
-	dev-python/RPi-GPIO[${PYTHON_USEDEP}]
-	dev-python/rpi-sensor[${PYTHON_USEDEP}]"
+	~dev-python/six-1.12.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

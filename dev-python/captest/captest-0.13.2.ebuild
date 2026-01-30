@@ -73,11 +73,6 @@ DEPENDENCIES=">=dev-python/pandas-1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/pvlib[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	all? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

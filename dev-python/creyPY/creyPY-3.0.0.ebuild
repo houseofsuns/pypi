@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all auth0 build postgres"
+IUSE="auth0 build postgres"
 DEPENDENCIES=">=dev-python/annotated-types-0.7.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-core-2.20.1[${PYTHON_USEDEP}]
@@ -73,46 +73,6 @@ DEPENDENCIES=">=dev-python/annotated-types-0.7.0[${PYTHON_USEDEP}]
 	auth0? ( >=dev-python/cachetools-5.5.0[${PYTHON_USEDEP}] )
 	auth0? ( >=dev-python/charset-normalizer-3.4.0[${PYTHON_USEDEP}] )
 	auth0? ( >=dev-python/requests-2.32.3[${PYTHON_USEDEP}] )
-	auth0? ( >=dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}] )
-	auth0? ( >=dev-python/cffi-1.17.1[${PYTHON_USEDEP}] )
-	auth0? ( >=dev-python/cryptography-43.0.3[${PYTHON_USEDEP}] )
-	auth0? ( >=dev-python/pycparser-2.22[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/certifi-2024.2.2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/charset-normalizer-3.3.2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/docutils-0.20.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/idna-3.6[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/importlib-metadata-7.1.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/jaraco-classes-3.4.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/jaraco-context-4.3.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/jaraco-functools-4.0.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/keyring-25.0.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/markdown-it-py-3.0.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/mdurl-0.1.2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/more-itertools-10.2.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/nh3-0.2.17[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pkginfo-1.10.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pygments-2.17.2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/readme-renderer-43.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/requests-2.31.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/rfc3986-2.0.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/rich-13.7.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/setuptools-69.2.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/urllib3-2.2.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/wheel-0.43.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/zipp-3.18.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/psycopg-3.2.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/psycopg-binary[${PYTHON_USEDEP}] )
-	all? ( dev-python/psycopg-pool[${PYTHON_USEDEP}] )
-	all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/greenlet-3.1.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/cachetools-5.5.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/charset-normalizer-3.4.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/requests-2.32.3[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/cffi-1.17.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/cryptography-43.0.3[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pycparser-2.22[${PYTHON_USEDEP}] )"
+	auth0? ( >=dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

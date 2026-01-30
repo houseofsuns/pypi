@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all boto3 curator dev docs pandas pysftp tests"
+IUSE="curator dev pandas pysftp tests"
 DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-2.6.3[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0[${PYTHON_USEDEP}]
@@ -73,45 +73,6 @@ DEPENDENCIES="<dev-python/requests-3.0[${PYTHON_USEDEP}]
 	curator? ( >=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}] )
 	curator? ( >=dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}] )
 	pysftp? ( dev-python/pysftp[${PYTHON_USEDEP}] )
-	pysftp? ( <dev-python/paramiko-4.0.0[${PYTHON_USEDEP}] )
-	boto3? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/mkdocs-material-9.4.14[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/mkdocstrings-python-2.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/termynal[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mkdocs-open-in-new-tab[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/pytest-8.2.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/pytest-mock-4.0[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/pytest-socket-0.6.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/pytest-asyncio-2.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/flake8-4.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/pytest-xdist-3.0.0[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/func-timeout[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/filelock-3.20.1[${PYTHON_USEDEP}] )
-	all? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandarallel[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/inflection-0.5.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/networkx-2.2.8[${PYTHON_USEDEP}] )
-	all? ( dev-python/dataclasses-json[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/rdflib-6.0.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/jsonschema-4.23.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pysftp[${PYTHON_USEDEP}] )
-	all? ( <dev-python/paramiko-4.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/mkdocs-material-9.4.14[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/mkdocstrings-0.24.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/mkdocstrings-python-2.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/termynal[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-open-in-new-tab[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/markdown-include-0.8.1[${PYTHON_USEDEP}] )"
+	pysftp? ( <dev-python/paramiko-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

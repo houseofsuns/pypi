@@ -73,7 +73,6 @@ DEPENDENCIES="~dev-python/absl-py-0.9.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.25.9[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/wrapt-1.12.1[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.4.2[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.1.0[${PYTHON_USEDEP}]"
+	~dev-python/yarl-1.4.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

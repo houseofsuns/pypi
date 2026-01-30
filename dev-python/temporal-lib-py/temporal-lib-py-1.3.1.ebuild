@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A wrapper library for candid-based temporal authentication [top-max 1.8.4]"
+DESCRIPTION="A wrapper library for candid-based temporal authentication [top-max 1.8.6]"
 
 HOMEPAGE=""
 LICENSE="LGPL-3"

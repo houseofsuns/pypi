@@ -73,12 +73,6 @@ DEPENDENCIES="dev-python/openai[${PYTHON_USEDEP}]
 	testing? ( >=dev-python/pytest-7.4.3[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	testing? ( >=dev-python/pytest-xdist-3.4.0[${PYTHON_USEDEP}] )
-	umshini? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
-	umshini? ( dev-python/chess[${PYTHON_USEDEP}] )
-	umshini? ( dev-python/rlcard[${PYTHON_USEDEP}] )
-	umshini? ( ~dev-python/pygame-2.3.0[${PYTHON_USEDEP}] )
-	umshini? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
-	umshini? ( dev-python/langchain[${PYTHON_USEDEP}] )
-	umshini? ( >=dev-python/colorama-0.4.6[${PYTHON_USEDEP}] )"
+	umshini? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

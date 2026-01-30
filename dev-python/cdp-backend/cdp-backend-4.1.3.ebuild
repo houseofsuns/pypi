@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs functions lint pipeline test"
+IUSE="dev docs functions lint pipeline"
 DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/dataclasses-json[${PYTHON_USEDEP}]
@@ -73,13 +73,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
 	pipeline? ( >=dev-python/tqdm-4.62[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	pipeline? ( dev-python/vimeo-downloader[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/networkx-2.5[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pydot-1.4[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/requests-mock-1.10.0[${PYTHON_USEDEP}] )"
+	pipeline? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev examples mlprimitives test unit"
+IUSE="dev examples mlprimitives"
 DEPENDENCIES="<dev-python/graphviz-1.0[${PYTHON_USEDEP}]
 	<dev-python/numpy-3.0[${PYTHON_USEDEP}]
 	<dev-python/psutil-7.0[${PYTHON_USEDEP}]
@@ -73,26 +73,6 @@ DEPENDENCIES="<dev-python/graphviz-1.0[${PYTHON_USEDEP}]
 	examples? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
 	examples? ( dev-python/baytune[${PYTHON_USEDEP}] )
 	examples? ( dev-python/copulas[${PYTHON_USEDEP}] )
-	mlprimitives? ( dev-python/mlprimitives[${PYTHON_USEDEP}] )
-	mlprimitives? ( <dev-python/h5py-4.0[${PYTHON_USEDEP}] )
-	mlprimitives? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
-	mlprimitives? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/rundoc[${PYTHON_USEDEP}] )
-	test? ( <dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/mlprimitives[${PYTHON_USEDEP}] )
-	test? ( <dev-python/h5py-4.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/matplotlib-4.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/baytune[${PYTHON_USEDEP}] )
-	test? ( dev-python/copulas[${PYTHON_USEDEP}] )
-	unit? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
-	unit? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
-	unit? ( >=dev-python/setuptools-41.0.0[${PYTHON_USEDEP}] )
-	unit? ( dev-python/rundoc[${PYTHON_USEDEP}] )
-	unit? ( <dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}] )"
+	mlprimitives? ( dev-python/mlprimitives[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

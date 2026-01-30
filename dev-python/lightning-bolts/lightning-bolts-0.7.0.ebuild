@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev extra loggers models test typing"
+IUSE="dev extra loggers models test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
 	dev-python/torchmetrics[${PYTHON_USEDEP}]
@@ -73,10 +73,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-rerunfailures-11.1.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/sparseml[${PYTHON_USEDEP}] )
-	test? ( dev-python/ale-py[${PYTHON_USEDEP}] )
-	test? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
-	typing? ( ~dev-python/mypy-1.3.0[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

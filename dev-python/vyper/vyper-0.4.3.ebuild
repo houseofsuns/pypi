@@ -73,7 +73,6 @@ DEPENDENCIES="<dev-python/cbor2-6.0[${PYTHON_USEDEP}]
 	test? ( dev-python/eth-stdlib[${PYTHON_USEDEP}] )
 	test? ( dev-python/eth-account[${PYTHON_USEDEP}] )
 	test? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	test? ( dev-python/hexbytes[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyrevm[${PYTHON_USEDEP}] )"
+	test? ( dev-python/hexbytes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

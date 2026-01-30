@@ -72,7 +72,6 @@ DEPENDENCIES="dev-python/corider[${PYTHON_USEDEP}]
 	extras? ( dev-python/lightning-bolts[${PYTHON_USEDEP}] )
 	extras? ( dev-python/ray[${PYTHON_USEDEP}] )
 	extras? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	extras? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	extras? ( dev-python/umap-learn[${PYTHON_USEDEP}] )"
+	extras? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,7 +73,6 @@ DEPENDENCIES="dev-python/acryl-datahub[${PYTHON_USEDEP}]
 	test-airflow23? ( dev-python/pendulum[${PYTHON_USEDEP}] )
 	test-airflow24? ( dev-python/connexion[${PYTHON_USEDEP}] )
 	test-airflow24? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )
-	test-airflow24? ( dev-python/pendulum[${PYTHON_USEDEP}] )
-	test-airflow24? ( <dev-python/marshmallow-3.24.0[${PYTHON_USEDEP}] )"
+	test-airflow24? ( dev-python/pendulum[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

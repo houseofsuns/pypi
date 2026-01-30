@@ -73,16 +73,6 @@ DEPENDENCIES=">=dev-python/zope-interface-5.1.2[${PYTHON_USEDEP}]
 	test? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/elasticsearch-8.0.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/sqlalchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytz[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/requests-2.23.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	test? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

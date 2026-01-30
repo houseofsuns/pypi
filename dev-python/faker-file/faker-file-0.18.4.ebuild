@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all azure bmp common data-augmentation django docx epub gcs gif images mp3 odp ods odt pdf pptx s3 sftp sqlalchemy tiff xlsx"
+IUSE="all azure bmp common data-augmentation"
 DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
 	all? ( dev-python/faker[${PYTHON_USEDEP}] )
 	all? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
@@ -73,30 +73,6 @@ DEPENDENCIES="dev-python/faker[${PYTHON_USEDEP}]
 	data-augmentation? ( dev-python/textblob[${PYTHON_USEDEP}] )
 	data-augmentation? ( dev-python/tika[${PYTHON_USEDEP}] )
 	data-augmentation? ( dev-python/torch[${PYTHON_USEDEP}] )
-	data-augmentation? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	django? ( >=dev-python/django-2.2[${PYTHON_USEDEP}] )
-	docx? ( dev-python/python-docx[${PYTHON_USEDEP}] )
-	epub? ( dev-python/xml2epub[${PYTHON_USEDEP}] )
-	gcs? ( dev-python/pathy[${PYTHON_USEDEP}] )
-	gif? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
-	gif? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	images? ( dev-python/imgkit[${PYTHON_USEDEP}] )
-	mp3? ( dev-python/gTTS[${PYTHON_USEDEP}] )
-	mp3? ( dev-python/edge-tts[${PYTHON_USEDEP}] )
-	odp? ( dev-python/odfpy[${PYTHON_USEDEP}] )
-	ods? ( dev-python/tablib[${PYTHON_USEDEP}] )
-	ods? ( dev-python/odfpy[${PYTHON_USEDEP}] )
-	odt? ( dev-python/odfpy[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/pdfkit[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/reportlab[${PYTHON_USEDEP}] )
-	pptx? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
-	s3? ( dev-python/pathy[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	sqlalchemy? ( >=dev-python/sqlalchemy-1.0[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
-	tiff? ( dev-python/weasyprint[${PYTHON_USEDEP}] )
-	tiff? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	xlsx? ( dev-python/tablib[${PYTHON_USEDEP}] )
-	xlsx? ( dev-python/openpyxl[${PYTHON_USEDEP}] )"
+	data-augmentation? ( dev-python/transformers[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

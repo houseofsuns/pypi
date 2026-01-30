@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aiofiles aiohttp all botocore dev httpx requests test test-no-transport websockets"
+IUSE="all dev test test-no-transport"
 DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
 	<dev-python/tenacity-10.0[${PYTHON_USEDEP}]
@@ -71,24 +71,6 @@ DEPENDENCIES="dev-python/graphql-core[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/isort-6.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-1.15[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/sphinx-9.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/sphinx-rtd-theme-4.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-argparse-0.5.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/parse-1.20.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/packaging-21.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-8.3.4[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-asyncio-1.2.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-console-scripts-1.4.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/vcrpy-7.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiofiles[${PYTHON_USEDEP}] )
-	aiohttp? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
-	requests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
-	requests? ( <dev-python/requests-toolbelt-2.0[${PYTHON_USEDEP}] )
-	httpx? ( <dev-python/httpx-1.0[${PYTHON_USEDEP}] )
-	websockets? ( <dev-python/websockets-16.0[${PYTHON_USEDEP}] )
-	botocore? ( <dev-python/botocore-2.0[${PYTHON_USEDEP}] )
-	aiofiles? ( dev-python/aiofiles[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/sphinx-rtd-theme-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

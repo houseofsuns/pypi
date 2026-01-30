@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="build data developer docs optional test"
+IUSE="build data developer docs optional"
 DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
@@ -73,15 +73,6 @@ DEPENDENCIES=">=dev-python/numpy-1.23[${PYTHON_USEDEP}]
 	optional? ( >=dev-python/matplotlib-3.6[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
 	optional? ( dev-python/pyamg[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/pywavelets-1.1.1[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/scikit-learn-1.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/asv[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/matplotlib-3.6[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/numpydoc-1.5[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pooch-1.6.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-7.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.11.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-localserver[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )"
+	optional? ( >=dev-python/pywavelets-1.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,8 +73,6 @@ DEPENDENCIES="~dev-python/babel-2.12.1[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
-	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.8.2[${PYTHON_USEDEP}]"
+	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

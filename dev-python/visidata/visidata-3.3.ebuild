@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all test"
+IUSE="all"
 DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/standard-mailcap[${PYTHON_USEDEP}]
 	all? ( dev-python/python-dateutil[${PYTHON_USEDEP}] )
@@ -69,28 +69,6 @@ DEPENDENCIES="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	all? ( dev-python/praw[${PYTHON_USEDEP}] )
 	all? ( dev-python/matrix-client[${PYTHON_USEDEP}] )
 	all? ( dev-python/zulip[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyairtable[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/Brotli[${PYTHON_USEDEP}] )
-	test? ( dev-python/dnslib[${PYTHON_USEDEP}] )
-	test? ( dev-python/dpkt[${PYTHON_USEDEP}] )
-	test? ( dev-python/fecfile[${PYTHON_USEDEP}] )
-	test? ( dev-python/faker[${PYTHON_USEDEP}] )
-	test? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	test? ( dev-python/odfpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyarrow[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyconll[${PYTHON_USEDEP}] )
-	test? ( dev-python/pypng[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	test? ( dev-python/tomli[${PYTHON_USEDEP}] )
-	test? ( dev-python/wcwidth[${PYTHON_USEDEP}] )
-	test? ( dev-python/xport[${PYTHON_USEDEP}] )"
+	all? ( dev-python/pyairtable[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

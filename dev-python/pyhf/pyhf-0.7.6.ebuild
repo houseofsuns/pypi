@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all backends contrib develop docs jax minuit shellcomplete tensorflow test torch xmlio"
+IUSE="all backends contrib develop docs jax minuit shellcomplete tensorflow test"
 DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/jsonpatch-1.15[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-4.15.0[${PYTHON_USEDEP}]
@@ -71,12 +71,6 @@ DEPENDENCIES=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-cov-2.5.1[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest-mpl[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-socket-0.2.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/requests-mock-1.9.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-hep-testdata[${PYTHON_USEDEP}] )
-	test? ( dev-python/scrapbook[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	xmlio? ( dev-python/uproot[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-socket-0.2.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

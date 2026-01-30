@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all cloud components dev extra test"
+IUSE="all cloud components dev"
 DEPENDENCIES="dev-python/lightning-cloud[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
@@ -73,45 +73,6 @@ DEPENDENCIES="dev-python/lightning-cloud[${PYTHON_USEDEP}]
 	dev? ( dev-python/lightning-api-access[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/lightning-fabric[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/trio-0.22.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pympler[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	extra? ( <dev-python/redis-6.0[${PYTHON_USEDEP}] )
-	extra? ( <dev-python/docker-7.0[${PYTHON_USEDEP}] )
-	extra? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	extra? ( dev-python/lightning-api-access[${PYTHON_USEDEP}] )
-	extra? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
-	extra? ( dev-python/lightning-fabric[${PYTHON_USEDEP}] )
-	extra? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/coverage-7.3.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-7.4.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-rerunfailures-12.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-xdist-3.3.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/playwright[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/httpx-0.25.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/trio-0.22.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/Pympler[${PYTHON_USEDEP}] )
-	test? ( <dev-python/psutil-6.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/requests-mock-1.11.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

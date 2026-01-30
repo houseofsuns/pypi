@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="BdREN Finance"
+DESCRIPTION="BdREN Finance [top-max 4.0.0]"
 
 HOMEPAGE=""
 LICENSE=""

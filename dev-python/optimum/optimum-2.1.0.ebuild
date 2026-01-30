@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="amd benchmark dev doc-build furiosa graphcore habana intel ipex neural-compressor nncf onnx onnxruntime onnxruntime-gpu openvino quality quanto tests"
+IUSE="amd dev furiosa graphcore habana intel ipex neural-compressor nncf onnx onnxruntime onnxruntime-gpu openvino quanto tests"
 DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -73,15 +73,6 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	tests? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
 	tests? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
 	tests? ( dev-python/rjieba[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hf-xet[${PYTHON_USEDEP}] )
-	quality? ( ~dev-python/black-23.1[${PYTHON_USEDEP}] )
-	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/seqeval[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	benchmark? ( dev-python/evaluate[${PYTHON_USEDEP}] )
-	doc-build? ( dev-python/accelerate[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/hf-xet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all all-dev auto chronos classification clearml docs jupyter prophet release statsforecast style tests timesfm torch wandb"
+IUSE="all all-dev auto chronos clearml docs prophet statsforecast timesfm torch wandb"
 DEPENDENCIES="<dev-python/scikit-learn-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
 	dev-python/catboost[${PYTHON_USEDEP}]
@@ -113,56 +113,6 @@ DEPENDENCIES="<dev-python/scikit-learn-2.0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
 	all-dev? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/pytest-cov-5.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-shard[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/pytest-shard[${PYTHON_USEDEP}] )
-	jupyter? ( <dev-python/black-25.0[${PYTHON_USEDEP}] )
-	style? ( <dev-python/black-25.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/black-25.0[${PYTHON_USEDEP}] )
-	style? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
-	style? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/flake8-4.0.0[${PYTHON_USEDEP}] )
-	style? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/flake8-comprehensions[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	style? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
-	style? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	style? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	style? ( dev-python/nbqa[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/nbqa[${PYTHON_USEDEP}] )
-	release? ( <dev-python/click-8.1[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/click-8.1[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/click-8.1[${PYTHON_USEDEP}] )
-	release? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/semver-3.0.0[${PYTHON_USEDEP}] )
-	jupyter? ( <dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/ipywidgets-8.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	classification? ( dev-python/pyts[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyts[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/pyts[${PYTHON_USEDEP}] )
-	classification? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
-	all? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
-	all-dev? ( dev-python/tsfresh[${PYTHON_USEDEP}] )
-	style? ( <dev-python/types-setuptools-66.0.0[${PYTHON_USEDEP}] )
-	all-dev? ( <dev-python/types-setuptools-66.0.0[${PYTHON_USEDEP}] )"
+	all-dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

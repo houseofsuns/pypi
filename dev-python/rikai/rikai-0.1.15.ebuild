@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all aws dev docs gcp jupyter mlflow pytorch sklearn tf video youtube"
+IUSE="all aws dev docs gcp jupyter mlflow pytorch sklearn"
 DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.11.1[${PYTHON_USEDEP}]
 	>=dev-python/ipython-7.31.1[${PYTHON_USEDEP}]
 	dev-python/jsonschema[${PYTHON_USEDEP}]
@@ -73,12 +73,6 @@ DEPENDENCIES="~dev-python/antlr4-python3-runtime-4.11.1[${PYTHON_USEDEP}]
 	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
 	pytorch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tf? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	video? ( dev-python/ffmpeg-python[${PYTHON_USEDEP}] )
-	video? ( dev-python/scenedetect[${PYTHON_USEDEP}] )
-	youtube? ( dev-python/pafy[${PYTHON_USEDEP}] )
-	youtube? ( dev-python/youtube_dl[${PYTHON_USEDEP}] )"
+	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

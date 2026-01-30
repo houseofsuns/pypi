@@ -73,12 +73,6 @@ DEPENDENCIES="dev-python/eth-ape[${PYTHON_USEDEP}]
 	dev? ( dev-python/mdformat_frontmatter[${PYTHON_USEDEP}] )
 	dev? ( dev-python/mdformat_pyproject[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/setuptools-75.6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/commitizen[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-watch[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipdb[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,22 +73,6 @@ DEPENDENCIES="dev-python/anchorpy[${PYTHON_USEDEP}]
 	~dev-python/rfc3986-1.5.0[${PYTHON_USEDEP}]
 	~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]
 	dev-python/solders[${PYTHON_USEDEP}]
-	dev-python/sumtypes[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
-	~dev-python/toolz-0.11.2[${PYTHON_USEDEP}]
-	dev-python/types-cachetools[${PYTHON_USEDEP}]
-	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.13[${PYTHON_USEDEP}]
-	~dev-python/websockets-13.0[${PYTHON_USEDEP}]
-	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]
-	~dev-python/zstandard-0.18.0[${PYTHON_USEDEP}]
-	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/events-0.6[${PYTHON_USEDEP}]
-	<dev-python/numpy-2.0.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.68.1[${PYTHON_USEDEP}]
-	<dev-python/protobuf-6.0.0[${PYTHON_USEDEP}]
-	<dev-python/pynacl-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]"
+	dev-python/sumtypes[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

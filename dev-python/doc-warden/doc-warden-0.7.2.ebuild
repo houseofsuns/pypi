@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Doc-Warden is an internal project created by the Azure SDK Team. It is intended to be used by CI Builds to ensure that documentation standards are met. See readme for more details."
+DESCRIPTION="Doc-Warden is an internal project created by the Azure SDK Team. It is intended to be used by CI Builds to ensure that documentation standards are met. See readme for more details. [top-max 0.7.3]"
 
 HOMEPAGE="https://github.com/Azure/azure-sdk-tools/"
 LICENSE="MIT"

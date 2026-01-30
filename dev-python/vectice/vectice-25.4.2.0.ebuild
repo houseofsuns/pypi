@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev doc gcs s3 test validation"
+IUSE="dev doc test"
 DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	>=dev-python/python-dotenv-0.11.0[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.32.4[${PYTHON_USEDEP}]
@@ -73,32 +73,6 @@ DEPENDENCIES="dev-python/types-python-dateutil[${PYTHON_USEDEP}]
 	test? ( dev-python/mlflow[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/cython-3.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/tenacity-8.3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipynbname[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	test? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	test? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	test? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	test? ( dev-python/keras[${PYTHON_USEDEP}] )
-	test? ( dev-python/snowflake-snowpark-python[${PYTHON_USEDEP}] )
-	test? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	test? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	test? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	test? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	test? ( dev-python/torch[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	test? ( dev-python/polars[${PYTHON_USEDEP}] )
-	test? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	gcs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	gcs? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
-	gcs? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	validation? ( dev-python/shap[${PYTHON_USEDEP}] )
-	validation? ( <=dev-python/scipy-1.12[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

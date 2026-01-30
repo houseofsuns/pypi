@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all beaker datasets dev examples fairscale flax gs torch transformers wandb"
+IUSE="all beaker datasets dev examples fairscale flax"
 DEPENDENCIES="dev-python/cached-path[${PYTHON_USEDEP}]
 	dev-python/rjsonnet[${PYTHON_USEDEP}]
 	<dev-python/gitpython-4.0[${PYTHON_USEDEP}]
@@ -73,20 +73,6 @@ DEPENDENCIES="dev-python/cached-path[${PYTHON_USEDEP}]
 	flax? ( dev-python/datasets[${PYTHON_USEDEP}] )
 	flax? ( dev-python/jax[${PYTHON_USEDEP}] )
 	flax? ( dev-python/jaxlib[${PYTHON_USEDEP}] )
-	flax? ( dev-python/flax[${PYTHON_USEDEP}] )
-	flax? ( dev-python/optax[${PYTHON_USEDEP}] )
-	flax? ( dev-python/tensorflow-cpu[${PYTHON_USEDEP}] )
-	gs? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	gs? ( dev-python/google-cloud-datastore[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	torch? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/torch[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	wandb? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	wandb? ( dev-python/retry[${PYTHON_USEDEP}] )"
+	flax? ( dev-python/flax[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

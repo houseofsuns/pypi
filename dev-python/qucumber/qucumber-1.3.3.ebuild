@@ -73,8 +73,6 @@ DEPENDENCIES=">=dev-python/tqdm-4.23[${PYTHON_USEDEP}]
 	travis? ( >=dev-python/flake8-3.7.9[${PYTHON_USEDEP}] )
 	travis? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	travis? ( dev-python/flake8-fixme[${PYTHON_USEDEP}] )
-	travis? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	travis? ( <dev-python/nbconvert-6.0[${PYTHON_USEDEP}] )
-	travis? ( ~dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )"
+	travis? ( dev-python/invoke[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all crypto db extra http net scheduler"
+IUSE="all crypto db extra"
 DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/bson[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
@@ -73,16 +73,6 @@ DEPENDENCIES="dev-python/backoff[${PYTHON_USEDEP}]
 	extra? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
 	extra? ( dev-python/rule-engine[${PYTHON_USEDEP}] )
 	extra? ( dev-python/gql[${PYTHON_USEDEP}] )
-	extra? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	extra? ( dev-python/defusedxml[${PYTHON_USEDEP}] )
-	extra? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
-	extra? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	extra? ( dev-python/nats-py[${PYTHON_USEDEP}] )
-	http? ( dev-python/aiohttp[${PYTHON_USEDEP}] )
-	http? ( dev-python/requests[${PYTHON_USEDEP}] )
-	http? ( dev-python/user-agents[${PYTHON_USEDEP}] )
-	net? ( dev-python/pysocks[${PYTHON_USEDEP}] )
-	net? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	scheduler? ( dev-python/apscheduler[${PYTHON_USEDEP}] )"
+	extra? ( dev-python/gunicorn[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

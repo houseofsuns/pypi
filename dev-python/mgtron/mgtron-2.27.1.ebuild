@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="test"
+IUSE=""
 DEPENDENCIES="~dev-python/anyio-3.7.1[${PYTHON_USEDEP}]
 	~dev-python/autopep8-2.0.4[${PYTHON_USEDEP}]
 	~dev-python/black-23.7.0[${PYTHON_USEDEP}]
@@ -73,31 +73,6 @@ DEPENDENCIES="~dev-python/anyio-3.7.1[${PYTHON_USEDEP}]
 	~dev-python/pyproject-hooks-1.0.0[${PYTHON_USEDEP}]
 	dev-python/PyRect[${PYTHON_USEDEP}]
 	~dev-python/pyscreenshot-3.1[${PYTHON_USEDEP}]
-	dev-python/PyScreeze[${PYTHON_USEDEP}]
-	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
-	~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}]
-	dev-python/pytest-cover[${PYTHON_USEDEP}]
-	dev-python/pytest-coverage[${PYTHON_USEDEP}]
-	dev-python/python-decouple[${PYTHON_USEDEP}]
-	~dev-python/python-lsp-jsonrpc-1.0.0[${PYTHON_USEDEP}]
-	~dev-python/python-lsp-server-1.7.4[${PYTHON_USEDEP}]
-	~dev-python/python-xlib-0.33[${PYTHON_USEDEP}]
-	dev-python/python3-xlib[${PYTHON_USEDEP}]
-	dev-python/pytweening[${PYTHON_USEDEP}]
-	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
-	~dev-python/sniffio-1.3.0[${PYTHON_USEDEP}]
-	~dev-python/starlette-0.27.0[${PYTHON_USEDEP}]
-	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
-	~dev-python/ujson-5.8.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-2.0.4[${PYTHON_USEDEP}]
-	~dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
-	~dev-python/virtualenv-20.24.5[${PYTHON_USEDEP}]
-	test? ( >=dev-python/pytest-7.3.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )"
+	dev-python/PyScreeze[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

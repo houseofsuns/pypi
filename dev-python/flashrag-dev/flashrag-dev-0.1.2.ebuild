@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="core full generator retriever"
+IUSE="core full"
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
@@ -73,13 +73,6 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	full? ( dev-python/tqdm[${PYTHON_USEDEP}] )
 	full? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	full? ( dev-python/bm25s[${PYTHON_USEDEP}] )
-	full? ( dev-python/fschat[${PYTHON_USEDEP}] )
-	full? ( dev-python/streamlit[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyserini[${PYTHON_USEDEP}] )
-	full? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	full? ( dev-python/vllm[${PYTHON_USEDEP}] )
-	generator? ( dev-python/vllm[${PYTHON_USEDEP}] )
-	retriever? ( dev-python/pyserini[${PYTHON_USEDEP}] )
-	retriever? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )"
+	full? ( dev-python/fschat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

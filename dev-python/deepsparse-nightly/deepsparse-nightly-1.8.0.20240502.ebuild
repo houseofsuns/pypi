@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="clip dev docs image-classification llm onnxruntime openpifpaf sentence-transformers server torch transformers yolo yolov5 yolov8"
+IUSE="clip dev docs image-classification llm onnxruntime openpifpaf sentence-transformers server"
 DEPENDENCIES="dev-python/sparsezoo-nightly[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.3[${PYTHON_USEDEP}]
 	dev-python/onnx[${PYTHON_USEDEP}]
@@ -73,22 +73,6 @@ DEPENDENCIES="dev-python/sparsezoo-nightly[${PYTHON_USEDEP}]
 	server? ( >=dev-python/uvicorn-0.15.0[${PYTHON_USEDEP}] )
 	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/requests-2.26.0[${PYTHON_USEDEP}] )
-	server? ( >=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}] )
-	server? ( >=dev-python/prometheus-client-0.14.1[${PYTHON_USEDEP}] )
-	server? ( >=dev-python/psutil-5.9.4[${PYTHON_USEDEP}] )
-	server? ( <dev-python/anyio-4.0.0[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/seqeval[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/evaluate[${PYTHON_USEDEP}] )
-	yolo? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	yolo? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	yolov5? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	yolov5? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	yolov8? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	yolov8? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	yolov8? ( dev-python/ultralytics[${PYTHON_USEDEP}] )"
+	server? ( >=dev-python/python-multipart-0.0.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

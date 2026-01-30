@@ -73,8 +73,6 @@ DEPENDENCIES="~dev-python/certifi-2025.1.31[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/twine-5.1.1[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
-	~dev-python/tzdata-2024.2[${PYTHON_USEDEP}]
-	~dev-python/urllib3-2.3.0[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.21.0[${PYTHON_USEDEP}]"
+	~dev-python/tzdata-2024.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

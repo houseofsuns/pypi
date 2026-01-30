@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev full packages"
+IUSE=""
 DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.13.0[${PYTHON_USEDEP}]
 	>=dev-python/boolean-py-4.0[${PYTHON_USEDEP}]
@@ -70,29 +70,6 @@ DEPENDENCIES=">=dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	>=dev-python/text-unidecode-1.0[${PYTHON_USEDEP}]
 	dev-python/urlpy[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}]
-	dev-python/typecode[${PYTHON_USEDEP}]
-	full? ( dev-python/typecode[${PYTHON_USEDEP}] )
-	full? ( dev-python/extractcode[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-xdist-2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aboutcode-toolkit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/vendorize[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinx-5.0.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-reredirects[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/doc8-0.8.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-dark-mode[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	packages? ( dev-python/rpm-inspector-rpm[${PYTHON_USEDEP}] )
-	packages? ( dev-python/regipy[${PYTHON_USEDEP}] )
-	packages? ( dev-python/packagedcode-msitools[${PYTHON_USEDEP}] )
-	packages? ( dev-python/go-inspector[${PYTHON_USEDEP}] )
-	packages? ( dev-python/rust-inspector[${PYTHON_USEDEP}] )"
+	dev-python/typecode[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

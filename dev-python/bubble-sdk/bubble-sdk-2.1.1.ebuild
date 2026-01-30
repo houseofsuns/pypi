@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs ipfs linter tester"
+IUSE="dev docs ipfs linter"
 DEPENDENCIES=">=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
@@ -69,12 +69,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.7.4_p0[${PYTHON_USEDEP}]
 	docs? ( <dev-python/towncrier-22.0[${PYTHON_USEDEP}] )
 	ipfs? ( dev-python/ipfshttpclient[${PYTHON_USEDEP}] )
 	linter? ( >=dev-python/black-22.1.0[${PYTHON_USEDEP}] )
-	linter? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	linter? ( >=dev-python/isort-5.11.0[${PYTHON_USEDEP}] )
-	linter? ( ~dev-python/mypy-0.910[${PYTHON_USEDEP}] )
-	linter? ( >=dev-python/types-setuptools-57.4.4[${PYTHON_USEDEP}] )
-	linter? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	linter? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
-	tester? ( dev-python/py-bub[${PYTHON_USEDEP}] )"
+	linter? ( ~dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

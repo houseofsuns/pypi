@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="core full generator multimodal retriever"
+IUSE="core generator multimodal retriever"
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/base58[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
@@ -73,36 +73,6 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	generator? ( dev-python/vllm[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/timm[${PYTHON_USEDEP}] )
 	multimodal? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	multimodal? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	multimodal? ( dev-python/qwen-vl-utils[${PYTHON_USEDEP}] )
-	full? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	full? ( dev-python/base58[${PYTHON_USEDEP}] )
-	full? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	full? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	full? ( dev-python/langid[${PYTHON_USEDEP}] )
-	full? ( dev-python/openai[${PYTHON_USEDEP}] )
-	full? ( dev-python/peft[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	full? ( dev-python/rank-bm25[${PYTHON_USEDEP}] )
-	full? ( dev-python/rouge[${PYTHON_USEDEP}] )
-	full? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	full? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	full? ( dev-python/torch[${PYTHON_USEDEP}] )
-	full? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	full? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	full? ( dev-python/bm25s[${PYTHON_USEDEP}] )
-	full? ( dev-python/fschat[${PYTHON_USEDEP}] )
-	full? ( dev-python/streamlit[${PYTHON_USEDEP}] )
-	full? ( dev-python/chonkie[${PYTHON_USEDEP}] )
-	full? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	full? ( dev-python/rouge-chinese[${PYTHON_USEDEP}] )
-	full? ( dev-python/jieba[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyserini[${PYTHON_USEDEP}] )
-	full? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	full? ( dev-python/vllm[${PYTHON_USEDEP}] )
-	full? ( dev-python/timm[${PYTHON_USEDEP}] )
-	full? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	full? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	full? ( dev-python/qwen-vl-utils[${PYTHON_USEDEP}] )"
+	multimodal? ( dev-python/pillow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

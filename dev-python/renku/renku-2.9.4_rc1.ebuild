@@ -73,21 +73,6 @@ DEPENDENCIES="<dev-python/attrs-24.0.0[${PYTHON_USEDEP}]
 	dev-python/ZODB[${PYTHON_USEDEP}]
 	<dev-python/zstandard-0.23[${PYTHON_USEDEP}]
 	service? ( <dev-python/apispec-6.4.0[${PYTHON_USEDEP}] )
-	service? ( dev-python/apispec-oneofschema[${PYTHON_USEDEP}] )
-	service? ( dev-python/apispec-webframeworks[${PYTHON_USEDEP}] )
-	service? ( dev-python/circus[${PYTHON_USEDEP}] )
-	service? ( <dev-python/flask-4.0.0[${PYTHON_USEDEP}] )
-	service? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	service? ( <dev-python/marshmallow-3.20.0[${PYTHON_USEDEP}] )
-	service? ( dev-python/marshmallow-oneofschema[${PYTHON_USEDEP}] )
-	service? ( <dev-python/pillow-11.0.0[${PYTHON_USEDEP}] )
-	service? ( <dev-python/python-dotenv-0.21[${PYTHON_USEDEP}] )
-	service? ( <dev-python/redis-5.1.0[${PYTHON_USEDEP}] )
-	service? ( <dev-python/rq-1.16.0[${PYTHON_USEDEP}] )
-	service? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	service? ( dev-python/walrus[${PYTHON_USEDEP}] )
-	dev-python/prometheus-flask-exporter[${PYTHON_USEDEP}]
-	<dev-python/filetype-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/orjson-4.0.0[${PYTHON_USEDEP}]"
+	service? ( dev-python/apispec-oneofschema[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

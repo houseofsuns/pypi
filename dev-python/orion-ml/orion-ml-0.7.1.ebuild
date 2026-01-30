@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev pretrained test"
+IUSE="dev pretrained"
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/pandas-3.0[${PYTHON_USEDEP}]
@@ -73,11 +73,6 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/rundoc[${PYTHON_USEDEP}] )
 	pretrained? ( dev-python/timm[${PYTHON_USEDEP}] )
-	pretrained? ( dev-python/smart-open[${PYTHON_USEDEP}] )
-	pretrained? ( dev-python/timesfm[${PYTHON_USEDEP}] )
-	pretrained? ( dev-python/jax[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-3.4.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/rundoc[${PYTHON_USEDEP}] )"
+	pretrained? ( dev-python/smart-open[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

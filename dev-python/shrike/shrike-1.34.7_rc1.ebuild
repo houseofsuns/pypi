@@ -73,21 +73,6 @@ DEPENDENCIES="dev-python/azureml-core[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/semver-2.13[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-24.4.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typeguard[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/markdown-include-0.6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mkdocstrings-0.18.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mkdocs-material-8.2.8[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/livereload-2.6.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/markdown-3.3.7[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-order[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/blake3-0.4.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/twine-3.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/azure-mgmt-core[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/typeguard[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

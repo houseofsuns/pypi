@@ -73,12 +73,6 @@ DEPENDENCIES="~dev-python/alabaster-1.0.0[${PYTHON_USEDEP}]
 	~dev-python/sphinxcontrib-devhelp-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/sphinxcontrib-htmlhelp-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/sphinxcontrib-jquery-4.1[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-qthelp-2.0.0[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-serializinghtml-2.0.0[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.0.2[${PYTHON_USEDEP}]
-	~dev-python/urllib3-2.2.3[${PYTHON_USEDEP}]
-	~dev-python/textx-4.1.0[${PYTHON_USEDEP}]
-	~dev-python/path-17.0.0[${PYTHON_USEDEP}]"
+	~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

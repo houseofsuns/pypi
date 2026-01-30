@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="7z build docs redis tests truststore"
+IUSE="build docs tests"
 DEPENDENCIES=">=dev-python/requests-2.16.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/cachecontrol-0.14.0[${PYTHON_USEDEP}]
@@ -67,13 +67,6 @@ DEPENDENCIES=">=dev-python/requests-2.16.0[${PYTHON_USEDEP}]
 	build? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	build? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
 	build? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	build? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	build? ( ~dev-python/mkdocs-1.5.3[${PYTHON_USEDEP}] )
-	build? ( ~dev-python/mkdocs-material-9.5.3[${PYTHON_USEDEP}] )
-	build? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	build? ( dev-python/markdown-include[${PYTHON_USEDEP}] )
-	7z? ( dev-python/py7zr[${PYTHON_USEDEP}] )
-	truststore? ( dev-python/truststore[${PYTHON_USEDEP}] )
-	redis? ( >=dev-python/redis-3.0.0[${PYTHON_USEDEP}] )"
+	build? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

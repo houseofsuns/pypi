@@ -73,7 +73,6 @@ DEPENDENCIES="dev-python/PyMuPDF[${PYTHON_USEDEP}]
 	dev-python/torchvision[${PYTHON_USEDEP}]
 	dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/unstructured[${PYTHON_USEDEP}]
-	dev-python/yfinance[${PYTHON_USEDEP}]
-	dev-python/yt-dlp[${PYTHON_USEDEP}]"
+	dev-python/yfinance[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

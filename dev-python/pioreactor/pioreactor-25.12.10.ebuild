@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="leader leader-worker worker"
+IUSE="leader-worker worker"
 DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-2.1.0[${PYTHON_USEDEP}]
 	dev-python/JSON-log-formatter[${PYTHON_USEDEP}]
@@ -74,26 +74,6 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	leader-worker? ( ~dev-python/pyserial-3.5[${PYTHON_USEDEP}] )
 	leader-worker? ( ~dev-python/pyusb-1.2.1[${PYTHON_USEDEP}] )
 	leader-worker? ( dev-python/rpi-hardware-pwm[${PYTHON_USEDEP}] )
-	leader-worker? ( ~dev-python/smbus2-0.5.0[${PYTHON_USEDEP}] )
-	leader-worker? ( dev-python/DAC43608[${PYTHON_USEDEP}] )
-	leader? ( dev-python/mcp-utils-msgspec[${PYTHON_USEDEP}] )
-	leader? ( ~dev-python/numpy-2.3.2[${PYTHON_USEDEP}] )
-	leader? ( dev-python/grpredict[${PYTHON_USEDEP}] )
-	leader? ( dev-python/Adafruit-Blinka[${PYTHON_USEDEP}] )
-	leader? ( dev-python/adafruit-circuitpython-ads1x15[${PYTHON_USEDEP}] )
-	leader? ( dev-python/adafruit-circuitpython-busdevice[${PYTHON_USEDEP}] )
-	leader? ( dev-python/adafruit-circuitpython-connectionmanager[${PYTHON_USEDEP}] )
-	leader? ( dev-python/adafruit-circuitpython-requests[${PYTHON_USEDEP}] )
-	leader? ( dev-python/adafruit-circuitpython-typing[${PYTHON_USEDEP}] )
-	leader? ( dev-python/Adafruit-PlatformDetect[${PYTHON_USEDEP}] )
-	leader? ( dev-python/Adafruit-PureIO[${PYTHON_USEDEP}] )
-	leader? ( dev-python/plotext[${PYTHON_USEDEP}] )
-	leader? ( dev-python/pyftdi[${PYTHON_USEDEP}] )
-	leader? ( ~dev-python/pyserial-3.5[${PYTHON_USEDEP}] )
-	leader? ( ~dev-python/pyusb-1.2.1[${PYTHON_USEDEP}] )
-	leader? ( dev-python/rpi-hardware-pwm[${PYTHON_USEDEP}] )
-	leader? ( ~dev-python/smbus2-0.5.0[${PYTHON_USEDEP}] )
-	leader? ( dev-python/DAC43608[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="build directml source tensorrt xformers"
+IUSE="build source"
 DEPENDENCIES="source? ( dev-python/latent-diffusion[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
 	build? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
@@ -73,15 +73,6 @@ DEPENDENCIES="source? ( dev-python/latent-diffusion[${PYTHON_USEDEP}] )
 	dev-python/opensimplex[${PYTHON_USEDEP}]
 	dev-python/sentencepiece[${PYTHON_USEDEP}]
 	dev-python/compel[${PYTHON_USEDEP}]
-	dev-python/open-clip-torch[${PYTHON_USEDEP}]
-	directml? ( dev-python/torch-directml[${PYTHON_USEDEP}] )
-	xformers? ( dev-python/xformers[${PYTHON_USEDEP}] )
-	tensorrt? ( dev-python/polygraphy[${PYTHON_USEDEP}] )
-	tensorrt? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	tensorrt? ( dev-python/onnxruntime-gpu[${PYTHON_USEDEP}] )
-	tensorrt? ( dev-python/onnx-graphsurgeon[${PYTHON_USEDEP}] )
-	tensorrt? ( dev-python/tensorrt[${PYTHON_USEDEP}] )
-	source? ( dev-python/taming-transformers[${PYTHON_USEDEP}] )
-	source? ( dev-python/clip[${PYTHON_USEDEP}] )"
+	dev-python/open-clip-torch[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

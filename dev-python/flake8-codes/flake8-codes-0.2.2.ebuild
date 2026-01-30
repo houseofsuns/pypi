@@ -73,14 +73,6 @@ DEPENDENCIES="dev-python/flake8[${PYTHON_USEDEP}]
 	plugins? ( dev-python/flake8-spellcheck[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/flake8-SQL[${PYTHON_USEDEP}] )
 	plugins? ( dev-python/flake8-string-format[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/flake8-todo[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/flake8-use-fstring[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/flake8-variables-names[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/mccabe[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/pandas-vet[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	plugins? ( dev-python/wemake-python-styleguide[${PYTHON_USEDEP}] )"
+	plugins? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

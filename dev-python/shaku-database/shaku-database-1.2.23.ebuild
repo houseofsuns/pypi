@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="chardet db-dtypes google-api-core google-api-python-client google-auth google-auth-httplib2 google-auth-oauthlib google-cloud-bigquery google-cloud-bigquery-storage google-cloud-core google-cloud-storage google-crc32c google-resumable-media googleapis-common-protos numpy openpyxl pandas pandas-gbq pathlib pyarrow pydata-google-auth pymysql requests rsa setuptools six sqlalchemy"
+IUSE="chardet db-dtypes google-api-core google-api-python-client google-auth google-auth-httplib2 google-auth-oauthlib google-cloud-bigquery google-cloud-bigquery-storage google-cloud-core google-cloud-storage google-crc32c google-resumable-media googleapis-common-protos numpy openpyxl pandas pandas-gbq pathlib pyarrow pymysql"
 DEPENDENCIES="dev-python/db-dtypes[${PYTHON_USEDEP}]
 	~dev-python/google-api-core-2.11.0[${PYTHON_USEDEP}]
 	~dev-python/google-auth-2.18.0[${PYTHON_USEDEP}]
@@ -73,12 +73,6 @@ DEPENDENCIES="dev-python/db-dtypes[${PYTHON_USEDEP}]
 	pandas? ( dev-python/2-0_1[${PYTHON_USEDEP}] )
 	pandas-gbq? ( dev-python/0-19_2[${PYTHON_USEDEP}] )
 	pathlib? ( dev-python/1-0_1[${PYTHON_USEDEP}] )
-	pyarrow? ( dev-python/12-0_0[${PYTHON_USEDEP}] )
-	pydata-google-auth? ( dev-python/1-8_2[${PYTHON_USEDEP}] )
-	requests? ( dev-python/2-30_0[${PYTHON_USEDEP}] )
-	rsa? ( dev-python/4_9[${PYTHON_USEDEP}] )
-	setuptools? ( dev-python/67-7_2[${PYTHON_USEDEP}] )
-	six? ( dev-python/1-16_0[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/2-0_13[${PYTHON_USEDEP}] )"
+	pyarrow? ( dev-python/12-0_0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -72,12 +72,6 @@ DEPENDENCIES="dev-python/joblib[${PYTHON_USEDEP}]
 	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/licenseheaders[${PYTHON_USEDEP}] )
-	dev? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cffconvert[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

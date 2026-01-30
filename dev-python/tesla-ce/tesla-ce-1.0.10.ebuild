@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all mysql psql"
+IUSE=""
 DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/amqp-5.1.1[${PYTHON_USEDEP}]
 	~dev-python/asgiref-3.7.2[${PYTHON_USEDEP}]
@@ -73,58 +73,6 @@ DEPENDENCIES="~dev-python/alabaster-0.7.13[${PYTHON_USEDEP}]
 	~dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	~dev-python/jmespath-1.0.1[${PYTHON_USEDEP}]
-	~dev-python/jsonschema-specifications-2023.7.1[${PYTHON_USEDEP}]
-	~dev-python/jsonschema-4.19.0[${PYTHON_USEDEP}]
-	~dev-python/kombu-5.3.1[${PYTHON_USEDEP}]
-	~dev-python/markupsafe-2.1.3[${PYTHON_USEDEP}]
-	~dev-python/packaging-23.1[${PYTHON_USEDEP}]
-	~dev-python/pluggy-1.3.0[${PYTHON_USEDEP}]
-	~dev-python/prometheus-client-0.17.1[${PYTHON_USEDEP}]
-	~dev-python/prompt-toolkit-3.0.39[${PYTHON_USEDEP}]
-	~dev-python/pygments-2.16.1[${PYTHON_USEDEP}]
-	~dev-python/pyhcl-0.4.4[${PYTHON_USEDEP}]
-	~dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
-	~dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}]
-	dev-python/pytest-dependency[${PYTHON_USEDEP}]
-	~dev-python/pytest-django-4.5.2[${PYTHON_USEDEP}]
-	~dev-python/pytest-7.4.0[${PYTHON_USEDEP}]
-	dev-python/python-crontab[${PYTHON_USEDEP}]
-	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	~dev-python/pytz-2023.3[${PYTHON_USEDEP}]
-	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
-	dev-python/rabbitmq-admin[${PYTHON_USEDEP}]
-	~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}]
-	~dev-python/redis-5.0.0[${PYTHON_USEDEP}]
-	~dev-python/referencing-0.30.2[${PYTHON_USEDEP}]
-	~dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	~dev-python/rpds-py-0.10.0[${PYTHON_USEDEP}]
-	~dev-python/s3transfer-0.6.2[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	~dev-python/simplejson-3.17.4[${PYTHON_USEDEP}]
-	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
-	~dev-python/snowballstemmer-2.2.0[${PYTHON_USEDEP}]
-	~dev-python/sphinx-7.2.5[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-applehelp-1.0.7[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-devhelp-1.0.5[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-htmlhelp-2.0.4[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-httpdomain-1.8.1[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-qthelp-1.0.6[${PYTHON_USEDEP}]
-	~dev-python/sphinxcontrib-serializinghtml-1.1.9[${PYTHON_USEDEP}]
-	~dev-python/sqlparse-0.4.4[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.7.1[${PYTHON_USEDEP}]
-	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
-	~dev-python/uritemplate-4.1.1[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.16[${PYTHON_USEDEP}]
-	~dev-python/vine-5.0.0[${PYTHON_USEDEP}]
-	~dev-python/wcwidth-0.2.6[${PYTHON_USEDEP}]
-	~dev-python/zope-event-5.0[${PYTHON_USEDEP}]
-	~dev-python/zope-interface-6.0[${PYTHON_USEDEP}]
-	dev-python/mysqlclient[${PYTHON_USEDEP}]
-	all? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	all? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/mysqlclient[${PYTHON_USEDEP}] )
-	psql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )"
+	~dev-python/jsonschema-specifications-2023.7.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

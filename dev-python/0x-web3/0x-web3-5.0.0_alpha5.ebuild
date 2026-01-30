@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs linter tester testrpc"
+IUSE="dev docs"
 DEPENDENCIES="dev-python/eth-abi[${PYTHON_USEDEP}]
 	dev-python/eth-account[${PYTHON_USEDEP}]
 	dev-python/eth-hash[${PYTHON_USEDEP}]
@@ -71,19 +71,6 @@ DEPENDENCIES="dev-python/eth-abi[${PYTHON_USEDEP}]
 	docs? ( dev-python/configparser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/ethtoken[${PYTHON_USEDEP}] )
-	docs? ( dev-python/py-geth[${PYTHON_USEDEP}] )
-	docs? ( dev-python/py-solc[${PYTHON_USEDEP}] )
-	docs? ( <dev-python/pytest-4.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/toposort-1.4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/web3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	linter? ( ~dev-python/flake8-3.4.1[${PYTHON_USEDEP}] )
-	linter? ( <dev-python/isort-5.0[${PYTHON_USEDEP}] )
-	tester? ( dev-python/py-geth[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pytest-ethereum[${PYTHON_USEDEP}] )
-	testrpc? ( dev-python/eth-testrpc[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/py-geth[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

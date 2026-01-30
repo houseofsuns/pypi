@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="bitsandbytes console-ui-opengl dev gpt4all gpt4all-cuda ncnn readthedocs xformers"
+IUSE=""
 DEPENDENCIES="dev-python/diffusers[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/hf-xet[${PYTHON_USEDEP}]
@@ -73,19 +73,6 @@ DEPENDENCIES="dev-python/diffusers[${PYTHON_USEDEP}]
 	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
 	<dev-python/lark-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/packaging-26.0.0[${PYTHON_USEDEP}]
-	dev-python/ctranslate2[${PYTHON_USEDEP}]
-	dev-python/sacremoses[${PYTHON_USEDEP}]
-	dev-python/preshed[${PYTHON_USEDEP}]
-	ncnn? ( dev-python/ncnn[${PYTHON_USEDEP}] )
-	console-ui-opengl? ( dev-python/pyopengltk[${PYTHON_USEDEP}] )
-	console-ui-opengl? ( ~dev-python/pyopengl-3.1.10[${PYTHON_USEDEP}] )
-	console-ui-opengl? ( ~dev-python/pyopengl-accelerate-3.1.10[${PYTHON_USEDEP}] )
-	gpt4all? ( dev-python/gpt4all[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-rtd-theme-3.0.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/poetry-2.1.4[${PYTHON_USEDEP}] )
-	readthedocs? ( ~dev-python/sphinx-rtd-theme-3.0.2[${PYTHON_USEDEP}] )
-	bitsandbytes? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
-	xformers? ( dev-python/xformers[${PYTHON_USEDEP}] )
-	gpt4all-cuda? ( dev-python/gpt4all[${PYTHON_USEDEP}] )"
+	dev-python/ctranslate2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

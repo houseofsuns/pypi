@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="celery complete dask dev rq"
+IUSE="celery complete dask dev"
 DEPENDENCIES="dev-python/consecution[${PYTHON_USEDEP}]
 	~dev-python/html5lib-1.0.1[${PYTHON_USEDEP}]
 	~dev-python/imapclient-2.2.0[${PYTHON_USEDEP}]
@@ -73,9 +73,6 @@ DEPENDENCIES="dev-python/consecution[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-redis[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pytest-xprocess-0.13.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/sphinx-2.3.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	rq? ( ~dev-python/rq-1.5.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/twine-3.1.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,10 +73,6 @@ DEPENDENCIES=">=dev-python/blinker-1.4[${PYTHON_USEDEP}]
 	session? ( >=dev-python/dill-0.3.3[${PYTHON_USEDEP}] )
 	session? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )
 	sqlalchemy? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	sqlalchemy? ( >=dev-python/flask-migrate-2.5.3[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/flask-sqlalchemy-unchained[${PYTHON_USEDEP}] )
-	sqlalchemy? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/sqlalchemy-unchained[${PYTHON_USEDEP}] )
-	sqlalchemy? ( dev-python/WTForms-SQLAlchemy[${PYTHON_USEDEP}] )"
+	sqlalchemy? ( >=dev-python/flask-migrate-2.5.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

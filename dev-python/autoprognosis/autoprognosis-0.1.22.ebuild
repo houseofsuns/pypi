@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all boosting dashboard dev docs explainers survival tabnet"
+IUSE="all boosting dashboard docs explainers survival tabnet"
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/hyperimpute[${PYTHON_USEDEP}]
 	dev-python/joblib[${PYTHON_USEDEP}]
@@ -73,45 +73,6 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mistune[${PYTHON_USEDEP}] )
 	docs? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lime[${PYTHON_USEDEP}] )
-	dev? ( dev-python/symbolic-pursuit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytorch-tabnet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/torchtuples[${PYTHON_USEDEP}] )
-	dev? ( dev-python/xgbse[${PYTHON_USEDEP}] )
-	dev? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pydantic[${PYTHON_USEDEP}] )
-	dev? ( dev-python/streamlit[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/docutils-0.21[${PYTHON_USEDEP}] )
-	dev? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mistune[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pycox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xprocess[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tabulate[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

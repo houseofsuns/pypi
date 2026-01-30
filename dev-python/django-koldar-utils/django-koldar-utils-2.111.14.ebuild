@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="docs test"
+IUSE=""
 DEPENDENCIES=">=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	>=dev-python/aniso8601-8.1.1[${PYTHON_USEDEP}]
 	>=dev-python/arrow-1.1.0[${PYTHON_USEDEP}]
@@ -74,27 +74,6 @@ DEPENDENCIES=">=dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	dev-python/Rx[${PYTHON_USEDEP}]
 	>=dev-python/semantic-version-2.8.5[${PYTHON_USEDEP}]
 	dev-python/singledispatch[${PYTHON_USEDEP}]
-	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
-	>=dev-python/smmap-4.0.0[${PYTHON_USEDEP}]
-	>=dev-python/snowballstemmer-2.1.0[${PYTHON_USEDEP}]
-	>=dev-python/sphinx-4.2.0[${PYTHON_USEDEP}]
-	>=dev-python/sphinx-autodoc-typehints-1.12.0[${PYTHON_USEDEP}]
-	>=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}]
-	>=dev-python/sphinxcontrib-applehelp-1.0.2[${PYTHON_USEDEP}]
-	>=dev-python/sphinxcontrib-devhelp-1.0.2[${PYTHON_USEDEP}]
-	>=dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/sphinxcontrib-jsmath-1.0.1[${PYTHON_USEDEP}]
-	>=dev-python/sphinxcontrib-qthelp-1.0.3[${PYTHON_USEDEP}]
-	>=dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}]
-	>=dev-python/sqlparse-0.4.2[${PYTHON_USEDEP}]
-	dev-python/stringcase[${PYTHON_USEDEP}]
-	>=dev-python/text-unidecode-1.3[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

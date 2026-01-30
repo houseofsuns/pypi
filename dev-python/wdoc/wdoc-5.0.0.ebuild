@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev fasttext full pdftotext"
+IUSE=""
 DEPENDENCIES=">=dev-python/sqlalchemy-2.0.32[${PYTHON_USEDEP}]
 	>=dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
@@ -73,26 +73,6 @@ DEPENDENCIES=">=dev-python/sqlalchemy-2.0.32[${PYTHON_USEDEP}]
 	>=dev-python/ffmpeg-python-0.2.0[${PYTHON_USEDEP}]
 	dev-python/torchaudio[${PYTHON_USEDEP}]
 	>=dev-python/trio-0.31.0[${PYTHON_USEDEP}]
-	dev-python/unstructured[${PYTHON_USEDEP}]
-	full? ( dev-python/pdfminer-six[${PYTHON_USEDEP}] )
-	full? ( dev-python/pillow-heif[${PYTHON_USEDEP}] )
-	full? ( dev-python/pypdfium2[${PYTHON_USEDEP}] )
-	full? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
-	full? ( dev-python/pdfplumber[${PYTHON_USEDEP}] )
-	full? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	full? ( dev-python/docx2txt[${PYTHON_USEDEP}] )
-	full? ( dev-python/pandoc[${PYTHON_USEDEP}] )
-	full? ( dev-python/ankipandas[${PYTHON_USEDEP}] )
-	full? ( dev-python/LogseqMarkdownParser[${PYTHON_USEDEP}] )
-	fasttext? ( dev-python/fasttext-langdetect[${PYTHON_USEDEP}] )
-	fasttext? ( dev-python/langdetect[${PYTHON_USEDEP}] )
-	pdftotext? ( dev-python/pdftotext[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-8.3.4[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-xdist-3.6.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/build-1.2.2_p1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/twine-6.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )"
+	dev-python/unstructured[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

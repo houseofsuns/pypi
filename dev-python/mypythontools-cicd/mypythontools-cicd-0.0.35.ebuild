@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all build cicd deploy dev docs git misc packages tests"
+IUSE="all build cicd deploy dev docs git"
 DEPENDENCIES="dev-python/mypythontools[${PYTHON_USEDEP}]
 	dev-python/mylogging[${PYTHON_USEDEP}]
 	all? ( dev-python/mypythontools[${PYTHON_USEDEP}] )
@@ -73,13 +73,6 @@ DEPENDENCIES="dev-python/mypythontools[${PYTHON_USEDEP}]
 	dev? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	misc? ( dev-python/black[${PYTHON_USEDEP}] )
-	packages? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	tests? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	tests? ( dev-python/phmdoctest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pip-tools[${PYTHON_USEDEP}] )"
+	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

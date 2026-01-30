@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Anaconda.org command line client library"
+DESCRIPTION="Anaconda.org command line client library [top-max 1.14.0]"
 
 HOMEPAGE="https://github.com/Anaconda-Platform/anaconda-client"
 LICENSE="BSD"

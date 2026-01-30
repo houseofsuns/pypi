@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev requirements"
+IUSE="requirements"
 DEPENDENCIES=">=dev-python/setuptools-44.1.0[${PYTHON_USEDEP}]
 	requirements? ( ~dev-python/alembic-1.13.2[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}] )
@@ -73,40 +73,6 @@ DEPENDENCIES=">=dev-python/setuptools-44.1.0[${PYTHON_USEDEP}]
 	requirements? ( dev-python/sqlalchemy2-stubs[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/sqlparse-0.5.0[${PYTHON_USEDEP}] )
 	requirements? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/tzlocal-5.2[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/urllib3-2.2.2[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/watchdog-4.0.1[${PYTHON_USEDEP}] )
-	requirements? ( dev-python/webassets[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/werkzeug-3.0.6[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/wtforms-3.1.2[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/zipp-3.19.2[${PYTHON_USEDEP}] )
-	requirements? ( ~dev-python/zope-interface-6.4_p2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/beautifulsoup4-4.12.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/faker-26.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Flask-DebugToolbar[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/freezegun-1.5.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/ipdb-0.13.13[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pillow-10.4.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/responses-0.25.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-7.3.7[${PYTHON_USEDEP}] )
-	dev? ( dev-python/toml[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/towncrier-23.11.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-8.3.4[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-factoryboy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-freezegun[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-rerunfailures-15.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-split[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-retry[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/coverage-7.7.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/junitparser[${PYTHON_USEDEP}] )
-	dev? ( dev-python/junit2html[${PYTHON_USEDEP}] )"
+	requirements? ( ~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

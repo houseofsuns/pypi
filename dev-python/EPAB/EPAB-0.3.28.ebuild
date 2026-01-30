@@ -73,19 +73,6 @@ DEPENDENCIES="~dev-python/isort-4.3.4[${PYTHON_USEDEP}]
 	dev-python/pytest-pycharm[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	~dev-python/requests-2.18.4[${PYTHON_USEDEP}]
-	~dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}]
-	dev-python/safety[${PYTHON_USEDEP}]
-	~dev-python/semver-2.7.9[${PYTHON_USEDEP}]
-	~dev-python/setuptools-scm-1.15.7[${PYTHON_USEDEP}]
-	dev-python/simplegeneric[${PYTHON_USEDEP}]
-	~dev-python/six-1.11.0[${PYTHON_USEDEP}]
-	dev-python/smmap2[${PYTHON_USEDEP}]
-	~dev-python/tqdm-4.19.5[${PYTHON_USEDEP}]
-	~dev-python/traitlets-4.3.2[${PYTHON_USEDEP}]
-	~dev-python/twine-1.9.1[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.22[${PYTHON_USEDEP}]
-	~dev-python/wcwidth-0.1.7[${PYTHON_USEDEP}]
-	~dev-python/wheel-0.30.0[${PYTHON_USEDEP}]
-	~dev-python/wrapt-1.10.11[${PYTHON_USEDEP}]"
+	~dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

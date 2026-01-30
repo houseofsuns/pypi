@@ -73,7 +73,6 @@ DEPENDENCIES="<dev-python/cachecontrol-0.15.0[${PYTHON_USEDEP}]
 	<dev-python/trove-classifiers-2025.0.0[${PYTHON_USEDEP}]
 	<dev-python/twine-6.0.0[${PYTHON_USEDEP}]
 	<dev-python/urllib3-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}]
-	<dev-python/zipp-4.0.0[${PYTHON_USEDEP}]"
+	<dev-python/virtualenv-21.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

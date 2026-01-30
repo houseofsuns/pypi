@@ -73,16 +73,6 @@ DEPENDENCIES="dev? ( dev-python/altgraph[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/pyflakes-3.3.2[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstaller-hooks-contrib[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pyproject-api-1.9.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pyproject-hooks-1.2.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-8.3.5[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/requests-2.32.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scapy[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/tox-4.25.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/typing-extensions-4.13.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/urllib3-2.6.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/virtualenv-20.36.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/wheel-0.45.1[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pyproject-api-1.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

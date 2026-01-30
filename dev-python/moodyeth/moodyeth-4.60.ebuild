@@ -73,10 +73,6 @@ DEPENDENCIES="~dev-python/mypy-extensions-0.4.3[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/toposort-1.4[${PYTHON_USEDEP}] )
 	docs? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
-	tester? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pep8[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	tester? ( dev-python/coverage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

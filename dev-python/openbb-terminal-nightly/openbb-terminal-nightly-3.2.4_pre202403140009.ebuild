@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all doc forecast installer jupyterlab optimization"
+IUSE="all doc forecast jupyterlab optimization"
 DEPENDENCIES="dev-python/fundamentalanalysis[${PYTHON_USEDEP}]
 	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/jinja2-4.0.0[${PYTHON_USEDEP}]
@@ -75,60 +75,6 @@ DEPENDENCIES="dev-python/fundamentalanalysis[${PYTHON_USEDEP}]
 	all? ( dev-python/openai-whisper[${PYTHON_USEDEP}] )
 	<dev-python/openpyxl-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-22.0[${PYTHON_USEDEP}]
-	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	dev-python/pandas-market-calendars[${PYTHON_USEDEP}]
-	dev-python/papermill[${PYTHON_USEDEP}]
-	<dev-python/plotly-6.0.0[${PYTHON_USEDEP}]
-	dev-python/pmaw[${PYTHON_USEDEP}]
-	dev-python/posthog[${PYTHON_USEDEP}]
-	dev-python/praw[${PYTHON_USEDEP}]
-	<dev-python/prompt-toolkit-4.0.0[${PYTHON_USEDEP}]
-	~dev-python/protobuf-3.20.1[${PYTHON_USEDEP}]
-	>dev-python/psutil-5.9.4[${PYTHON_USEDEP}]
-	dev-python/pycoingecko[${PYTHON_USEDEP}]
-	<dev-python/pydantic-2.0[${PYTHON_USEDEP}]
-	installer? ( dev-python/pyinstaller[${PYTHON_USEDEP}] )
-	<dev-python/pyrsistent-0.20.0[${PYTHON_USEDEP}]
-	dev-python/pythclient[${PYTHON_USEDEP}]
-	dev-python/python-binance[${PYTHON_USEDEP}]
-	dev-python/python-coinmarketcap[${PYTHON_USEDEP}]
-	<dev-python/python-dotenv-2.0.0[${PYTHON_USEDEP}]
-	dev-python/python-i18n[${PYTHON_USEDEP}]
-	<dev-python/python-jose-4.0.0[${PYTHON_USEDEP}]
-	forecast? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	dev-python/pytrends[${PYTHON_USEDEP}]
-	dev-python/pywry[${PYTHON_USEDEP}]
-	<dev-python/reportlab-4.0[${PYTHON_USEDEP}]
-	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/rich-13.0.0[${PYTHON_USEDEP}]
-	<dev-python/ruamel-yaml-0.18.0[${PYTHON_USEDEP}]
-	~dev-python/scipy-1.10.1[${PYTHON_USEDEP}]
-	dev-python/screeninfo[${PYTHON_USEDEP}]
-	<dev-python/seaborn-0.12.0[${PYTHON_USEDEP}]
-	<dev-python/setuptools-65.5.0[${PYTHON_USEDEP}]
-	forecast? ( <dev-python/setuptools-rust-2.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/setuptools-rust-2.0.0[${PYTHON_USEDEP}] )
-	dev-python/SPARQLWrapper[${PYTHON_USEDEP}]
-	dev-python/squarify[${PYTHON_USEDEP}]
-	<dev-python/statsmodels-0.14[${PYTHON_USEDEP}]
-	dev-python/streamlit[${PYTHON_USEDEP}]
-	<dev-python/svglib-2.0.0[${PYTHON_USEDEP}]
-	dev-python/tokenterminal[${PYTHON_USEDEP}]
-	forecast? ( dev-python/torch[${PYTHON_USEDEP}] )
-	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	dev-python/tradingview-ta[${PYTHON_USEDEP}]
-	forecast? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	forecast? ( dev-python/u8darts[${PYTHON_USEDEP}] )
-	all? ( dev-python/u8darts[${PYTHON_USEDEP}] )
-	dev-python/vaderSentiment[${PYTHON_USEDEP}]
-	dev-python/valinvest[${PYTHON_USEDEP}]
-	<dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
-	dev-python/y-py[${PYTHON_USEDEP}]
-	dev-python/yahooquery[${PYTHON_USEDEP}]
-	dev-python/yfinance[${PYTHON_USEDEP}]
-	forecast? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )
-	all? ( dev-python/yt-dlp[${PYTHON_USEDEP}] )"
+	<dev-python/pandas-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

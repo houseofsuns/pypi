@@ -73,20 +73,6 @@ DEPENDENCIES="dev-python/proselint[${PYTHON_USEDEP}]
 	alldeps? ( dev-python/mypy-lang[${PYTHON_USEDEP}] )
 	alldeps? ( ~dev-python/nbformat-4.1[${PYTHON_USEDEP}] )
 	alldeps? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/proselint[${PYTHON_USEDEP}] )
-	alldeps? ( ~dev-python/pycodestyle-2.2[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	alldeps? ( ~dev-python/pyflakes-1.4.0[${PYTHON_USEDEP}] )
-	alldeps? ( ~dev-python/pylint-1.6[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	alldeps? ( ~dev-python/pyyaml-3.12[${PYTHON_USEDEP}] )
-	alldeps? ( ~dev-python/radon-1.4.0[${PYTHON_USEDEP}] )
-	alldeps? ( ~dev-python/restructuredtext-lint-1.0.0[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/rstcheck[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/safety[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/scspell3k[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/vulture[${PYTHON_USEDEP}] )
-	alldeps? ( dev-python/yamllint[${PYTHON_USEDEP}] )
-	alldeps? ( ~dev-python/yapf-0.14.0[${PYTHON_USEDEP}] )"
+	alldeps? ( dev-python/proselint[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

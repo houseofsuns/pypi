@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev doc fromdecay tensorflow test tf vector"
+IUSE="dev doc fromdecay tensorflow test"
 DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	dev-python/tensorflow-probability[${PYTHON_USEDEP}]
 	dev? ( dev-python/particle[${PYTHON_USEDEP}] )
@@ -73,22 +73,6 @@ DEPENDENCIES="dev-python/tensorflow[${PYTHON_USEDEP}]
 	test? ( dev-python/particle[${PYTHON_USEDEP}] )
 	test? ( dev-python/zfit[${PYTHON_USEDEP}] )
 	test? ( dev-python/zfit-physics[${PYTHON_USEDEP}] )
-	test? ( dev-python/decaylanguage[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/vector-1.0.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/awkward-2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	test? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/uproot[${PYTHON_USEDEP}] )
-	test? ( dev-python/wget[${PYTHON_USEDEP}] )
-	tf? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tf? ( dev-python/tensorflow-probability[${PYTHON_USEDEP}] )
-	vector? ( >=dev-python/vector-1.0.0[${PYTHON_USEDEP}] )"
+	test? ( dev-python/decaylanguage[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

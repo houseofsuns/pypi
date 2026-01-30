@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev setup test"
+IUSE="all dev"
 DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15.1[${PYTHON_USEDEP}]
@@ -73,24 +73,6 @@ DEPENDENCIES="dev-python/aicsimageio[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
 	dev? ( dev-python/napari[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/ipython-7.15.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/m2r[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/jinja2-3.0.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/sphinx-3.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/tox-3.15.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
-	setup? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-19.10_beta0[${PYTHON_USEDEP}] )
-	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-7.1.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
-	test? ( dev-python/napari[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/bumpversion[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

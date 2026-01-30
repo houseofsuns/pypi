@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="server testing"
+IUSE="server"
 DEPENDENCIES=">=dev-python/boto3-1.35[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.35[${PYTHON_USEDEP}]
 	dev-python/cachetools[${PYTHON_USEDEP}]
@@ -73,15 +73,6 @@ DEPENDENCIES=">=dev-python/boto3-1.35[${PYTHON_USEDEP}]
 	server? ( dev-python/stomp-py[${PYTHON_USEDEP}] )
 	server? ( dev-python/suds[${PYTHON_USEDEP}] )
 	server? ( ~dev-python/tornado-5.1.1[${PYTHON_USEDEP}] )
-	server? ( dev-python/tornado-m2crypto[${PYTHON_USEDEP}] )
-	server? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
-	testing? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	testing? ( dev-python/mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )"
+	server? ( dev-python/tornado-m2crypto[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

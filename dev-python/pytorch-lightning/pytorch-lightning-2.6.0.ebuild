@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all deepspeed dev examples extra strategies test"
+IUSE="all deepspeed examples extra strategies test"
 DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.57.0[${PYTHON_USEDEP}]
 	>dev-python/pyyaml-5.4[${PYTHON_USEDEP}]
@@ -71,41 +71,6 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	all? ( >=dev-python/rich-12.3.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
 	all? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
-	all? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
-	all? ( <dev-python/requests-2.33.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
-	dev? ( >dev-python/matplotlib-3.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jsonargparse[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/rich-12.3.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
-	dev? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/requests-2.33.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/ipython-8.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/coverage-7.11.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-8.4.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-cov-7.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-timeout-2.4.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-rerunfailures-16.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-random-order[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/cloudpickle-1.3[${PYTHON_USEDEP}] )
-	dev? ( >dev-python/scikit-learn-0.22.1[${PYTHON_USEDEP}] )
-	dev? ( >dev-python/numpy-1.20.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	dev? ( dev-python/onnxscript[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/psutil-7.2.0[${PYTHON_USEDEP}] )
-	dev? ( >dev-python/pandas-2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	dev? ( dev-python/torch-tensorrt[${PYTHON_USEDEP}] )
-	dev? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )"
+	all? ( dev-python/deepspeed[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,15 +73,6 @@ DEPENDENCIES="~dev-python/attrs-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.26[${PYTHON_USEDEP}]
 	~dev-python/statsd-3.3.0[${PYTHON_USEDEP}]
 	dev-python/transaction[${PYTHON_USEDEP}]
-	dev-python/translationstring[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.7[${PYTHON_USEDEP}]
-	dev-python/uWSGI[${PYTHON_USEDEP}]
-	dev-python/venusian[${PYTHON_USEDEP}]
-	~dev-python/waitress-2.0.0[${PYTHON_USEDEP}]
-	~dev-python/webob-1.8.7[${PYTHON_USEDEP}]
-	~dev-python/werkzeug-2.0.2[${PYTHON_USEDEP}]
-	~dev-python/zope-deprecation-4.4.0[${PYTHON_USEDEP}]
-	~dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]
-	dev-python/zope-sqlalchemy[${PYTHON_USEDEP}]"
+	dev-python/translationstring[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

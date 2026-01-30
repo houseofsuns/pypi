@@ -73,14 +73,6 @@ DEPENDENCIES=">=dev-python/scipy-1.7.3[${PYTHON_USEDEP}]
 	all? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	all? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
 	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/isort[${PYTHON_USEDEP}] )
-	all? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-autolinks-plugin[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-git-authors-plugin[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	all? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )"
+	all? ( dev-python/isort[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,10 +73,6 @@ DEPENDENCIES="~dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/secretstorage-3.3.3[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tomli-2.0.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/tomlkit-0.12.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/wheel-0.42.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/zipp-3.17.0[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/twine-4.0.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

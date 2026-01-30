@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="development localtest modin modin-development opentelemetry pandas secure-local-storage"
+IUSE="development modin modin-development pandas secure-local-storage"
 DEPENDENCIES=">=dev-python/setuptools-40.6.0[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
@@ -73,25 +73,6 @@ DEPENDENCIES=">=dev-python/setuptools-40.6.0[${PYTHON_USEDEP}]
 	modin-development? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	modin-development? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	modin-development? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/pytest-assume[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/decorator[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/tox[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/snowflake-core[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	modin-development? ( <=dev-python/scipy-1.16.0[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	modin-development? ( <dev-python/plotly-6.0.0[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/snowflake-ml-python[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	modin-development? ( dev-python/ray[${PYTHON_USEDEP}] )
-	localtest? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	localtest? ( dev-python/requests[${PYTHON_USEDEP}] )
-	opentelemetry? ( <dev-python/opentelemetry-api-2.0.0[${PYTHON_USEDEP}] )
-	opentelemetry? ( <dev-python/opentelemetry-sdk-2.0.0[${PYTHON_USEDEP}] )
-	opentelemetry? ( dev-python/opentelemetry-exporter-otlp[${PYTHON_USEDEP}] )"
+	modin-development? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

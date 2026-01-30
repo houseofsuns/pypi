@@ -72,9 +72,6 @@ DEPENDENCIES="dev-python/eth-abi[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flaky-3.7.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/hypothesis-3.31.2[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/tox-4.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/eth-tester[${PYTHON_USEDEP}] )
-	test? ( dev-python/py-geth[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/mypy-1.10.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

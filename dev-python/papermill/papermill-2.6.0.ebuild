@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all azure black dev docs gcs github hdfs s3 test"
+IUSE="all azure black dev"
 DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	>=dev-python/nbformat-5.2.0[${PYTHON_USEDEP}]
@@ -73,58 +73,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/azure-datalake-store[${PYTHON_USEDEP}] )
-	dev? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	dev? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	dev? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/azure-datalake-store[${PYTHON_USEDEP}] )
-	docs? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/requests-2.21.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	docs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/pyarrow-2.0[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/pygithub-1.55[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-7.2.6[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/furo-2023.9.10[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/moto-4.2.8[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbformat[${PYTHON_USEDEP}] )
-	docs? ( dev-python/entrypoints[${PYTHON_USEDEP}] )
-	gcs? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	github? ( >=dev-python/pygithub-1.55[${PYTHON_USEDEP}] )
-	hdfs? ( >=dev-python/pyarrow-2.0[${PYTHON_USEDEP}] )
-	s3? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	test? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	test? ( dev-python/botocore[${PYTHON_USEDEP}] )
-	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	test? ( dev-python/google-compute-engine[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/ipython-5.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	test? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	test? ( <dev-python/moto-5.1.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-4.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-mock-1.10[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/requests-2.21.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/attrs-17.4.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/bumpversion[${PYTHON_USEDEP}] )
-	test? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pip-18.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/setuptools-38.6.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/twine-1.11.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/azure-datalake-store[${PYTHON_USEDEP}] )
-	test? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	test? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	test? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-19.3_beta0[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

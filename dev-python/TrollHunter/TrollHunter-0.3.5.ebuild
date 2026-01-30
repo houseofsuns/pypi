@@ -73,20 +73,6 @@ DEPENDENCIES="~dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/python-dotenv-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/pytz-2019.3[${PYTHON_USEDEP}]
 	~dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-	dev-python/schedule[${PYTHON_USEDEP}]
-	~dev-python/six-1.14.0[${PYTHON_USEDEP}]
-	~dev-python/soupsieve-2.0[${PYTHON_USEDEP}]
-	~dev-python/sqlalchemy-1.3.13[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-3.7.4.1[${PYTHON_USEDEP}]
-	~dev-python/unidecode-1.1.1[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]
-	~dev-python/vine-1.3.0[${PYTHON_USEDEP}]
-	~dev-python/werkzeug-1.0.0[${PYTHON_USEDEP}]
-	~dev-python/wsproto-0.15.0[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.4.2[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.1.0[${PYTHON_USEDEP}]
-	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/rake-nltk[${PYTHON_USEDEP}]"
+	dev-python/schedule[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

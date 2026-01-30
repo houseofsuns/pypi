@@ -76,9 +76,6 @@ DEPENDENCIES="dev-python/aiofiles[${PYTHON_USEDEP}]
 	~dev-python/pyproj-3.6.1[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
 	dev-python/sqlean-py[${PYTHON_USEDEP}]
-	dev-python/cachetools[${PYTHON_USEDEP}]
-	<dev-python/docutils-0.22.0[${PYTHON_USEDEP}]
-	<dev-python/zeep-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/redis-7.0.0[${PYTHON_USEDEP}]"
+	dev-python/cachetools[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

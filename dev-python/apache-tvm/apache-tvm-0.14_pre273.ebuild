@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all-prod dev ethosu importer-caffe importer-caffe2 importer-coreml importer-darknet importer-keras importer-onnx importer-paddle importer-pytorch importer-tensorflow importer-tflite tvmc vitis-ai xgboost"
+IUSE="all-prod dev"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
@@ -74,50 +74,6 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-autodoc-annotation[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
-	ethosu? ( dev-python/ethos-u-vela[${PYTHON_USEDEP}] )
-	importer-caffe? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	importer-caffe? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	importer-caffe? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	importer-caffe? ( dev-python/six[${PYTHON_USEDEP}] )
-	importer-caffe2? ( dev-python/future[${PYTHON_USEDEP}] )
-	importer-caffe2? ( dev-python/torch[${PYTHON_USEDEP}] )
-	importer-coreml? ( dev-python/coremltools[${PYTHON_USEDEP}] )
-	importer-darknet? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	importer-keras? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	importer-keras? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
-	importer-onnx? ( dev-python/future[${PYTHON_USEDEP}] )
-	importer-onnx? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	importer-onnx? ( dev-python/onnxoptimizer[${PYTHON_USEDEP}] )
-	importer-onnx? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	importer-onnx? ( dev-python/torch[${PYTHON_USEDEP}] )
-	importer-onnx? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	importer-paddle? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
-	importer-pytorch? ( dev-python/future[${PYTHON_USEDEP}] )
-	importer-pytorch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	importer-pytorch? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	importer-tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	importer-tensorflow? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
-	importer-tflite? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	importer-tflite? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
-	importer-tflite? ( dev-python/tflite[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/ethos-u-vela[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/future[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/onnxoptimizer[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/tflite[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/torch[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	tvmc? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	vitis-ai? ( ~dev-python/h5py-2.10.0[${PYTHON_USEDEP}] )
-	vitis-ai? ( dev-python/progressbar[${PYTHON_USEDEP}] )
-	xgboost? ( dev-python/future[${PYTHON_USEDEP}] )
-	xgboost? ( dev-python/torch[${PYTHON_USEDEP}] )
-	xgboost? ( dev-python/xgboost[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

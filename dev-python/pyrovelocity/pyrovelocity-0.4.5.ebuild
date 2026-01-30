@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="bioinformatics docs lint plotting test workflows"
+IUSE="docs lint plotting test workflows"
 DEPENDENCIES="dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/anndata[${PYTHON_USEDEP}]
@@ -74,67 +74,6 @@ DEPENDENCIES="dev-python/adjustText[${PYTHON_USEDEP}]
 	dev-python/llvmlite[${PYTHON_USEDEP}]
 	workflows? ( dev-python/mashumaro[${PYTHON_USEDEP}] )
 	>=dev-python/matplotlib-3.9.1[${PYTHON_USEDEP}]
-	plotting? ( >=dev-python/matplotlib-venn-0.11.9[${PYTHON_USEDEP}] )
-	dev-python/mlflow[${PYTHON_USEDEP}]
-	lint? ( >=dev-python/mypy-0.930[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
-	workflows? ( >=dev-python/nbconvert-7.14.0[${PYTHON_USEDEP}] )
-	workflows? ( >=dev-python/nbformat-5.9.2[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/nbsphinx-0.9.3[${PYTHON_USEDEP}] )
-	dev-python/numpyro[${PYTHON_USEDEP}]
-	workflows? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
-	>=dev-python/pandas-2.0.0[${PYTHON_USEDEP}]
-	workflows? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	>=dev-python/pillow-10.1.0[${PYTHON_USEDEP}]
-	>=dev-python/plumbum-1.8.2[${PYTHON_USEDEP}]
-	dev-python/polars[${PYTHON_USEDEP}]
-	lint? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pre-commit-hooks[${PYTHON_USEDEP}] )
-	>=dev-python/pyarrow-14.0.2[${PYTHON_USEDEP}]
-	>=dev-python/pydantic-2.8.0[${PYTHON_USEDEP}]
-	bioinformatics? ( dev-python/pyensembl[${PYTHON_USEDEP}] )
-	bioinformatics? ( dev-python/pyfaidx[${PYTHON_USEDEP}] )
-	lint? ( >=dev-python/pygments-2.15.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pygments-2.15.0[${PYTHON_USEDEP}] )
-	dev-python/pyro-ppl[${PYTHON_USEDEP}]
-	test? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-asyncio-0.21.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-mock-3.10.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-xdist-3.1.0[${PYTHON_USEDEP}] )
-	workflows? ( >=dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
-	dev-python/pytorch-lightning[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
-	docs? ( dev-python/quartodoc[${PYTHON_USEDEP}] )
-	dev-python/returns[${PYTHON_USEDEP}]
-	>=dev-python/rich-13.7.1[${PYTHON_USEDEP}]
-	workflows? ( >=dev-python/rich-click-1.7.3[${PYTHON_USEDEP}] )
-	lint? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev-python/scanpy[${PYTHON_USEDEP}]
-	>=dev-python/scikit-learn-1.3.1[${PYTHON_USEDEP}]
-	<dev-python/scipy-1.14.0[${PYTHON_USEDEP}]
-	dev-python/scvelo[${PYTHON_USEDEP}]
-	dev-python/scvi-tools[${PYTHON_USEDEP}]
-	>=dev-python/seaborn-0.13.2[${PYTHON_USEDEP}]
-	dev-python/sparse[${PYTHON_USEDEP}]
-	docs? ( >=dev-python/sphinx-7.0.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-autodoc-typehints-1.23.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )
-	>=dev-python/statsmodels-0.14.2[${PYTHON_USEDEP}]
-	>=dev-python/sympy-1.12[${PYTHON_USEDEP}]
-	>=dev-python/termcolor-2.2.0[${PYTHON_USEDEP}]
-	dev-python/tiledb[${PYTHON_USEDEP}]
-	dev-python/torch[${PYTHON_USEDEP}]
-	dev-python/torchmetrics[${PYTHON_USEDEP}]
-	>=dev-python/trio-0.26.0[${PYTHON_USEDEP}]
-	>=dev-python/validators-0.33.0[${PYTHON_USEDEP}]
-	dev-python/vegafusion[${PYTHON_USEDEP}]
-	dev-python/vegafusion-python-embed[${PYTHON_USEDEP}]
-	dev-python/vl-convert-python[${PYTHON_USEDEP}]
-	test? ( >=dev-python/xdoctest-0.15.10[${PYTHON_USEDEP}] )
-	>=dev-python/zstandard-0.23.0[${PYTHON_USEDEP}]"
+	plotting? ( >=dev-python/matplotlib-venn-0.11.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

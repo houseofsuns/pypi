@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev setup test"
+IUSE="all dev"
 DEPENDENCIES=">=dev-python/gitpython-3.1.31[${PYTHON_USEDEP}]
 	>=dev-python/blessed-1.20.0[${PYTHON_USEDEP}]
 	dev-python/srsly[${PYTHON_USEDEP}]
@@ -73,17 +73,6 @@ DEPENDENCIES=">=dev-python/gitpython-3.1.31[${PYTHON_USEDEP}]
 	dev? ( dev-python/m2r2[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-5.3.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/tox-3.15.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/wheel-0.34.2[${PYTHON_USEDEP}] )
-	setup? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	setup? ( >=dev-python/build-0.10.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-23.3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/tox-3.15.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

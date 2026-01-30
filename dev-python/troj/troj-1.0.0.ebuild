@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="cv dev docs nlp tensorflow test"
+IUSE="cv dev docs nlp tensorflow"
 DEPENDENCIES="dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}]
 	dev-python/gensim[${PYTHON_USEDEP}]
 	<dev-python/importlib-metadata-4.0.0[${PYTHON_USEDEP}]
@@ -73,8 +73,6 @@ DEPENDENCIES="dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}]
 	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	nlp? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

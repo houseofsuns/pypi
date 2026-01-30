@@ -73,12 +73,6 @@ DEPENDENCIES=">=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	test? ( ~dev-python/cloudpickle-2.1.0[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-6.2[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-mutable[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/mypy-0.991[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pyupgrade-3.3.1[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/isort-5.10.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

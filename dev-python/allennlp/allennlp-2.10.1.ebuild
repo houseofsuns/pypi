@@ -72,11 +72,6 @@ DEPENDENCIES="dev-python/torch[${PYTHON_USEDEP}]
 	dev? ( dev-python/docspec[${PYTHON_USEDEP}] )
 	dev? ( dev-python/docspec-python[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mkdocs-1.3.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/mkdocs-material-8.4.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/markdown-include-0.6.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pymdown-extensions-9.5[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/twine-5.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	dev? ( <dev-python/mkdocs-material-8.4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

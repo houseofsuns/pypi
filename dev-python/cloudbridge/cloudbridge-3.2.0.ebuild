@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aws azure dev full gcp openstack"
+IUSE="aws azure dev full"
 DEPENDENCIES=">=dev-python/six-1.11[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-6.0[${PYTHON_USEDEP}]
 	>=dev-python/deprecation-2.0.7[${PYTHON_USEDEP}]
@@ -72,22 +72,6 @@ DEPENDENCIES=">=dev-python/six-1.11[${PYTHON_USEDEP}]
 	full? ( <dev-python/python-swiftclient-5.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/python-neutronclient-9.0[${PYTHON_USEDEP}] )
 	full? ( <dev-python/python-keystoneclient-6.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/msrestazure[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-identity[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-common[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-mgmt-devtestlabs[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-mgmt-resource[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-mgmt-compute[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-mgmt-network[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-mgmt-storage[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-storage-blob[${PYTHON_USEDEP}] )
-	full? ( dev-python/azure-cosmosdb-table[${PYTHON_USEDEP}] )
-	full? ( dev-python/pysftp[${PYTHON_USEDEP}] )
-	gcp? ( <dev-python/google-api-python-client-3.0.0[${PYTHON_USEDEP}] )
-	openstack? ( <dev-python/openstacksdk-1.0.0[${PYTHON_USEDEP}] )
-	openstack? ( <dev-python/python-novaclient-19.0[${PYTHON_USEDEP}] )
-	openstack? ( <dev-python/python-swiftclient-5.0[${PYTHON_USEDEP}] )
-	openstack? ( <dev-python/python-neutronclient-9.0[${PYTHON_USEDEP}] )
-	openstack? ( <dev-python/python-keystoneclient-6.0[${PYTHON_USEDEP}] )"
+	full? ( dev-python/msrestazure[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

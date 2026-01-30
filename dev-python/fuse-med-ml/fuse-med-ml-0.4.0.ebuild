@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev examples fuseimg"
+IUSE="all dev"
 DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-1.2[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.52.0[${PYTHON_USEDEP}]
@@ -73,19 +73,6 @@ DEPENDENCIES=">=dev-python/numpy-1.18.5[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/black-22.3.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nb-clean[${PYTHON_USEDEP}] )
-	examples? ( dev-python/pydicom[${PYTHON_USEDEP}] )
-	examples? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	examples? ( dev-python/MedPy[${PYTHON_USEDEP}] )
-	examples? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	examples? ( dev-python/monai[${PYTHON_USEDEP}] )
-	examples? ( dev-python/lightly[${PYTHON_USEDEP}] )
-	examples? ( dev-python/volumentations_3D[${PYTHON_USEDEP}] )
-	fuseimg? ( >=dev-python/scikit-image-0.17.2[${PYTHON_USEDEP}] )
-	fuseimg? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
-	fuseimg? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	fuseimg? ( dev-python/pydicom[${PYTHON_USEDEP}] )
-	fuseimg? ( dev-python/MedPy[${PYTHON_USEDEP}] )
-	fuseimg? ( dev-python/plotly[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/nb-clean[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,11 +73,6 @@ DEPENDENCIES="<=dev-python/click-8.1.3[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/pytest-mock-3.8.1[${PYTHON_USEDEP}] )
 	notebook? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
-	notebook? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
-	notebook? ( >=dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/papermill[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/scrapbook[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/plotly[${PYTHON_USEDEP}] )"
+	notebook? ( >=dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="cli examples p_checks p_docs p_tests pyqt5 pyside2 s_pytest s_pytest_trio s_quart_trio s_towncrier testing"
+IUSE="cli examples p_checks p_docs p_tests pyqt5 pyside2 s_pytest s_pytest_trio"
 DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/decorator[${PYTHON_USEDEP}]
@@ -72,10 +72,6 @@ DEPENDENCIES="dev-python/async_generator[${PYTHON_USEDEP}]
 	pyqt5? ( dev-python/PyQt5-stubs[${PYTHON_USEDEP}] )
 	pyside2? ( dev-python/PySide2[${PYTHON_USEDEP}] )
 	s_pytest? ( ~dev-python/pytest-7.2[${PYTHON_USEDEP}] )
-	s_pytest_trio? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )
-	s_quart_trio? ( ~dev-python/quart-trio-0.10.0[${PYTHON_USEDEP}] )
-	s_quart_trio? ( ~dev-python/quart-0.18.3[${PYTHON_USEDEP}] )
-	s_towncrier? ( >=dev-python/towncrier-21.3.0[${PYTHON_USEDEP}] )
-	testing? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )"
+	s_pytest_trio? ( >=dev-python/pytest-trio-0.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all-frameworks dev keras mxnet pytorch pytorch-spark ray spark tensorflow tensorflow-cpu tensorflow-gpu test"
+IUSE="all-frameworks dev keras mxnet pytorch pytorch-spark ray spark tensorflow tensorflow-cpu tensorflow-gpu"
 DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
@@ -70,11 +70,6 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	dev? ( dev-python/petastorm[${PYTHON_USEDEP}] )
 	dev? ( <dev-python/pyarrow-11.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/fsspec-2021.7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-forked[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
-	test? ( dev-python/parameterized[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

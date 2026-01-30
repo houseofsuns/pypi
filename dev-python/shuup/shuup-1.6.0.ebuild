@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="coding-style docs everything testing"
+IUSE="coding-style docs everything"
 DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	~dev-python/babel-2.5.3[${PYTHON_USEDEP}]
 	~dev-python/cryptography-1.7.1[${PYTHON_USEDEP}]
@@ -72,24 +72,6 @@ DEPENDENCIES="<dev-python/pillow-4.0[${PYTHON_USEDEP}]
 	everything? ( ~dev-python/pytest-3.0.6[${PYTHON_USEDEP}] )
 	everything? ( ~dev-python/selenium-3.8.0[${PYTHON_USEDEP}] )
 	everything? ( ~dev-python/pytest-sugar-0.8.0[${PYTHON_USEDEP}] )
-	everything? ( dev-python/splinter[${PYTHON_USEDEP}] )
-	everything? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	everything? ( dev-python/pep8-naming[${PYTHON_USEDEP}] )
-	everything? ( ~dev-python/weasyprint-0.34[${PYTHON_USEDEP}] )
-	everything? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
-	everything? ( dev-python/pytest-splinter[${PYTHON_USEDEP}] )
-	everything? ( ~dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/beautifulsoup4-4.5.3[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/html5lib-0.999999999[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-cache[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/pytest-3.0.6[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/pytest-cov-2.4.0[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/pytest-django-3.1.2[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-splinter[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/pytest-sugar-0.8.0[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/selenium-3.8.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/splinter[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/weasyprint-0.34[${PYTHON_USEDEP}] )"
+	everything? ( dev-python/splinter[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

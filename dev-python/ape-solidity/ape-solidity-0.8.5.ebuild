@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev doc lint release test"
+IUSE="dev doc lint"
 DEPENDENCIES="dev-python/py-solc-x[${PYTHON_USEDEP}]
 	dev-python/eth-ape[${PYTHON_USEDEP}]
 	dev-python/ethpm-types[${PYTHON_USEDEP}]
@@ -73,16 +73,6 @@ DEPENDENCIES="dev-python/py-solc-x[${PYTHON_USEDEP}]
 	lint? ( dev-python/mdformat[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
 	lint? ( dev-python/mdformat_frontmatter[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mdformat_pyproject[${PYTHON_USEDEP}] )
-	release? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	release? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	release? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	release? ( ~dev-python/twine-3.8[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )"
+	lint? ( dev-python/mdformat_pyproject[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

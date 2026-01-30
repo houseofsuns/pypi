@@ -73,18 +73,6 @@ DEPENDENCIES=">=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 	all? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
 	all? ( dev-python/cvxopt[${PYTHON_USEDEP}] )
 	all? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/evojax[${PYTHON_USEDEP}] )
-	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	all? ( dev-python/ale-py[${PYTHON_USEDEP}] )
-	all? ( dev-python/nats-bench[${PYTHON_USEDEP}] )
-	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	all? ( dev-python/ray[${PYTHON_USEDEP}] )
-	all? ( dev-python/optproblems[${PYTHON_USEDEP}] )
-	all? ( dev-python/diversipy[${PYTHON_USEDEP}] )
-	all? ( <=dev-python/coverage-6.4.2[${PYTHON_USEDEP}] )
-	all? ( <=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+	all? ( dev-python/evojax[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

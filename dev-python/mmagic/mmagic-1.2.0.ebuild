@@ -71,12 +71,6 @@ DEPENDENCIES="dev-python/av[${PYTHON_USEDEP}]
 	mim? ( dev-python/mmengine[${PYTHON_USEDEP}] )
 	tests? ( dev-python/albumentations[${PYTHON_USEDEP}] )
 	tests? ( dev-python/clip[${PYTHON_USEDEP}] )
-	tests? ( dev-python/controlnet-aux[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/coverage-7.0.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/imageio-ffmpeg-0.4.4[${PYTHON_USEDEP}] )
-	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mmdet[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/transformers[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/controlnet-aux[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

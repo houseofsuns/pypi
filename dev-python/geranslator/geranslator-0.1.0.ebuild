@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Translate your translation files [top-max 1.4.7]"
+DESCRIPTION="Translate your translation files [top-max 2.0.2]"
 
 HOMEPAGE="https://github.com/faissaloux/geranslator"
 LICENSE="MIT"

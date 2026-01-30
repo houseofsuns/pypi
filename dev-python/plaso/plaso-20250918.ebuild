@@ -73,19 +73,6 @@ DEPENDENCIES=">=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
 	dev-python/libvshadow-python[${PYTHON_USEDEP}]
 	dev-python/libvslvm-python[${PYTHON_USEDEP}]
 	>=dev-python/lz4-0.10.0[${PYTHON_USEDEP}]
-	dev-python/opensearch-py[${PYTHON_USEDEP}]
-	>=dev-python/pefile-2023.2.7[${PYTHON_USEDEP}]
-	>=dev-python/psutil-5.4.3[${PYTHON_USEDEP}]
-	<dev-python/pyparsing-3.2.0[${PYTHON_USEDEP}]
-	>=dev-python/python-dateutil-1.5[${PYTHON_USEDEP}]
-	dev-python/pytsk3[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	>=dev-python/pyzmq-2.1.11[${PYTHON_USEDEP}]
-	>=dev-python/redis-3.4[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.18.0[${PYTHON_USEDEP}]
-	>=dev-python/six-1.1.0[${PYTHON_USEDEP}]
-	dev-python/xattr[${PYTHON_USEDEP}]
-	>=dev-python/yara-python-3.4.0[${PYTHON_USEDEP}]
-	dev-python/zstd[${PYTHON_USEDEP}]"
+	dev-python/opensearch-py[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

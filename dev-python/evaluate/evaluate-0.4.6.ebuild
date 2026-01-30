@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs evaluator quality template tensorflow tensorflow-gpu tests torch"
+IUSE="dev docs evaluator quality"
 DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
@@ -72,44 +72,6 @@ DEPENDENCIES="dev-python/datasets[${PYTHON_USEDEP}]
 	docs? ( dev-python/s3fs[${PYTHON_USEDEP}] )
 	evaluator? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	evaluator? ( >=dev-python/scipy-1.7.1[${PYTHON_USEDEP}] )
-	quality? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )
-	quality? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	quality? ( >=dev-python/isort-5.0.0[${PYTHON_USEDEP}] )
-	quality? ( >=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}] )
-	template? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	template? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tensorflow-gpu? ( dev-python/tensorflow-gpu[${PYTHON_USEDEP}] )
-	tests? ( dev-python/absl-py[${PYTHON_USEDEP}] )
-	tests? ( dev-python/charcut[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cer[${PYTHON_USEDEP}] )
-	tests? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-datadir[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/numpy-2.0.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tests? ( dev-python/torch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/bert-score[${PYTHON_USEDEP}] )
-	tests? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/scipy-1.10.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/seqeval[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jiwer[${PYTHON_USEDEP}] )
-	tests? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	tests? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mauve-text[${PYTHON_USEDEP}] )
-	tests? ( dev-python/trectools[${PYTHON_USEDEP}] )
-	tests? ( dev-python/toml[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/requests-file-1.5.1[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/tldextract-3.1.0[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/texttable-1.6.3[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/unidecode-1.3.4[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/werkzeug-1.0.1[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/six-1.15.0[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
+	quality? ( ~dev-python/black-22.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

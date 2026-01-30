@@ -73,25 +73,6 @@ DEPENDENCIES="dev-python/click[${PYTHON_USEDEP}]
 	locked? ( ~dev-python/propcache-0.3.1[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/psutil-7.0.0[${PYTHON_USEDEP}] )
 	locked? ( ~dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}] )
-	locked? ( dev-python/python-telegram-bot[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/pytimeparse-1.1.8[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/requests-2.32.3[${PYTHON_USEDEP}] )
-	locked? ( dev-python/schedule[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/selenium-4.32.0[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/six-1.17.0[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/sniffio-1.3.1[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/soupsieve-2.7[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/trio-0.30.0[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/trio-websocket-0.12.2[${PYTHON_USEDEP}] )
-	locked? ( dev-python/twilio[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/typing-extensions-4.13.2[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/urllib3-2.4.0[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/websocket-client-1.8.0[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/wsproto-1.2.0[${PYTHON_USEDEP}] )
-	locked? ( ~dev-python/yarl-1.20.0[${PYTHON_USEDEP}] )
-	locked? ( <dev-python/sh-2.0[${PYTHON_USEDEP}] )"
+	locked? ( ~dev-python/pysocks-1.7.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

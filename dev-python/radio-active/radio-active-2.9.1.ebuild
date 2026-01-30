@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Play and record any radio stations around the globe right from the terminal"
+DESCRIPTION="Play and record any radio stations around the globe right from the terminal [top-max 3.0.0]"
 
 HOMEPAGE="https://github.com/deep5050/radio-active"
 LICENSE="MIT"

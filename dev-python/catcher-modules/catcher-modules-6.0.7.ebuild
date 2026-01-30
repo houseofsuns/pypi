@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="airflow all ci couchbase docker elastic email kafka marketo mongodb mssql mysql oracle postgres rabbit redis s3 salesforce selenium sqlite"
+IUSE="airflow all ci couchbase docker elastic email kafka marketo mongodb mssql"
 DEPENDENCIES="dev-python/catcher[${PYTHON_USEDEP}]
 	~dev-python/arrow-1.2.3[${PYTHON_USEDEP}]
 	airflow? ( ~dev-python/cryptography-36.0.1[${PYTHON_USEDEP}] )
@@ -73,19 +73,6 @@ DEPENDENCIES="dev-python/catcher[${PYTHON_USEDEP}]
 	mongodb? ( ~dev-python/pymongo-3.12.3[${PYTHON_USEDEP}] )
 	mongodb? ( ~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}] )
 	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	mssql? ( ~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}] )
-	mysql? ( ~dev-python/cython-0.29.26[${PYTHON_USEDEP}] )
-	mysql? ( ~dev-python/pymysql-1.0.2[${PYTHON_USEDEP}] )
-	mysql? ( ~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}] )
-	oracle? ( ~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}] )
-	oracle? ( dev-python/cx-Oracle[${PYTHON_USEDEP}] )
-	postgres? ( ~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	rabbit? ( ~dev-python/pika-1.2.0[${PYTHON_USEDEP}] )
-	redis? ( ~dev-python/redis-4.1.0[${PYTHON_USEDEP}] )
-	s3? ( ~dev-python/boto3-1.24.18[${PYTHON_USEDEP}] )
-	salesforce? ( dev-python/simple-salesforce[${PYTHON_USEDEP}] )
-	selenium? ( ~dev-python/selenium-4.1.0[${PYTHON_USEDEP}] )
-	sqlite? ( ~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}] )"
+	mssql? ( ~dev-python/sqlalchemy-1.4.29[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

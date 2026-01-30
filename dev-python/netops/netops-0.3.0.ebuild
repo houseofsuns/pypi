@@ -73,9 +73,6 @@ DEPENDENCIES="~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}]
 	dev-python/textfsm[${PYTHON_USEDEP}]
 	~dev-python/transitions-0.8.11[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
-	~dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
-	dev-python/yamlordereddictloader[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]"
+	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

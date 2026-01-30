@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev pandas remote tests vector"
+IUSE="dev pandas remote tests"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
@@ -73,16 +73,6 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	tests? ( ~dev-python/pytest-mock-3.8.2[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-servers[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pytest-asyncio-0.20.3[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/mypy-0.982[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	tests? ( dev-python/dulwich[${PYTHON_USEDEP}] )
-	tests? ( dev-python/hypothesis[${PYTHON_USEDEP}] )
-	vector? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	vector? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

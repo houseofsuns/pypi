@@ -73,10 +73,6 @@ DEPENDENCIES="~dev-python/alembic-1.6.2[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.4.15[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]
-	~dev-python/vine-5.0.0[${PYTHON_USEDEP}]
-	~dev-python/wcwidth-0.2.5[${PYTHON_USEDEP}]
-	~dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
-	dev-python/wsgi-intercept[${PYTHON_USEDEP}]"
+	~dev-python/urllib3-1.26.5[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all mssql"
+IUSE=""
 DEPENDENCIES="dev-python/acryl-datahub[${PYTHON_USEDEP}]
 	~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
 	~dev-python/anyascii-0.3.2[${PYTHON_USEDEP}]
@@ -73,38 +73,6 @@ DEPENDENCIES="dev-python/acryl-datahub[${PYTHON_USEDEP}]
 	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
 	~dev-python/pydantic-2.7.1[${PYTHON_USEDEP}]
 	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/pydash[${PYTHON_USEDEP}]
-	dev-python/pygtrie[${PYTHON_USEDEP}]
-	~dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
-	~dev-python/pymongo-4.7.3[${PYTHON_USEDEP}]
-	~dev-python/pymysql-1.1.1[${PYTHON_USEDEP}]
-	~dev-python/python-jose-3.3.0[${PYTHON_USEDEP}]
-	~dev-python/pyyaml-6.0.1[${PYTHON_USEDEP}]
-	dev-python/pyahocorasick[${PYTHON_USEDEP}]
-	~dev-python/redis-3.5.3[${PYTHON_USEDEP}]
-	dev-python/requests-oauth2client[${PYTHON_USEDEP}]
-	~dev-python/requests-oauthlib-2.0.0[${PYTHON_USEDEP}]
-	~dev-python/rich-click-1.6.1[${PYTHON_USEDEP}]
-	dev-python/sendgrid[${PYTHON_USEDEP}]
-	dev-python/scylla-driver[${PYTHON_USEDEP}]
-	dev-python/slowapi[${PYTHON_USEDEP}]
-	dev-python/smart-open[${PYTHON_USEDEP}]
-	dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}]
-	~dev-python/sqlalchemy-1.4.27[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-citext[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-bigquery[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-redshift[${PYTHON_USEDEP}]
-	dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}]
-	dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}]
-	~dev-python/sshtunnel-0.4.0[${PYTHON_USEDEP}]
-	dev-python/stream-zip[${PYTHON_USEDEP}]
-	~dev-python/tinycss2-1.2.1[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/twilio[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
-	~dev-python/versioneer-0.19[${PYTHON_USEDEP}]
-	dev-python/fideslang[${PYTHON_USEDEP}]
-	mssql? ( dev-python/pymssql[${PYTHON_USEDEP}] )
-	all? ( dev-python/pymssql[${PYTHON_USEDEP}] )"
+	dev-python/pydash[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

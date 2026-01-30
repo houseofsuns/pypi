@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all mim multimodal optional tests"
+IUSE="all mim multimodal optional"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -73,26 +73,6 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	optional? ( ~dev-python/imageio-2.9.0[${PYTHON_USEDEP}] )
 	optional? ( ~dev-python/imageio-ffmpeg-0.4.2[${PYTHON_USEDEP}] )
 	optional? ( dev-python/invisible-watermark[${PYTHON_USEDEP}] )
-	optional? ( dev-python/kornia[${PYTHON_USEDEP}] )
-	optional? ( dev-python/latent-diffusion[${PYTHON_USEDEP}] )
-	optional? ( dev-python/nibabel[${PYTHON_USEDEP}] )
-	optional? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
-	optional? ( ~dev-python/pudb-2019.2[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pytorch-lightning[${PYTHON_USEDEP}] )
-	optional? ( dev-python/streamlit[${PYTHON_USEDEP}] )
-	optional? ( dev-python/taming-transformers[${PYTHON_USEDEP}] )
-	optional? ( dev-python/test-tube[${PYTHON_USEDEP}] )
-	optional? ( dev-python/timm[${PYTHON_USEDEP}] )
-	optional? ( dev-python/torch-fidelity[${PYTHON_USEDEP}] )
-	optional? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
-	optional? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ftfy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/regex[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	optional? ( dev-python/kornia[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

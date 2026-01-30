@@ -73,9 +73,6 @@ DEPENDENCIES="~dev-python/asn1crypto-1.4.0[${PYTHON_USEDEP}]
 	~dev-python/rsa-4.6[${PYTHON_USEDEP}]
 	~dev-python/s3transfer-0.3.3[${PYTHON_USEDEP}]
 	~dev-python/six-1.15.0[${PYTHON_USEDEP}]
-	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
-	~dev-python/tenacity-6.2.0[${PYTHON_USEDEP}]
-	~dev-python/thrift-0.13.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.25.10[${PYTHON_USEDEP}]"
+	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

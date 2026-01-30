@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all cli comparables dev dicom docs doctests icom mosaiq propagate tests user"
+IUSE="all cli comparables dev dicom docs doctests icom mosaiq tests user"
 DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
@@ -138,21 +138,6 @@ DEPENDENCIES="dev-python/typing-extensions[${PYTHON_USEDEP}]
 	all? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-rerunfailures[${PYTHON_USEDEP}] )
 	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	doctests? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	propagate? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyright[${PYTHON_USEDEP}] )
-	all? ( dev-python/rope[${PYTHON_USEDEP}] )
-	dev? ( dev-python/rope[${PYTHON_USEDEP}] )
-	all? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/doc8[${PYTHON_USEDEP}] )
-	all? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
-	dev? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
-	all? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	doctests? ( dev-python/tabulate[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

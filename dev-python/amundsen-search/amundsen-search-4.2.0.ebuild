@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev oidc"
+IUSE="all"
 DEPENDENCIES="~dev-python/elasticsearch-7.13.3[${PYTHON_USEDEP}]
 	dev-python/elasticsearch-dsl[${PYTHON_USEDEP}]
 	dev-python/amundsen-common[${PYTHON_USEDEP}]
@@ -73,24 +73,6 @@ DEPENDENCIES="~dev-python/elasticsearch-7.13.3[${PYTHON_USEDEP}]
 	all? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	all? ( <dev-python/mypy-0.900[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	all? ( dev-python/flaskoidc[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/mypy-0.900[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	oidc? ( dev-python/flaskoidc[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

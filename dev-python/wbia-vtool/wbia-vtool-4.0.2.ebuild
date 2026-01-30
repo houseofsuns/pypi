@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all build optional runtime tests"
+IUSE="all build optional runtime"
 DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -73,22 +73,6 @@ DEPENDENCIES="dev-python/annoy[${PYTHON_USEDEP}]
 	runtime? ( dev-python/annoy[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/networkx[${PYTHON_USEDEP}] )
 	runtime? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/six[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/wbia-pyflann[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/wbia-utool[${PYTHON_USEDEP}] )
-	tests? ( dev-python/alabaster[${PYTHON_USEDEP}] )
-	tests? ( dev-python/brunette[${PYTHON_USEDEP}] )
-	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/xdoctest[${PYTHON_USEDEP}] )"
+	runtime? ( dev-python/opencv-contrib-python-headless[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

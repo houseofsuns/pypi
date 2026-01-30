@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all docs lint test"
+IUSE="all"
 DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	~dev-python/cryptography-2.7[${PYTHON_USEDEP}]
 	dev-python/imgkit[${PYTHON_USEDEP}]
@@ -73,42 +73,6 @@ DEPENDENCIES="~dev-python/simplejson-3.16.0[${PYTHON_USEDEP}]
 	all? ( ~dev-python/numpy-1.17.2[${PYTHON_USEDEP}] )
 	all? ( ~dev-python/matplotlib-3.0.3[${PYTHON_USEDEP}] )
 	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	all? ( dev-python/findspark[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/seaborn-0.9.0[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/deprecated-1.2.5[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/setuptools-41.6.0[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/pyarrow-0.13.0[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/jinja2-2.10.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	all? ( dev-python/keras[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pygments-2.2.0[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/flask-1.0.2[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/ipython-7.5.0[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/ratelimit-2.2.1[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/humanize-0.5.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/h2o-pysparkling-2_4[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/psutil-5.7.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/backoff[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/kombu-4.6.1[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/pandas-0.24.2[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/ordered-set-3.1.1[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/deepdiff-4.0.6[${PYTHON_USEDEP}] )
-	all? ( dev-python/PyPika[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/statsmodels-0.10.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/glom[${PYTHON_USEDEP}] )
-	all? ( dev-python/singleton-decorator[${PYTHON_USEDEP}] )
-	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	all? ( dev-python/mock[${PYTHON_USEDEP}] )
-	all? ( dev-python/nose[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nose[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pep8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )"
+	all? ( dev-python/findspark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

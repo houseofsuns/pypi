@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all api dev kafka mongo_connect postgresql pubsub s3"
+IUSE="all api dev"
 DEPENDENCIES="~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
 	~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	all? ( dev-python/fastapi[${PYTHON_USEDEP}] )
@@ -73,33 +73,6 @@ DEPENDENCIES="~dev-python/pydantic-1.10.6[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/mypy-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/mypy-extensions-1.0.0[${PYTHON_USEDEP}] )
 	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pylint-2.16.4[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/click-8.1.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/isort-5.12.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/bandit-1.7.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mkdocs-1.4.2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mkdocs-autorefs-0.4.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mkdocs-material-9.0.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mkdocs-material-extensions-1.1.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mkdocstrings-0.19.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python-legacy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/testcontainers[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/typer-0.7.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/SQLAlchemy-Utils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sqlalchemy-stubs[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/httpx-0.23.3[${PYTHON_USEDEP}] )
-	kafka? ( dev-python/kafka-python[${PYTHON_USEDEP}] )
-	kafka? ( ~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}] )
-	mongo_connect? ( dev-python/motor[${PYTHON_USEDEP}] )
-	postgresql? ( ~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	pubsub? ( ~dev-python/pika-1.3.1[${PYTHON_USEDEP}] )
-	pubsub? ( ~dev-python/jsonschema-4.17.3[${PYTHON_USEDEP}] )
-	s3? ( ~dev-python/boto3-1.26.46[${PYTHON_USEDEP}] )
-	s3? ( ~dev-python/botocore-1.29.47[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/pylint-2.16.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

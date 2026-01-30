@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all deepspeed modelscope"
+IUSE="all deepspeed"
 DEPENDENCIES="dev-python/bitsandbytes[${PYTHON_USEDEP}]
 	dev-python/datasets[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
@@ -73,22 +73,6 @@ DEPENDENCIES="dev-python/bitsandbytes[${PYTHON_USEDEP}]
 	deepspeed? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	deepspeed? ( dev-python/transformers-stream-generator[${PYTHON_USEDEP}] )
 	deepspeed? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
-	deepspeed? ( dev-python/mpi4py-mpich[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/einops[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/loguru[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/mmengine[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/peft[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/torch[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/transformers-stream-generator[${PYTHON_USEDEP}] )
-	modelscope? ( dev-python/modelscope[${PYTHON_USEDEP}] )"
+	deepspeed? ( dev-python/mpi4py-mpich[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="llm nlp rnn truera_qii viz"
+IUSE="llm nlp rnn"
 DEPENDENCIES=">=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	>=dev-python/cloudpickle-3.0.0[${PYTHON_USEDEP}]
@@ -74,19 +74,6 @@ DEPENDENCIES=">=dev-python/cachetools-5.2.0[${PYTHON_USEDEP}]
 	rnn? ( >=dev-python/attrs-21.4.0[${PYTHON_USEDEP}] )
 	rnn? ( >=dev-python/boto3-1.17[${PYTHON_USEDEP}] )
 	rnn? ( dev-python/dash[${PYTHON_USEDEP}] )
-	rnn? ( dev-python/dash-bootstrap-components[${PYTHON_USEDEP}] )
-	rnn? ( >=dev-python/diskcache-5.4.0[${PYTHON_USEDEP}] )
-	rnn? ( ~dev-python/ipywidgets-7.7.2[${PYTHON_USEDEP}] )
-	rnn? ( >=dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
-	rnn? ( dev-python/jupyter-dash[${PYTHON_USEDEP}] )
-	rnn? ( >=dev-python/jupyterlab-3.0[${PYTHON_USEDEP}] )
-	rnn? ( >=dev-python/networkx-2.5.1[${PYTHON_USEDEP}] )
-	rnn? ( dev-python/progressbar[${PYTHON_USEDEP}] )
-	rnn? ( dev-python/sumtypes[${PYTHON_USEDEP}] )
-	rnn? ( >=dev-python/threadpoolctl-3.1.0[${PYTHON_USEDEP}] )
-	rnn? ( dev-python/trulens[${PYTHON_USEDEP}] )
-	truera_qii? ( dev-python/truera-qii[${PYTHON_USEDEP}] )
-	viz? ( >=dev-python/plotly-5.11.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

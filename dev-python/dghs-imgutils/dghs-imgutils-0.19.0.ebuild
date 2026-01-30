@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="demo doc gpu model test torchvision transformers"
+IUSE="demo doc gpu model test"
 DEPENDENCIES="dev-python/hbutils[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	<dev-python/numpy-2.0[${PYTHON_USEDEP}]
@@ -72,25 +72,6 @@ DEPENDENCIES="dev-python/hbutils[${PYTHON_USEDEP}]
 	test? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/flake8-3.5[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/testfixtures-6.18.5[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-xdist-1.34.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-timeout-2.0.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	test? ( dev-python/easydict[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/testtools-2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/where[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-image-diff[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/natsort[${PYTHON_USEDEP}] )
-	test? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	torchvision? ( dev-python/torch[${PYTHON_USEDEP}] )
-	torchvision? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/torch[${PYTHON_USEDEP}] )
-	transformers? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/testfixtures-6.18.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

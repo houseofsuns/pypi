@@ -73,8 +73,6 @@ DEPENDENCIES="~dev-python/dnspython-2.4.2[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
 	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
-	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.9.4[${PYTHON_USEDEP}]
-	dev-python/g4f[${PYTHON_USEDEP}]"
+	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

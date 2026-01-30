@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="openstack test zabbix"
+IUSE="openstack"
 DEPENDENCIES=">=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
 	>=dev-python/alembic-0.9.8[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-2.0.1[${PYTHON_USEDEP}]
@@ -73,19 +73,6 @@ DEPENDENCIES=">=dev-python/pbr-3.1.1[${PYTHON_USEDEP}]
 	openstack? ( >=dev-python/python-openstackclient-3.12.0[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/python-monascaclient[${PYTHON_USEDEP}] )
 	openstack? ( dev-python/python-troveclient[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/python-zaqarclient[${PYTHON_USEDEP}] )
-	openstack? ( dev-python/gnocchiclient[${PYTHON_USEDEP}] )
-	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/python-subunit-1.2.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/oslotest-3.3.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/requests-mock-1.4.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/testscenarios-0.5.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/testtools-2.3.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/stestr-2.0.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/reno-3.1.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/zake[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/webtest-3.0.0[${PYTHON_USEDEP}] )
-	zabbix? ( dev-python/pyzabbix[${PYTHON_USEDEP}] )"
+	openstack? ( dev-python/python-zaqarclient[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

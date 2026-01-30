@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="convert mitie spacy sql test"
+IUSE=""
 DEPENDENCIES=">=dev-python/requests-2.20[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.9[${PYTHON_USEDEP}]
 	~dev-python/matplotlib-3.0[${PYTHON_USEDEP}]
@@ -73,49 +73,6 @@ DEPENDENCIES=">=dev-python/requests-2.20[${PYTHON_USEDEP}]
 	dev-python/questionary[${PYTHON_USEDEP}]
 	dev-python/python-socketio[${PYTHON_USEDEP}]
 	~dev-python/python-engineio-3.14.2[${PYTHON_USEDEP}]
-	~dev-python/pydot-1.4[${PYTHON_USEDEP}]
-	dev-python/pymssql[${PYTHON_USEDEP}]
-	dev-python/async_generator[${PYTHON_USEDEP}]
-	~dev-python/sqlalchemy-1.3.0[${PYTHON_USEDEP}]
-	dev-python/sklearn-crfsuite[${PYTHON_USEDEP}]
-	~dev-python/prompt-toolkit-2.0.10[${PYTHON_USEDEP}]
-	dev-python/opentracing-instrumentation[${PYTHON_USEDEP}]
-	dev-python/psycopg2-binary[${PYTHON_USEDEP}]
-	~dev-python/prometheus-client-0.7.1[${PYTHON_USEDEP}]
-	dev-python/sanic-prometheus[${PYTHON_USEDEP}]
-	dev-python/aredis[${PYTHON_USEDEP}]
-	dev-python/aioredis[${PYTHON_USEDEP}]
-	dev-python/redis-py-cluster[${PYTHON_USEDEP}]
-	dev-python/json-logging[${PYTHON_USEDEP}]
-	dev-python/pyinstrument[${PYTHON_USEDEP}]
-	~dev-python/pyjwt-1.7[${PYTHON_USEDEP}]
-	~dev-python/gast-0.2.2[${PYTHON_USEDEP}]
-	~dev-python/cloudpickle-1.2.0[${PYTHON_USEDEP}]
-	~dev-python/h2-3.0.0[${PYTHON_USEDEP}]
-	dev-python/dopamine-rl[${PYTHON_USEDEP}]
-	~dev-python/h5py-2.10.0[${PYTHON_USEDEP}]
-	dev-python/tensorflow-hub[${PYTHON_USEDEP}]
-	dev-python/text2digits[${PYTHON_USEDEP}]
-	dev-python/aiokafka[${PYTHON_USEDEP}]
-	~dev-python/cython-0.29.28[${PYTHON_USEDEP}]
-	dev-python/ecs-logging[${PYTHON_USEDEP}]
-	convert? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
-	convert? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	mitie? ( dev-python/mitie[${PYTHON_USEDEP}] )
-	spacy? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	sql? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	sql? ( ~dev-python/sqlalchemy-1.3[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-5.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-cov-2.7[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-localserver-0.5.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sanic[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/responses-0.9.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/freezegun-0.3.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/nbsphinx-0.3[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/aioresponses-0.6.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/moto-1.3.8[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/fakeredis-1.4[${PYTHON_USEDEP}] )
-	test? ( dev-python/asynctest[${PYTHON_USEDEP}] )
-	test? ( dev-python/ecs-logging[${PYTHON_USEDEP}] )"
+	~dev-python/pydot-1.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

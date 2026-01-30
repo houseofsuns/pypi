@@ -25,7 +25,7 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 DEPENDENCIES="<dev-python/typer-0.10[${PYTHON_USEDEP}]
-	dev-python/pykeepass[${PYTHON_USEDEP}]
+	<dev-python/pykeepass-4.1[${PYTHON_USEDEP}]
 	<dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}]
 	dev-python/tableformatter[${PYTHON_USEDEP}]
 	<dev-python/attrs-23.2[${PYTHON_USEDEP}]

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs optional"
+IUSE="dev docs"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/flatten-dict[${PYTHON_USEDEP}]
 	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
@@ -73,56 +73,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/markupsafe-2.0.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-rtd-theme-0.5.1[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/recommonmark-0.7.1[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-autodoc-typehints-1.11.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-copybutton-0.3.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/kedro[${PYTHON_USEDEP}] )
-	docs? ( dev-python/kedro-datasets[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	docs? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	docs? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pandas-profiling[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	docs? ( dev-python/torch[${PYTHON_USEDEP}] )
-	docs? ( dev-python/torch-vision[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytorch-ignite[${PYTHON_USEDEP}] )
-	docs? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
-	docs? ( dev-python/requests[${PYTHON_USEDEP}] )
-	docs? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	docs? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	docs? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	docs? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pynvml[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nested-lookup[${PYTHON_USEDEP}] )
-	docs? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	docs? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
-	optional? ( dev-python/kedro[${PYTHON_USEDEP}] )
-	optional? ( dev-python/kedro-datasets[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	optional? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	optional? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pandas-profiling[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	optional? ( dev-python/torch[${PYTHON_USEDEP}] )
-	optional? ( dev-python/torch-vision[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pytorch-ignite[${PYTHON_USEDEP}] )
-	optional? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	optional? ( dev-python/opencv-contrib-python[${PYTHON_USEDEP}] )
-	optional? ( dev-python/requests[${PYTHON_USEDEP}] )
-	optional? ( dev-python/httpx[${PYTHON_USEDEP}] )
-	optional? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	optional? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	optional? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	optional? ( dev-python/scikit-image[${PYTHON_USEDEP}] )
-	optional? ( dev-python/memory-profiler[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pynvml[${PYTHON_USEDEP}] )
-	optional? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
-	optional? ( dev-python/nested-lookup[${PYTHON_USEDEP}] )
-	optional? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	optional? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/sphinx-autodoc-typehints-1.11.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

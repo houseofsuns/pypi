@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aif360 alibi aws cli databricks dbt-core deepchecks duckdb dvc evidently feature-engine google metaflow mlflow optuna prefect redshift scikit-learn snowflake sweetviz timeseries xgboost ydata-profiling yellowbrick"
+IUSE="aif360 alibi aws cli databricks dbt-core deepchecks duckdb dvc evidently feature-engine google metaflow mlflow optuna prefect redshift scikit-learn snowflake sweetviz xgboost ydata-profiling yellowbrick"
 DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	dev-python/hydra-core[${PYTHON_USEDEP}]
 	<dev-python/joblib-2.0.0[${PYTHON_USEDEP}]
@@ -81,16 +81,6 @@ DEPENDENCIES="<dev-python/pyarrow-15.0.0[${PYTHON_USEDEP}]
 	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
 	databricks? ( dev-python/databricks-sql-connector[${PYTHON_USEDEP}] )
 	aws? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
-	google? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )
-	redshift? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	cli? ( dev-python/openai[${PYTHON_USEDEP}] )
-	cli? ( dev-python/openai[${PYTHON_USEDEP}] )
-	cli? ( dev-python/cookiecutter[${PYTHON_USEDEP}] )
-	cli? ( <dev-python/typer-0.8.0[${PYTHON_USEDEP}] )
-	timeseries? ( dev-python/prophet[${PYTHON_USEDEP}] )
-	timeseries? ( dev-python/stumpy[${PYTHON_USEDEP}] )
-	alibi? ( <dev-python/protobuf-5.0[${PYTHON_USEDEP}] )
-	dev-python/llvmlite[${PYTHON_USEDEP}]
-	alibi? ( <dev-python/scikit-image-0.21[${PYTHON_USEDEP}] )"
+	google? ( dev-python/db-dtypes[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

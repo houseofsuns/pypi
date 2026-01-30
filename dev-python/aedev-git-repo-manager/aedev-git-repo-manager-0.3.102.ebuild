@@ -73,11 +73,6 @@ DEPENDENCIES="dev-python/anybadge[${PYTHON_USEDEP}]
 	tests? ( dev-python/mypy[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pylint[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-django[${PYTHON_USEDEP}] )
-	tests? ( dev-python/typing[${PYTHON_USEDEP}] )
-	tests? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	tests? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	tests? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

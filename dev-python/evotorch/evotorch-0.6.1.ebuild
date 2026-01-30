@@ -73,17 +73,6 @@ DEPENDENCIES="dev-python/cma[${PYTHON_USEDEP}]
 	dev? ( dev-python/sacred[${PYTHON_USEDEP}] )
 	dev? ( dev-python/wandb[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mike[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-gen-files[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-literate-nav[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbconvert[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	dev? ( dev-python/neptune[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sacred[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wandb[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,16 +73,6 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.7.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.28.2[${PYTHON_USEDEP}]
-	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]
-	>=dev-python/smmap-5.0.0[${PYTHON_USEDEP}]
-	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
-	dev-python/snowflake-connector-python[${PYTHON_USEDEP}]
-	dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}]
-	>=dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}]
-	>=dev-python/thrift-0.16.0[${PYTHON_USEDEP}]
-	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.26.14[${PYTHON_USEDEP}]
-	dev-python/xcrun[${PYTHON_USEDEP}]
-	dev-python/configparser[${PYTHON_USEDEP}]"
+	>=dev-python/six-1.16.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

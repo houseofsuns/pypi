@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="ai all api cudf dask db docs lint pandas spark test vaex"
+IUSE="ai all"
 DEPENDENCIES="~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.21.2[${PYTHON_USEDEP}]
 	dev-python/nltk[${PYTHON_USEDEP}]
@@ -73,33 +73,6 @@ DEPENDENCIES="~dev-python/pandas-1.3.5[${PYTHON_USEDEP}]
 	all? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	all? ( dev-python/keras[${PYTHON_USEDEP}] )
 	all? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/sqlalchemy-1.3.18[${PYTHON_USEDEP}] )
-	all? ( dev-python/flask[${PYTHON_USEDEP}] )
-	api? ( dev-python/flask[${PYTHON_USEDEP}] )
-	cudf? ( dev-python/GPUtil[${PYTHON_USEDEP}] )
-	cudf? ( ~dev-python/numpy-1.20[${PYTHON_USEDEP}] )
-	cudf? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	cudf? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dask? ( dev-python/distributed[${PYTHON_USEDEP}] )
-	dask? ( dev-python/dask-ml[${PYTHON_USEDEP}] )
-	dask? ( ~dev-python/pyarrow-1.0.1[${PYTHON_USEDEP}] )
-	dask? ( dev-python/coiled[${PYTHON_USEDEP}] )
-	dask? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
-	db? ( ~dev-python/sqlalchemy-1.3.18[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mock[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nose[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pep8[${PYTHON_USEDEP}] )
-	lint? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	pandas? ( ~dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	spark? ( dev-python/findspark[${PYTHON_USEDEP}] )
-	spark? ( dev-python/koalas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	vaex? ( dev-python/vaex[${PYTHON_USEDEP}] )"
+	all? ( ~dev-python/sqlalchemy-1.3.18[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

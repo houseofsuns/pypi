@@ -73,23 +73,6 @@ DEPENDENCIES=">=dev-python/numpy-1.7[${PYTHON_USEDEP}]
 	profile? ( dev-python/prettytable[${PYTHON_USEDEP}] )
 	profile? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	profile? ( dev-python/snakeviz[${PYTHON_USEDEP}] )
-	test? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	test? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/graphviz-0.8[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/matplotlib-1.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	test? ( dev-python/visdom[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pillow-8.3.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/seaborn-0.11.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/wget[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/scipy-1.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-21.4_beta0[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-5.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/ruff[${PYTHON_USEDEP}] )"
+	test? ( dev-python/notebook[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

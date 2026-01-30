@@ -73,24 +73,6 @@ DEPENDENCIES="dev-python/cloudpickle[${PYTHON_USEDEP}]
 	all? ( dev-python/nbdev[${PYTHON_USEDEP}] )
 	all? ( dev-python/fsspec[${PYTHON_USEDEP}] )
 	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	all? ( dev-python/dask[${PYTHON_USEDEP}] )
-	all? ( dev-python/fugue[${PYTHON_USEDEP}] )
-	all? ( dev-python/statsmodels[${PYTHON_USEDEP}] )
-	all? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	all? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	all? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	all? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/black-24.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/numpy-2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/holidays[${PYTHON_USEDEP}] )
-	all? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pandas-2.2.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/polars[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	all? ( dev-python/datasetsforecast[${PYTHON_USEDEP}] )
-	all? ( dev-python/fugue[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )"
+	all? ( dev-python/dask[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

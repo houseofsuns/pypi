@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev optional tests"
+IUSE=""
 DEPENDENCIES="dev-python/BeautifulSoup[${PYTHON_USEDEP}]
 	<dev-python/boto3-1.4.6[${PYTHON_USEDEP}]
 	<dev-python/botocore-1.5.71[${PYTHON_USEDEP}]
@@ -73,54 +73,6 @@ DEPENDENCIES="dev-python/BeautifulSoup[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-3.12[${PYTHON_USEDEP}]
 	<dev-python/qrcode-6.0.0[${PYTHON_USEDEP}]
 	dev-python/querystring-parser[${PYTHON_USEDEP}]
-	dev-python/rb[${PYTHON_USEDEP}]
-	dev-python/redis-py-cluster[${PYTHON_USEDEP}]
-	<dev-python/redis-2.10.6[${PYTHON_USEDEP}]
-	~dev-python/requests-oauthlib-0.3.3[${PYTHON_USEDEP}]
-	<dev-python/requests-2.21.0[${PYTHON_USEDEP}]
-	~dev-python/selenium-3.141.0[${PYTHON_USEDEP}]
-	dev-python/semaphore[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	<dev-python/setproctitle-1.2.0[${PYTHON_USEDEP}]
-	<dev-python/simplejson-3.9.0[${PYTHON_USEDEP}]
-	<dev-python/six-1.11.0[${PYTHON_USEDEP}]
-	<dev-python/sqlparse-0.2.0[${PYTHON_USEDEP}]
-	<dev-python/statsd-3.2.0[${PYTHON_USEDEP}]
-	>=dev-python/strict-rfc3339-0.7[${PYTHON_USEDEP}]
-	~dev-python/structlog-16.1.0[${PYTHON_USEDEP}]
-	dev-python/symbolic[${PYTHON_USEDEP}]
-	dev-python/toronado[${PYTHON_USEDEP}]
-	dev-python/ua-parser[${PYTHON_USEDEP}]
-	>=dev-python/unidiff-0.5.4[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.24.2[${PYTHON_USEDEP}]
-	dev-python/uWSGI[${PYTHON_USEDEP}]
-	dev? ( <dev-python/autopep8-1.4.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/babel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/configparser[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/flake8-3.6.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/isort-4.4.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pycodestyle-2.4.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sentry-flake8[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/docker-3.8.0[${PYTHON_USEDEP}] )
-	optional? ( dev-python/batching-kafka-consumer[${PYTHON_USEDEP}] )
-	optional? ( dev-python/confluent-kafka[${PYTHON_USEDEP}] )
-	optional? ( dev-python/maxminddb[${PYTHON_USEDEP}] )
-	optional? ( dev-python/google-cloud-bigtable[${PYTHON_USEDEP}] )
-	optional? ( dev-python/google-cloud-pubsub[${PYTHON_USEDEP}] )
-	optional? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	optional? ( <dev-python/python3-saml-1.5[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/betamax-0.9.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/blist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
-	tests? ( dev-python/casscache[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cqlsh[${PYTHON_USEDEP}] )
-	tests? ( dev-python/datadog[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/freezegun-0.3.11[${PYTHON_USEDEP}] )
-	tests? ( dev-python/msgpack-python[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pytest-timeout-1.2.1[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/pytest-xdist-1.19.0[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/responses-0.9.0[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/sqlparse-0.2.4[${PYTHON_USEDEP}] )"
+	dev-python/rb[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

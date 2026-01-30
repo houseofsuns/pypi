@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all ansi cli dev echo env full ipython log pickle pretty pth repo requests"
+IUSE="all ansi cli dev echo env full ipython"
 DEPENDENCIES="all? ( dev-python/nodeps[${PYTHON_USEDEP}] )
 	all? ( dev-python/nodeps[${PYTHON_USEDEP}] )
 	all? ( dev-python/nodeps[${PYTHON_USEDEP}] )
@@ -74,16 +74,6 @@ DEPENDENCIES="all? ( dev-python/nodeps[${PYTHON_USEDEP}] )
 	full? ( dev-python/nodeps[${PYTHON_USEDEP}] )
 	ipython? ( <dev-python/ipython-9.0[${PYTHON_USEDEP}] )
 	ipython? ( dev-python/nodeps[${PYTHON_USEDEP}] )
-	ipython? ( dev-python/pickleshare[${PYTHON_USEDEP}] )
-	log? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
-	pickle? ( <dev-python/jsonpickle-4.0[${PYTHON_USEDEP}] )
-	pickle? ( <dev-python/structlog-24.0[${PYTHON_USEDEP}] )
-	pretty? ( <dev-python/rich-14.0[${PYTHON_USEDEP}] )
-	pth? ( <dev-python/setuptools-69.0[${PYTHON_USEDEP}] )
-	repo? ( <dev-python/gitpython-4.0[${PYTHON_USEDEP}] )
-	requests? ( <dev-python/beautifulsoup4-5.0[${PYTHON_USEDEP}] )
-	requests? ( <dev-python/requests-3.0[${PYTHON_USEDEP}] )
-	requests? ( dev-python/urllib3[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

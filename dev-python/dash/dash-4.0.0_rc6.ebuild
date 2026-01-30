@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="ag-grid async celery ci cloud compress dev diskcache testing"
+IUSE="async celery ci dev diskcache testing"
 DEPENDENCIES="<dev-python/flask-3.2[${PYTHON_USEDEP}]
 	<dev-python/werkzeug-3.2[${PYTHON_USEDEP}]
 	>=dev-python/plotly-5.0.0[${PYTHON_USEDEP}]
@@ -73,10 +73,6 @@ DEPENDENCIES="<dev-python/flask-3.2[${PYTHON_USEDEP}]
 	celery? ( <dev-python/kombu-5.4.0[${PYTHON_USEDEP}] )
 	celery? ( dev-python/celery[${PYTHON_USEDEP}] )
 	diskcache? ( >=dev-python/diskcache-5.2.1[${PYTHON_USEDEP}] )
-	diskcache? ( >=dev-python/multiprocess-0.70.12[${PYTHON_USEDEP}] )
-	diskcache? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
-	compress? ( dev-python/flask-compress[${PYTHON_USEDEP}] )
-	cloud? ( dev-python/plotly-cloud[${PYTHON_USEDEP}] )
-	ag-grid? ( dev-python/dash-ag-grid[${PYTHON_USEDEP}] )"
+	diskcache? ( >=dev-python/multiprocess-0.70.12[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

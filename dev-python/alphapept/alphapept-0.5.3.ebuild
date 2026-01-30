@@ -70,21 +70,6 @@ DEPENDENCIES="dev-python/biopython[${PYTHON_USEDEP}]
 	stable? ( dev-python/biopython[${PYTHON_USEDEP}] )
 	stable? ( >=dev-python/click-7.1.2[${PYTHON_USEDEP}] )
 	stable? ( dev-python/fastcore[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/h5py-3.7.0[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/matplotlib-3.6.1[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/networkx-2.8.6[${PYTHON_USEDEP}] )
-	stable? ( dev-python/numba[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/numpy-1.20.3[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/pandas-2.0.1[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/psutil-5.9.1[${PYTHON_USEDEP}] )
-	stable? ( dev-python/pyteomics[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/pyyaml-6.0[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/scikit-learn-1.1.2[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/scipy-1.8.1[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/sqlalchemy-1.4.39[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/tables-3.6.1[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/tqdm-4.64.0[${PYTHON_USEDEP}] )
-	stable? ( dev-python/alphatims[${PYTHON_USEDEP}] )
-	stable? ( dev-python/alpharaw[${PYTHON_USEDEP}] )"
+	stable? ( ~dev-python/h5py-3.7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

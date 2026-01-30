@@ -72,11 +72,6 @@ DEPENDENCIES="dev-python/arviz[${PYTHON_USEDEP}]
 	tutorials? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	tutorials? ( >=dev-python/lxml-4.9[${PYTHON_USEDEP}] )
 	tutorials? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/mdformat[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/mdformat_myst[${PYTHON_USEDEP}] )
-	tutorials? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/tabulate[${PYTHON_USEDEP}] )
-	tutorials? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
+	tutorials? ( dev-python/mdformat[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

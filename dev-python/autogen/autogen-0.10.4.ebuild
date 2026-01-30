@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="a2a anthropic autobuild bedrock blendsearch browser-use captainagent cerebras cohere commsagent-discord commsagent-slack commsagent-telegram cosmosdb crawl4ai deepseek dev docs duckduckgo flaml gemini gemini-realtime google-api google-client google-search graph graph-rag-falkor-db groq interop interop-crewai interop-langchain interop-pydantic-ai jupyter-executor lint lmm long-context mathchat mcp mcp-proxy-gen mistral neo4j ollama openai openai-realtime rag redis retrievechat retrievechat-couchbase retrievechat-mongodb retrievechat-pgvector retrievechat-qdrant tavily teachable test together twilio types websockets websurfer wikipedia yepcode"
+IUSE="a2a anthropic autobuild bedrock blendsearch browser-use captainagent cerebras cohere commsagent-discord commsagent-slack commsagent-telegram cosmosdb crawl4ai deepseek dev docs duckduckgo flaml gemini gemini-realtime google-api google-client google-search graph graph-rag-falkor-db groq interop interop-crewai interop-langchain interop-pydantic-ai jupyter-executor lint lmm long-context mathchat mcp mcp-proxy-gen mistral neo4j ollama openai openai-realtime rag redis retrievechat retrievechat-couchbase retrievechat-mongodb retrievechat-pgvector"
 DEPENDENCIES="dev-python/ag2[${PYTHON_USEDEP}]
 	a2a? ( dev-python/ag2[${PYTHON_USEDEP}] )
 	anthropic? ( dev-python/ag2[${PYTHON_USEDEP}] )
@@ -73,17 +73,6 @@ DEPENDENCIES="dev-python/ag2[${PYTHON_USEDEP}]
 	retrievechat? ( dev-python/ag2[${PYTHON_USEDEP}] )
 	retrievechat-couchbase? ( dev-python/ag2[${PYTHON_USEDEP}] )
 	retrievechat-mongodb? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	retrievechat-pgvector? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	retrievechat-qdrant? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	tavily? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	teachable? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	test? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	together? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	twilio? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	types? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	websockets? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	websurfer? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	wikipedia? ( dev-python/ag2[${PYTHON_USEDEP}] )
-	yepcode? ( dev-python/ag2[${PYTHON_USEDEP}] )"
+	retrievechat-pgvector? ( dev-python/ag2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

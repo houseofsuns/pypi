@@ -73,7 +73,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( dev-python/pyod[${PYTHON_USEDEP}] )
 	test? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	test? ( dev-python/torch[${PYTHON_USEDEP}] )
-	test? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	test? ( dev-python/opencv-python[${PYTHON_USEDEP}] )"
+	test? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package with a built-in web application [top-max 1.8.0_pre6]"
+DESCRIPTION="A Python package with a built-in web application [top-max 1.8.0_pre33]"
 
 HOMEPAGE="https://github.com/langflow-ai/langflow"
 LICENSE="MIT"
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="cassio couchbase deploy local"
+IUSE="deploy local"
 DEPENDENCIES="dev-python/langflow-base-nightly[${PYTHON_USEDEP}]
 	<dev-python/beautifulsoup4-5.0.0[${PYTHON_USEDEP}]
 	dev-python/google-search-results[${PYTHON_USEDEP}]
@@ -72,42 +72,6 @@ DEPENDENCIES="dev-python/langflow-base-nightly[${PYTHON_USEDEP}]
 	dev-python/langchain-openai[${PYTHON_USEDEP}]
 	dev-python/zep-python[${PYTHON_USEDEP}]
 	dev-python/langchain-google-vertexai[${PYTHON_USEDEP}]
-	dev-python/langchain-groq[${PYTHON_USEDEP}]
-	dev-python/langchain-pinecone[${PYTHON_USEDEP}]
-	dev-python/langchain-mistralai[${PYTHON_USEDEP}]
-	couchbase? ( dev-python/couchbase[${PYTHON_USEDEP}] )
-	dev-python/youtube-transcript-api[${PYTHON_USEDEP}]
-	<dev-python/markdown-4.0[${PYTHON_USEDEP}]
-	dev-python/langchain-chroma[${PYTHON_USEDEP}]
-	dev-python/upstash-vector[${PYTHON_USEDEP}]
-	<dev-python/gitpython-4.0.0[${PYTHON_USEDEP}]
-	cassio? ( dev-python/cassio[${PYTHON_USEDEP}] )
-	dev-python/unstructured[${PYTHON_USEDEP}]
-	dev-python/langchain-aws[${PYTHON_USEDEP}]
-	dev-python/langchain-mongodb[${PYTHON_USEDEP}]
-	dev-python/kubernetes[${PYTHON_USEDEP}]
-	dev-python/firecrawl-py[${PYTHON_USEDEP}]
-	dev-python/json-repair[${PYTHON_USEDEP}]
-	dev-python/langchain-nvidia-ai-endpoints[${PYTHON_USEDEP}]
-	dev-python/langchain-google-calendar-tools[${PYTHON_USEDEP}]
-	dev-python/langchain-milvus[${PYTHON_USEDEP}]
-	dev-python/crewai[${PYTHON_USEDEP}]
-	dev-python/langwatch[${PYTHON_USEDEP}]
-	dev-python/langsmith[${PYTHON_USEDEP}]
-	dev-python/yfinance[${PYTHON_USEDEP}]
-	dev-python/langchain-google-community[${PYTHON_USEDEP}]
-	dev-python/wolframalpha[${PYTHON_USEDEP}]
-	dev-python/astra-assistants[${PYTHON_USEDEP}]
-	dev-python/composio-langchain[${PYTHON_USEDEP}]
-	dev-python/spider-client[${PYTHON_USEDEP}]
-	dev-python/nltk[${PYTHON_USEDEP}]
-	dev-python/bson[${PYTHON_USEDEP}]
-	<dev-python/lark-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/jq-2.0.0[${PYTHON_USEDEP}]
-	dev-python/clickhouse-connect[${PYTHON_USEDEP}]
-	dev-python/langchain-unstructured[${PYTHON_USEDEP}]
-	dev-python/pydantic-settings[${PYTHON_USEDEP}]
-	dev-python/ragstack-ai-knowledge-store[${PYTHON_USEDEP}]
-	dev-python/duckduckgo-search[${PYTHON_USEDEP}]"
+	dev-python/langchain-groq[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

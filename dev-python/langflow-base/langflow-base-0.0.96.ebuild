@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A Python package with a built-in web application [top-max 0.7.2]"
+DESCRIPTION="A Python package with a built-in web application [top-max 0.7.3]"
 
 HOMEPAGE="https://github.com/langflow-ai/langflow"
 LICENSE="MIT"
@@ -73,10 +73,6 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-70.0[${PYTHON_USEDEP}]
 	dev-python/nanoid[${PYTHON_USEDEP}]
 	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
-	dev-python/grandalf[${PYTHON_USEDEP}]
-	dev-python/crewai[${PYTHON_USEDEP}]
-	dev-python/spider-client[${PYTHON_USEDEP}]
-	<dev-python/diskcache-6.0.0[${PYTHON_USEDEP}]
-	dev-python/clickhouse-connect[${PYTHON_USEDEP}]"
+	dev-python/grandalf[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

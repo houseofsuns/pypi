@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all asana bigquery_preview dev jira oidc pyarrow"
+IUSE="all"
 DEPENDENCIES="~dev-python/responses-0.12.1[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.3.23[${PYTHON_USEDEP}]
 	<dev-python/retrying-2.0[${PYTHON_USEDEP}]
@@ -72,37 +72,6 @@ DEPENDENCIES="~dev-python/responses-0.12.1[${PYTHON_USEDEP}]
 	all? ( ~dev-python/wheel-0.38.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
 	all? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
-	all? ( <dev-python/mypy-0.900[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	all? ( dev-python/flaskoidc[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
-	all? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
-	all? ( dev-python/jira[${PYTHON_USEDEP}] )
-	all? ( dev-python/asana[${PYTHON_USEDEP}] )
-	asana? ( dev-python/asana[${PYTHON_USEDEP}] )
-	bigquery_preview? ( dev-python/google-cloud-bigquery[${PYTHON_USEDEP}] )
-	bigquery_preview? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-tidy-imports[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/mypy-0.900[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-cov-2.12.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-env-0.6.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/typed-ast[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	jira? ( dev-python/jira[${PYTHON_USEDEP}] )
-	oidc? ( dev-python/flaskoidc[${PYTHON_USEDEP}] )
-	pyarrow? ( ~dev-python/pyarrow-3.0.0[${PYTHON_USEDEP}] )"
+	all? ( ~dev-python/isort-5.8.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

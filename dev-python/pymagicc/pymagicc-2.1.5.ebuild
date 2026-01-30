@@ -73,10 +73,6 @@ DEPENDENCIES="dev-python/pandas-datapackage-reader[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
 	tests? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/goodtables[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

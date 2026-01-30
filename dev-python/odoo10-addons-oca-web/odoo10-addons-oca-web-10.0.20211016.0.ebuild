@@ -74,16 +74,6 @@ DEPENDENCIES="dev-python/odoo10-addon-help-online[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-web-widget-domain-v11[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-web-widget-float-formula[${PYTHON_USEDEP}]
 	dev-python/odoo10-addon-web-widget-image-download[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-widget-image-webcam[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-widget-many2many-tags-multi-selection[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-widget-mermaid[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-widget-slick[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-widget-slick-example[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-widget-slickroom[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-widget-text-markdown[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-widget-timepicker[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-widget-x2many-2d-matrix[${PYTHON_USEDEP}]
-	dev-python/odoo10-addon-web-x2many-delete-all[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,26 +73,6 @@ DEPENDENCIES=">=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
 	all? ( dev-python/geopandas[${PYTHON_USEDEP}] )
 	all? ( dev-python/geoviews[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/fsspec-2024.3.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	all? ( dev-python/zarr[${PYTHON_USEDEP}] )
-	all? ( dev-python/netcdf4[${PYTHON_USEDEP}] )
-	all? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	all? ( dev-python/mercantile[${PYTHON_USEDEP}] )
-	all? ( dev-python/odc-stac[${PYTHON_USEDEP}] )
-	all? ( dev-python/pystac-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/pystac[${PYTHON_USEDEP}] )
-	all? ( dev-python/torch[${PYTHON_USEDEP}] )
-	all? ( dev-python/torchmetrics[${PYTHON_USEDEP}] )
-	all? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	all? ( dev-python/joblib[${PYTHON_USEDEP}] )
-	all? ( dev-python/huggingface-hub[${PYTHON_USEDEP}] )
-	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	all? ( dev-python/easyocr[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/selenium-4.23.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/undetected-chromedriver[${PYTHON_USEDEP}] )
-	all? ( dev-python/paddlepaddle[${PYTHON_USEDEP}] )
-	all? ( dev-python/paddleocr[${PYTHON_USEDEP}] )
-	all? ( dev-python/webdriver-manager[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/fsspec-2024.3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev ja notebooks"
+IUSE="all"
 DEPENDENCIES=">=dev-python/cython-0.29.30[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.11.2[${PYTHON_USEDEP}]
 	dev-python/torch[${PYTHON_USEDEP}]
@@ -71,15 +71,6 @@ DEPENDENCIES=">=dev-python/cython-0.29.30[${PYTHON_USEDEP}]
 	all? ( dev-python/bokeh[${PYTHON_USEDEP}] )
 	all? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )
 	all? ( dev-python/unidic-lite[${PYTHON_USEDEP}] )
-	all? ( dev-python/cutlet[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nose2[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pylint-2.10.2[${PYTHON_USEDEP}] )
-	ja? ( dev-python/mecab-python3[${PYTHON_USEDEP}] )
-	ja? ( dev-python/unidic-lite[${PYTHON_USEDEP}] )
-	ja? ( dev-python/cutlet[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/bokeh[${PYTHON_USEDEP}] )"
+	all? ( dev-python/cutlet[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

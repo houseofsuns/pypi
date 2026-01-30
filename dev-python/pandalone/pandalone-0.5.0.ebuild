@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev doc excel pandas test xlrd"
+IUSE="all dev doc excel pandas test"
 DEPENDENCIES="dev-python/toolz[${PYTHON_USEDEP}]
 	>=dev-python/jsonschema-3.0.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
@@ -70,17 +70,6 @@ DEPENDENCIES="dev-python/toolz[${PYTHON_USEDEP}]
 	excel? ( dev-python/easygui[${PYTHON_USEDEP}] )
 	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/sphinx-1.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/easygui[${PYTHON_USEDEP}] )
-	test? ( dev-python/xlrd[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sphinx[${PYTHON_USEDEP}] )
-	test? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	test? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	test? ( dev-python/docopt[${PYTHON_USEDEP}] )
-	test? ( dev-python/ddt[${PYTHON_USEDEP}] )
-	test? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
-	xlrd? ( dev-python/xlrd[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pandas[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

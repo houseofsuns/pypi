@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="mssql"
+IUSE=""
 DEPENDENCIES="~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
 	~dev-python/apscheduler-3.9.1_p1[${PYTHON_USEDEP}]
 	dev-python/asyncpg[${PYTHON_USEDEP}]
@@ -73,8 +73,6 @@ DEPENDENCIES="~dev-python/alembic-1.8.1[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	dev-python/twilio[${PYTHON_USEDEP}]
 	~dev-python/unidecode-1.3.4[${PYTHON_USEDEP}]
-	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
-	~dev-python/versioneer-0.19[${PYTHON_USEDEP}]
-	mssql? ( dev-python/pyodbc[${PYTHON_USEDEP}] )"
+	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

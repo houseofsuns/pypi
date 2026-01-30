@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all cli filehelper jenkinshelper loghelper server"
+IUSE="all cli filehelper jenkinshelper loghelper"
 DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.16.0[${PYTHON_USEDEP}]
 	dev-python/pyquicksetup[${PYTHON_USEDEP}]
@@ -73,7 +73,6 @@ DEPENDENCIES="dev-python/fire[${PYTHON_USEDEP}]
 	filehelper? ( dev-python/keyrings-cryptfile[${PYTHON_USEDEP}] )
 	jenkinshelper? ( dev-python/python-jenkins[${PYTHON_USEDEP}] )
 	jenkinshelper? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	loghelper? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	server? ( dev-python/fastapi[${PYTHON_USEDEP}] )"
+	loghelper? ( dev-python/psutil[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

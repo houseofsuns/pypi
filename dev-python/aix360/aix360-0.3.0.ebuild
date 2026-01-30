@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="cofrnet contrastive default dipvae gce imd lime nncontrastive profwt protodash rbm rule_induction shap ted tsice tslime tssaliency"
+IUSE="cofrnet contrastive default dipvae gce imd lime nncontrastive profwt protodash rbm"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/scikit-learn[${PYTHON_USEDEP}]
@@ -73,34 +73,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	rbm? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
 	rbm? ( <=dev-python/scipy-1.10.1[${PYTHON_USEDEP}] )
 	rbm? ( <dev-python/scikit-learn-1.2.0[${PYTHON_USEDEP}] )
-	rbm? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
-	rbm? ( <=dev-python/numpy-1.24.3[${PYTHON_USEDEP}] )
-	rule_induction? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	rule_induction? ( dev-python/numba[${PYTHON_USEDEP}] )
-	rule_induction? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
-	rule_induction? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	rule_induction? ( dev-python/nyoka[${PYTHON_USEDEP}] )
-	rule_induction? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
-	rule_induction? ( ~dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}] )
-	shap? ( dev-python/keras[${PYTHON_USEDEP}] )
-	shap? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	shap? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	shap? ( dev-python/numba[${PYTHON_USEDEP}] )
-	shap? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
-	shap? ( dev-python/shap[${PYTHON_USEDEP}] )
-	shap? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	ted? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	ted? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	tsice? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
-	tsice? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	tsice? ( dev-python/plotly[${PYTHON_USEDEP}] )
-	tsice? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	tsice? ( dev-python/kaleido[${PYTHON_USEDEP}] )
-	tsice? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tslime? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
-	tslime? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	tslime? ( dev-python/requests[${PYTHON_USEDEP}] )
-	tssaliency? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )
-	tssaliency? ( dev-python/requests[${PYTHON_USEDEP}] )"
+	rbm? ( dev-python/cvxpy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

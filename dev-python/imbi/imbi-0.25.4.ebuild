@@ -73,7 +73,6 @@ DEPENDENCIES="dev-python/aioboto3[${PYTHON_USEDEP}]
 	testing? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-quotes[${PYTHON_USEDEP}] )
 	testing? ( dev-python/flake8-rst-docstrings[${PYTHON_USEDEP}] )
-	testing? ( dev-python/flake8-tuple[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/flake8-tuple[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

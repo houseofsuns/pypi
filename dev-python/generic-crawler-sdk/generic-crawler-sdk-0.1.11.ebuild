@@ -73,8 +73,6 @@ DEPENDENCIES="~dev-python/argcomplete-1.12.3[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.2.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.9[${PYTHON_USEDEP}]
 	~dev-python/validators-0.20.0[${PYTHON_USEDEP}]
-	~dev-python/virtualenv-20.14.1[${PYTHON_USEDEP}]
-	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.8.0[${PYTHON_USEDEP}]"
+	~dev-python/virtualenv-20.14.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

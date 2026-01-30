@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all ansible aws blackduck cdk cfn-nag clang common conan containers cpp cppcheck data docker file git go golang gpg orchestration patch perl pipenv pytest python s3 security service setuptools shell snyk source tar tests yaml"
+IUSE="all ansible blackduck cdk cfn-nag clang conan cppcheck docker file git golang gpg patch perl pipenv pytest s3 setuptools snyk tar yaml"
 DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
@@ -74,45 +74,6 @@ DEPENDENCIES="dev-python/requests[${PYTHON_USEDEP}]
 	all? ( dev-python/octo-pipeline-backend-cdk-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/octo-pipeline-backend-cppcheck-python[${PYTHON_USEDEP}] )
 	all? ( dev-python/octo-pipeline-backend-perl-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/octo-pipeline-backend-gpg-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/octo-pipeline-backend-pytest-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/octo-pipeline-backend-pipenv-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/octo-pipeline-backend-cfn-nag-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/octo-pipeline-backend-s3-python[${PYTHON_USEDEP}] )
-	orchestration? ( dev-python/octo-pipeline-backend-ansible-python[${PYTHON_USEDEP}] )
-	orchestration? ( dev-python/octo-pipeline-backend-yaml-python[${PYTHON_USEDEP}] )
-	security? ( dev-python/octo-pipeline-backend-blackduck-python[${PYTHON_USEDEP}] )
-	security? ( dev-python/octo-pipeline-backend-cfn-nag-python[${PYTHON_USEDEP}] )
-	security? ( dev-python/octo-pipeline-backend-gpg-python[${PYTHON_USEDEP}] )
-	security? ( dev-python/octo-pipeline-backend-snyk-python[${PYTHON_USEDEP}] )
-	cpp? ( dev-python/octo-pipeline-backend-blackduck-python[${PYTHON_USEDEP}] )
-	cpp? ( dev-python/octo-pipeline-backend-clang-python[${PYTHON_USEDEP}] )
-	cpp? ( dev-python/octo-pipeline-backend-conan-python[${PYTHON_USEDEP}] )
-	cpp? ( dev-python/octo-pipeline-backend-cppcheck-python[${PYTHON_USEDEP}] )
-	cpp? ( dev-python/octo-pipeline-backend-patch-python[${PYTHON_USEDEP}] )
-	cpp? ( dev-python/octo-pipeline-backend-setuptools-python[${PYTHON_USEDEP}] )
-	python? ( dev-python/octo-pipeline-backend-cdk-python[${PYTHON_USEDEP}] )
-	python? ( dev-python/octo-pipeline-backend-cfn-nag-python[${PYTHON_USEDEP}] )
-	python? ( dev-python/octo-pipeline-backend-pipenv-python[${PYTHON_USEDEP}] )
-	python? ( dev-python/octo-pipeline-backend-pytest-python[${PYTHON_USEDEP}] )
-	python? ( dev-python/octo-pipeline-backend-setuptools-python[${PYTHON_USEDEP}] )
-	python? ( dev-python/octo-pipeline-backend-snyk-python[${PYTHON_USEDEP}] )
-	service? ( dev-python/octo-pipeline-backend-cdk-python[${PYTHON_USEDEP}] )
-	service? ( dev-python/octo-pipeline-backend-cfn-nag-python[${PYTHON_USEDEP}] )
-	service? ( dev-python/octo-pipeline-backend-pipenv-python[${PYTHON_USEDEP}] )
-	service? ( dev-python/octo-pipeline-backend-pytest-python[${PYTHON_USEDEP}] )
-	service? ( dev-python/octo-pipeline-backend-setuptools-python[${PYTHON_USEDEP}] )
-	service? ( dev-python/octo-pipeline-backend-snyk-python[${PYTHON_USEDEP}] )
-	containers? ( dev-python/octo-pipeline-backend-docker-python[${PYTHON_USEDEP}] )
-	common? ( dev-python/octo-pipeline-backend-file-python[${PYTHON_USEDEP}] )
-	common? ( dev-python/octo-pipeline-backend-gpg-python[${PYTHON_USEDEP}] )
-	common? ( dev-python/octo-pipeline-backend-tar-python[${PYTHON_USEDEP}] )
-	source? ( dev-python/octo-pipeline-backend-git-python[${PYTHON_USEDEP}] )
-	go? ( dev-python/octo-pipeline-backend-golang-python[${PYTHON_USEDEP}] )
-	shell? ( dev-python/octo-pipeline-backend-perl-python[${PYTHON_USEDEP}] )
-	tests? ( dev-python/octo-pipeline-backend-pytest-python[${PYTHON_USEDEP}] )
-	data? ( dev-python/octo-pipeline-backend-s3-python[${PYTHON_USEDEP}] )
-	aws? ( dev-python/octo-pipeline-backend-s3-python[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

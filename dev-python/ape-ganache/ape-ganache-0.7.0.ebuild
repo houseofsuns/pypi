@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev doc lint release test"
+IUSE="dev doc lint"
 DEPENDENCIES="dev-python/eth-ape[${PYTHON_USEDEP}]
 	dev-python/evm-trace[${PYTHON_USEDEP}]
 	dev-python/ethpm-types[${PYTHON_USEDEP}]
@@ -73,26 +73,6 @@ DEPENDENCIES="dev-python/eth-ape[${PYTHON_USEDEP}]
 	lint? ( <dev-python/black-24.0[${PYTHON_USEDEP}] )
 	lint? ( <dev-python/mypy-2.0[${PYTHON_USEDEP}] )
 	lint? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	lint? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	lint? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	lint? ( <dev-python/flake8-7.0[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-breakpoint[${PYTHON_USEDEP}] )
-	lint? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
-	lint? ( <dev-python/isort-6.0[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mdformat[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mdformat-gfm[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mdformat_frontmatter[${PYTHON_USEDEP}] )
-	lint? ( dev-python/mdformat_pyproject[${PYTHON_USEDEP}] )
-	release? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	release? ( dev-python/setuptools-scm[${PYTHON_USEDEP}] )
-	release? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	release? ( dev-python/twine[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/ape-alchemy[${PYTHON_USEDEP}] )
-	test? ( dev-python/ape-ens[${PYTHON_USEDEP}] )
-	test? ( dev-python/ape-polygon[${PYTHON_USEDEP}] )"
+	lint? ( dev-python/types-requests[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

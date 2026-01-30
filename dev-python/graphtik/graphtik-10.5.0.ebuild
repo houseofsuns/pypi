@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev dill matplot plot sphinx test"
+IUSE="all dev dill matplot plot"
 DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
 	dev-python/networkx[${PYTHON_USEDEP}]
 	all? ( dev-python/pydot[${PYTHON_USEDEP}] )
@@ -67,26 +67,6 @@ DEPENDENCIES="dev-python/boltons[${PYTHON_USEDEP}]
 	matplot? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
 	matplot? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
 	matplot? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	plot? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	plot? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
-	plot? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	sphinx? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
-	sphinx? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	sphinx? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydot[${PYTHON_USEDEP}] )
-	test? ( dev-python/html5lib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sugar[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/sphinx-2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/markupsafe[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-sphinx[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/jinja2-3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/readme-renderer[${PYTHON_USEDEP}] )
-	test? ( dev-python/dill[${PYTHON_USEDEP}] )"
+	plot? ( dev-python/pydot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

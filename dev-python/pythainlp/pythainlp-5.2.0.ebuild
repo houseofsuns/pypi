@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="abbreviation attacut benchmarks budoux compact coreference-resolution dependency-parsing el esupar full generate icu ipa ml mt5 nlpo3 onnx oskut sefr-cut spacy-thai spell ssg textaugment thai-nner thai2fit thai2rom transformers-ud translate wangchanberta wangchanglm word-approximation wordnet wsd wtp wunsen"
+IUSE="abbreviation attacut benchmarks budoux coreference-resolution dependency-parsing el esupar generate icu ipa ml mt5 nlpo3 onnx oskut sefr-cut spacy-thai spell ssg textaugment thai-nner thai2fit thai2rom translate"
 DEPENDENCIES=">=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24[${PYTHON_USEDEP}]
@@ -70,62 +70,6 @@ DEPENDENCIES=">=dev-python/requests-2.31[${PYTHON_USEDEP}]
 	budoux? ( dev-python/budoux[${PYTHON_USEDEP}] )
 	translate? ( dev-python/fairseq-fixed[${PYTHON_USEDEP}] )
 	translate? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	translate? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	translate? ( dev-python/torch[${PYTHON_USEDEP}] )
-	translate? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	translate? ( dev-python/word2word[${PYTHON_USEDEP}] )
-	transformers-ud? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	transformers-ud? ( dev-python/ufal-chu-liu-edmonds[${PYTHON_USEDEP}] )
-	wangchanberta? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	wangchanberta? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	wangchanglm? ( >=dev-python/pandas-0.24[${PYTHON_USEDEP}] )
-	wangchanglm? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	wangchanglm? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	word-approximation? ( dev-python/panphon[${PYTHON_USEDEP}] )
-	wordnet? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	wsd? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	wtp? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	wtp? ( dev-python/wtpsplit[${PYTHON_USEDEP}] )
-	wunsen? ( dev-python/wunsen[${PYTHON_USEDEP}] )
-	compact? ( >=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )
-	compact? ( dev-python/nlpo3[${PYTHON_USEDEP}] )
-	compact? ( >=dev-python/numpy-1.22[${PYTHON_USEDEP}] )
-	compact? ( >=dev-python/pyicu-2.3[${PYTHON_USEDEP}] )
-	compact? ( dev-python/python-crfsuite[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/pyyaml-5.4.1[${PYTHON_USEDEP}] )
-	full? ( dev-python/attacut[${PYTHON_USEDEP}] )
-	full? ( dev-python/bpemb[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/emoji-0.5.1[${PYTHON_USEDEP}] )
-	full? ( dev-python/epitran[${PYTHON_USEDEP}] )
-	full? ( dev-python/fairseq-fixed[${PYTHON_USEDEP}] )
-	full? ( dev-python/fastai[${PYTHON_USEDEP}] )
-	full? ( dev-python/fastcoref[${PYTHON_USEDEP}] )
-	full? ( dev-python/gensim[${PYTHON_USEDEP}] )
-	full? ( dev-python/khamyo[${PYTHON_USEDEP}] )
-	full? ( dev-python/nlpo3[${PYTHON_USEDEP}] )
-	full? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/numpy-1.22[${PYTHON_USEDEP}] )
-	full? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	full? ( dev-python/OSKut[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/pandas-0.24[${PYTHON_USEDEP}] )
-	full? ( dev-python/panphon[${PYTHON_USEDEP}] )
-	full? ( dev-python/phunspell[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/pyicu-2.3[${PYTHON_USEDEP}] )
-	full? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	full? ( dev-python/SEFR-CUT[${PYTHON_USEDEP}] )
-	full? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	full? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	full? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	full? ( dev-python/spacy-thai[${PYTHON_USEDEP}] )
-	full? ( dev-python/ssg[${PYTHON_USEDEP}] )
-	full? ( dev-python/symspellpy[${PYTHON_USEDEP}] )
-	full? ( dev-python/thai-nner[${PYTHON_USEDEP}] )
-	full? ( dev-python/torch[${PYTHON_USEDEP}] )
-	full? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	full? ( dev-python/ufal-chu-liu-edmonds[${PYTHON_USEDEP}] )
-	full? ( dev-python/wtpsplit[${PYTHON_USEDEP}] )
-	full? ( dev-python/wunsen[${PYTHON_USEDEP}] )
-	full? ( dev-python/word2word[${PYTHON_USEDEP}] )
-	full? ( dev-python/budoux[${PYTHON_USEDEP}] )"
+	translate? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

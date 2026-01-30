@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="docs test"
+IUSE="test"
 DEPENDENCIES="dev-python/grokcore-annotation[${PYTHON_USEDEP}]
 	dev-python/grokcore-catalog[${PYTHON_USEDEP}]
 	dev-python/grokcore-chameleon[${PYTHON_USEDEP}]
@@ -73,9 +73,6 @@ DEPENDENCIES="dev-python/grokcore-annotation[${PYTHON_USEDEP}]
 	dev-python/zope-traversing[${PYTHON_USEDEP}]
 	test? ( dev-python/zope-app-wsgi[${PYTHON_USEDEP}] )
 	test? ( dev-python/zope-configuration[${PYTHON_USEDEP}] )
-	test? ( dev-python/zope-testbrowser[${PYTHON_USEDEP}] )
-	test? ( dev-python/zope-testing[${PYTHON_USEDEP}] )
-	test? ( dev-python/zope-testrunner[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+	test? ( dev-python/zope-testbrowser[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="build data default developer docs optional test"
+IUSE="build data default developer docs optional"
 DEPENDENCIES=">=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.8[${PYTHON_USEDEP}]
@@ -71,19 +71,6 @@ DEPENDENCIES=">=dev-python/numpy-1.21.1[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/plotly-5.10[${PYTHON_USEDEP}] )
 	docs? ( dev-python/kaleido[${PYTHON_USEDEP}] )
 	optional? ( dev-python/SimpleITK[${PYTHON_USEDEP}] )
-	optional? ( dev-python/astropy[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/cloudpickle-0.2.1[${PYTHON_USEDEP}] )
-	optional? ( dev-python/dask[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
-	optional? ( >=dev-python/pooch-1.3.0[${PYTHON_USEDEP}] )
-	optional? ( dev-python/pyamg[${PYTHON_USEDEP}] )
-	test? ( dev-python/asv[${PYTHON_USEDEP}] )
-	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/matplotlib-3.3[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pooch-1.3.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-5.2.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.7.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-localserver[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-faulthandler[${PYTHON_USEDEP}] )"
+	optional? ( dev-python/astropy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

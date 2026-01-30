@@ -74,12 +74,6 @@ DEPENDENCIES="<dev-python/markdown-4.0.0[${PYTHON_USEDEP}]
 	gateway? ( <dev-python/requests-3.0.0[${PYTHON_USEDEP}] )
 	gateway? ( dev-python/schedule[${PYTHON_USEDEP}] )
 	cloud? ( <dev-python/scipy-2.0.0[${PYTHON_USEDEP}] )
-	gateway? ( <dev-python/six-2.0.0[${PYTHON_USEDEP}] )
-	ml? ( dev-python/sklearn[${PYTHON_USEDEP}] )
-	dev-python/streamlit[${PYTHON_USEDEP}]
-	dev-python/streamlit-aggrid[${PYTHON_USEDEP}]
-	<dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	gateway? ( <dev-python/transitions-0.9.0[${PYTHON_USEDEP}] )
-	ml? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
+	gateway? ( <dev-python/six-2.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

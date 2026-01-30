@@ -73,7 +73,6 @@ DEPENDENCIES="~dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
 	ipynb? ( dev-python/traitlets[${PYTHON_USEDEP}] )
 	ldap? ( dev-python/ldap3[${PYTHON_USEDEP}] )
 	oauth? ( dev-python/requests-oauthlib[${PYTHON_USEDEP}] )
-	pdf? ( dev-python/PyPDF2[${PYTHON_USEDEP}] )
-	pdf? ( ~dev-python/wand-0.6.7[${PYTHON_USEDEP}] )"
+	pdf? ( dev-python/PyPDF2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

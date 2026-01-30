@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="datatrace debug dev pytest-inmanta-extensions tracing"
+IUSE="dev"
 DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	~dev-python/build-1.0[${PYTHON_USEDEP}]
 	~dev-python/click-plugins-1.0[${PYTHON_USEDEP}]
@@ -73,15 +73,6 @@ DEPENDENCIES="dev-python/asyncpg[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx-autodoc-annotation[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-contentui[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-datatemplates[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-redoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-substitution-extensions[${PYTHON_USEDEP}] )
-	debug? ( dev-python/rpdb[${PYTHON_USEDEP}] )
-	pytest-inmanta-extensions? ( dev-python/pytest-inmanta-extensions[${PYTHON_USEDEP}] )
-	datatrace? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	tracing? ( dev-python/logfire[${PYTHON_USEDEP}] )
-	tracing? ( dev-python/opentelemetry-instrumentation-asyncpg[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/sphinxcontrib-datatemplates[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

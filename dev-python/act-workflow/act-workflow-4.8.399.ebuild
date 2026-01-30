@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev"
+IUSE=""
 DEPENDENCIES="~dev-python/aiohappyeyeballs-2.4.3[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.10.10[${PYTHON_USEDEP}]
 	~dev-python/aiosignal-1.3.1[${PYTHON_USEDEP}]
@@ -73,16 +73,6 @@ DEPENDENCIES="~dev-python/aiohappyeyeballs-2.4.3[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.66.5[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.15.4[${PYTHON_USEDEP}]
-	dev-python/slack-sdk[${PYTHON_USEDEP}]
-	>=dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
-	~dev-python/tabulate-0.9.0[${PYTHON_USEDEP}]
-	>=dev-python/psutil-5.8.0[${PYTHON_USEDEP}]
-	dev-python/anthropic[${PYTHON_USEDEP}]
-	dev-python/neo4j[${PYTHON_USEDEP}]
-	~dev-python/boto3-1.37.6[${PYTHON_USEDEP}]
-	dev? ( >=dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/mypy-0.910[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )"
+	~dev-python/yarl-1.15.4[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

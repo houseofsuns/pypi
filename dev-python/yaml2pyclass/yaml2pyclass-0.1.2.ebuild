@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev docs test"
+IUSE="all dev docs"
 DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	all? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/black-20.1.0[${PYTHON_USEDEP}] )
@@ -73,18 +73,6 @@ DEPENDENCIES="dev-python/pyyaml[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/ipython-genutils-0.1.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
 	docs? ( dev-python/mkdocs-bibtex[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/nbconvert-6.4.2[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/numpydoc-1.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/jinja2-3.0.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/black-20.1.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/isort-5.9.3[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/mypy-0.761[${PYTHON_USEDEP}] )
-	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-4.5.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pyupgrade-3.2.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )"
+	docs? ( ~dev-python/nbconvert-6.4.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all amazon apache-hive apache-livy cncf-kubernetes databricks dbt-cloud docs google http microsoft-azure mypy openlineage sftp snowflake tests"
+IUSE="all amazon apache-hive apache-livy cncf-kubernetes databricks dbt-cloud docs google http microsoft-azure mypy"
 DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	dev-python/Flask-Session[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
@@ -73,38 +73,6 @@ DEPENDENCIES="dev-python/apache-airflow[${PYTHON_USEDEP}]
 	microsoft-azure? ( dev-python/apache-airflow-providers-microsoft-azure[${PYTHON_USEDEP}] )
 	mypy? ( >=dev-python/mypy-0.950[${PYTHON_USEDEP}] )
 	mypy? ( dev-python/types-aiofiles[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-boto[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-certifi[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-croniter[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-freezegun[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-paramiko[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-python-slugify[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-redis[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-termcolor[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-toml[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-Markdown[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-PyMySQL[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	mypy? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	openlineage? ( dev-python/openlineage-airflow[${PYTHON_USEDEP}] )
-	sftp? ( dev-python/apache-airflow-providers-sftp[${PYTHON_USEDEP}] )
-	sftp? ( >=dev-python/asyncssh-2.12.0[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/apache-airflow-providers-snowflake[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/aioresponses[${PYTHON_USEDEP}] )
-	tests? ( dev-python/asynctest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
+	mypy? ( dev-python/types-boto[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

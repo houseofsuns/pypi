@@ -73,12 +73,6 @@ DEPENDENCIES=">=dev-python/gitpython-3.0.0[${PYTHON_USEDEP}]
 	serving? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	serving? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
 	test? ( dev-python/credstash[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycryptodomex[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	test? ( dev-python/sh[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

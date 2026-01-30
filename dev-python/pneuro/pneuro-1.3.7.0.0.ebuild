@@ -73,8 +73,6 @@ DEPENDENCIES="~dev-python/apscheduler-3.6.3[${PYTHON_USEDEP}]
 	examples? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
 	examples? ( dev-python/seaborn[${PYTHON_USEDEP}] )
 	examples_unix? ( dev-python/fanova[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

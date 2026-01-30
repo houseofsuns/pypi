@@ -74,12 +74,6 @@ DEPENDENCIES="dev-python/antspyx[${PYTHON_USEDEP}]
 	~dev-python/tenacity-8.4.1[${PYTHON_USEDEP}]
 	~dev-python/threadpoolctl-3.5.0[${PYTHON_USEDEP}]
 	~dev-python/tifffile-2024.6.18[${PYTHON_USEDEP}]
-	~dev-python/tqdm-4.66.4[${PYTHON_USEDEP}]
-	dev-python/trx-python[${PYTHON_USEDEP}]
-	~dev-python/tzdata-2024.1[${PYTHON_USEDEP}]
-	~dev-python/urllib3-2.2.2[${PYTHON_USEDEP}]
-	~dev-python/webcolors-24.6.0[${PYTHON_USEDEP}]
-	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

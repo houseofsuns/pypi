@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev docs ext http3 test"
+IUSE="dev docs test"
 DEPENDENCIES="dev-python/sanic-routing[${PYTHON_USEDEP}]
 	>=dev-python/httptools-0.0.10[${PYTHON_USEDEP}]
 	>=dev-python/uvloop-0.15.0[${PYTHON_USEDEP}]
@@ -73,48 +73,6 @@ DEPENDENCIES="dev-python/sanic-routing[${PYTHON_USEDEP}]
 	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
 	dev? ( dev-python/towncrier[${PYTHON_USEDEP}] )
 	docs? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	docs? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/mistune-2.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	docs? ( dev-python/msgspec[${PYTHON_USEDEP}] )
-	docs? ( dev-python/python-frontmatter[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
-	docs? ( dev-python/libsass[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	all? ( dev-python/msgspec[${PYTHON_USEDEP}] )
-	all? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/chardet-3.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/slotscheck[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )
-	all? ( dev-python/docstring_parser[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/mistune-2.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/tox[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-xdist-3.5.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	all? ( dev-python/enum-tools[${PYTHON_USEDEP}] )
-	all? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/libsass[${PYTHON_USEDEP}] )
-	all? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	all? ( dev-python/uvicorn[${PYTHON_USEDEP}] )
-	all? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-8.2.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/autodocsumm[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
-	all? ( dev-python/sanic-testing[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-frontmatter[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	all? ( dev-python/towncrier[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-sanic[${PYTHON_USEDEP}] )
-	all? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	all? ( dev-python/pygments[${PYTHON_USEDEP}] )
-	ext? ( dev-python/sanic-ext[${PYTHON_USEDEP}] )
-	http3? ( dev-python/aioquic[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/sphinx-rtd-theme-0.4.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

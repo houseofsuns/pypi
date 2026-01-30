@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aws-batch dev gcp-batch kfp kubernetes ray"
+IUSE="aws-batch dev"
 DEPENDENCIES="dev-python/pyre-extensions[${PYTHON_USEDEP}]
 	dev-python/docstring_parser[${PYTHON_USEDEP}]
 	dev-python/importlib-metadata[${PYTHON_USEDEP}]
@@ -73,12 +73,6 @@ DEPENDENCIES="dev-python/pyre-extensions[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/grpcio-status-1.48.1[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/googleapis-common-protos-1.63.0[${PYTHON_USEDEP}] )
 	dev? ( ~dev-python/google-api-core-2.18.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}] )
-	gcp-batch? ( dev-python/google-cloud-batch[${PYTHON_USEDEP}] )
-	gcp-batch? ( dev-python/google-cloud-logging[${PYTHON_USEDEP}] )
-	gcp-batch? ( dev-python/google-cloud-runtimeconfig[${PYTHON_USEDEP}] )
-	kfp? ( dev-python/kfp[${PYTHON_USEDEP}] )
-	kubernetes? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	ray? ( dev-python/ray[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/protobuf-3.20.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

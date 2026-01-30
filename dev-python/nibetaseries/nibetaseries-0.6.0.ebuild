@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all binder dev doc docs nb test tests"
+IUSE="all binder dev doc docs"
 DEPENDENCIES="dev-python/nipype[${PYTHON_USEDEP}]
 	dev-python/pybids[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
@@ -72,16 +72,6 @@ DEPENDENCIES="dev-python/nipype[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	nb? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	nb? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-travis-fold[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/pytest-5.0.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-travis-fold[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

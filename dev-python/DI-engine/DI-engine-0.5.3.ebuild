@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="bsuite-env common-env dist envpool fast gfootball-env k8s mario minigrid-env procgen-env slimevolleygym-env smac-env sokoban style test video"
+IUSE="bsuite-env common-env dist envpool fast gfootball-env k8s mario minigrid-env procgen-env slimevolleygym-env smac-env sokoban style"
 DEPENDENCIES="<=dev-python/setuptools-66.1.1[${PYTHON_USEDEP}]
 	~dev-python/yapf-0.29.0[${PYTHON_USEDEP}]
 	dev-python/gym[${PYTHON_USEDEP}]
@@ -73,27 +73,6 @@ DEPENDENCIES="<=dev-python/setuptools-66.1.1[${PYTHON_USEDEP}]
 	smac-env? ( dev-python/PySC2[${PYTHON_USEDEP}] )
 	sokoban? ( dev-python/gym-sokoban[${PYTHON_USEDEP}] )
 	style? ( ~dev-python/yapf-0.29.0[${PYTHON_USEDEP}] )
-	style? ( <=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )
-	style? ( <dev-python/importlib-metadata-5.0.0[${PYTHON_USEDEP}] )
-	test? ( <=dev-python/coverage-7.0.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/mock-4.0.3[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-7.0.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-mock-3.6.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-xdist-1.34.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-timeout-2.0.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/readerwriterlock[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( dev-python/lz4[${PYTHON_USEDEP}] )
-	test? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/pettingzoo[${PYTHON_USEDEP}] )
-	test? ( dev-python/pygame[${PYTHON_USEDEP}] )
-	test? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyecharts[${PYTHON_USEDEP}] )
-	video? ( dev-python/moviepy[${PYTHON_USEDEP}] )
-	video? ( dev-python/imageio[${PYTHON_USEDEP}] )"
+	style? ( <=dev-python/flake8-3.9.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -74,7 +74,6 @@ DEPENDENCIES="dev-python/odoo11-addon-account-check-printing-caixabank[${PYTHON_
 	dev-python/odoo11-addon-l10n-es-vat-book[${PYTHON_USEDEP}]
 	dev-python/odoo11-addon-l10n-es-vat-book-extra-data[${PYTHON_USEDEP}]
 	dev-python/odoo11-addon-l10n-es-vat-book-oss[${PYTHON_USEDEP}]
-	dev-python/odoo11-addon-payment-redsys[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

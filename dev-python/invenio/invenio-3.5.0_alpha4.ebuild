@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all auth base docs elasticsearch5 elasticsearch6 elasticsearch7 files metadata mysql postgresql sqlite tests"
+IUSE="all auth base docs elasticsearch5 elasticsearch6 elasticsearch7 files"
 DEPENDENCIES="dev-python/invenio-app[${PYTHON_USEDEP}]
 	dev-python/invenio-base[${PYTHON_USEDEP}]
 	dev-python/invenio-cache[${PYTHON_USEDEP}]
@@ -73,20 +73,6 @@ DEPENDENCIES="dev-python/invenio-app[${PYTHON_USEDEP}]
 	elasticsearch6? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	elasticsearch7? ( dev-python/invenio-search[${PYTHON_USEDEP}] )
 	files? ( dev-python/invenio-files-rest[${PYTHON_USEDEP}] )
-	files? ( dev-python/invenio-iiif[${PYTHON_USEDEP}] )
-	files? ( dev-python/invenio-previewer[${PYTHON_USEDEP}] )
-	files? ( dev-python/invenio-records-files[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/invenio-indexer[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/invenio-jsonschemas[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/invenio-oaiserver[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/invenio-pidstore[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/invenio-records-rest[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/invenio-records-ui[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/invenio-records[${PYTHON_USEDEP}] )
-	metadata? ( dev-python/invenio-search-ui[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	sqlite? ( dev-python/invenio-db[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-invenio[${PYTHON_USEDEP}] )"
+	files? ( dev-python/invenio-iiif[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

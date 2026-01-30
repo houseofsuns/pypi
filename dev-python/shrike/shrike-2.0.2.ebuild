@@ -73,17 +73,6 @@ DEPENDENCIES="dev-python/azure-ai-ml[${PYTHON_USEDEP}]
 	distributed? ( dev-python/ray[${PYTHON_USEDEP}] )
 	distributed? ( dev-python/dask[${PYTHON_USEDEP}] )
 	distributed? ( >=dev-python/protobuf-3.19.5[${PYTHON_USEDEP}] )
-	pipeline? ( ~dev-python/gitpython-3.1[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/hydra-core[${PYTHON_USEDEP}] )
-	pipeline? ( ~dev-python/importlib-resources-5.9.0[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/flatten-dict[${PYTHON_USEDEP}] )
-	pipeline? ( ~dev-python/jsonpath-ng-1.5[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/coolname[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
-	pipeline? ( ~dev-python/toposort-1.7[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/opencensus-ext-azure[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/azure-ai-ml[${PYTHON_USEDEP}] )
-	pipeline? ( dev-python/azure-identity[${PYTHON_USEDEP}] )"
+	pipeline? ( ~dev-python/gitpython-3.1[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,10 +73,6 @@ DEPENDENCIES="dev-python/ruff[${PYTHON_USEDEP}]
 	setup? ( >=dev-python/setuptools-62.3.0[${PYTHON_USEDEP}] )
 	setup? ( >=dev-python/setuptools-scm-8.0[${PYTHON_USEDEP}] )
 	setup? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	setup? ( dev-python/pip[${PYTHON_USEDEP}] )
-	setup? ( dev-python/cmake[${PYTHON_USEDEP}] )
-	setup? ( <dev-python/cython-3.0[${PYTHON_USEDEP}] )
-	setup? ( dev-python/skymarshal[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,8 +73,6 @@ DEPENDENCIES="~dev-python/aiohttp-3.11.13[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.3.0[${PYTHON_USEDEP}]
 	dev-python/varint[${PYTHON_USEDEP}]
-	dev-python/web3[${PYTHON_USEDEP}]
-	~dev-python/websockets-13.1[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.18.3[${PYTHON_USEDEP}]"
+	dev-python/web3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

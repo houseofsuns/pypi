@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="adversarialdebiasing all art disparateimpactremover docs facts fairadapt infairness lfr lime notebooks optimaltransport optimpreproc reductions tests"
+IUSE="adversarialdebiasing all art disparateimpactremover docs facts fairadapt infairness lfr lime notebooks optimaltransport optimpreproc reductions"
 DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.24.0[${PYTHON_USEDEP}]
@@ -73,30 +73,6 @@ DEPENDENCIES=">=dev-python/numpy-1.16[${PYTHON_USEDEP}]
 	infairness? ( dev-python/infairness[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/jupyter[${PYTHON_USEDEP}] )
 	notebooks? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/igraph[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/ipympl[${PYTHON_USEDEP}] )
-	tests? ( dev-python/cvxpy[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tests? ( dev-python/BlackBoxAuditing[${PYTHON_USEDEP}] )
-	tests? ( dev-python/torch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/lime[${PYTHON_USEDEP}] )
-	tests? ( dev-python/adversarial-robustness-toolbox[${PYTHON_USEDEP}] )
-	tests? ( dev-python/fairlearn[${PYTHON_USEDEP}] )
-	tests? ( dev-python/rpy2[${PYTHON_USEDEP}] )
-	tests? ( dev-python/skorch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/infairness[${PYTHON_USEDEP}] )
-	tests? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	tests? ( dev-python/igraph[${PYTHON_USEDEP}] )
-	tests? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	tests? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ipympl[${PYTHON_USEDEP}] )
-	tests? ( dev-python/POT[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mlxtend[${PYTHON_USEDEP}] )
-	tests? ( dev-python/colorama[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-3.5[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )"
+	notebooks? ( dev-python/igraph[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

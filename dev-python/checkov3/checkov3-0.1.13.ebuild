@@ -71,10 +71,6 @@ DEPENDENCIES="dev-python/bc-python-hcl2[${PYTHON_USEDEP}]
 	dev-python/semgrep[${PYTHON_USEDEP}]
 	~dev-python/pydantic-1.10.7[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/pytest-5.3.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/coverage-badge[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/gitpython-3.1.7[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/jsonschema[${PYTHON_USEDEP}] )"
+	dev? ( ~dev-python/coverage-5.5[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

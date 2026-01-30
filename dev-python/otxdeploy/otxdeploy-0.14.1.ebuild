@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all build optional tests"
+IUSE="all tests"
 DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/multiprocess[${PYTHON_USEDEP}]
@@ -73,26 +73,6 @@ DEPENDENCIES="dev-python/grpcio[${PYTHON_USEDEP}]
 	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	build? ( dev-python/cython[${PYTHON_USEDEP}] )
-	build? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	build? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	build? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	optional? ( dev-python/h5py[${PYTHON_USEDEP}] )
-	optional? ( dev-python/mmcls[${PYTHON_USEDEP}] )
-	optional? ( dev-python/mmdet[${PYTHON_USEDEP}] )
-	optional? ( dev-python/mmedit[${PYTHON_USEDEP}] )
-	optional? ( dev-python/mmocr[${PYTHON_USEDEP}] )
-	optional? ( dev-python/mmpose[${PYTHON_USEDEP}] )
-	optional? ( dev-python/mmrazor[${PYTHON_USEDEP}] )
-	optional? ( dev-python/mmsegmentation[${PYTHON_USEDEP}] )
-	optional? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	optional? ( dev-python/openvino-dev[${PYTHON_USEDEP}] )
-	optional? ( dev-python/tqdm[${PYTHON_USEDEP}] )"
+	tests? ( ~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

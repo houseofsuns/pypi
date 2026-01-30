@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="complete contrib develop docs pyhf_backends test"
+IUSE="complete contrib develop"
 DEPENDENCIES="dev-python/pyhf[${PYTHON_USEDEP}]
 	dev-python/boost-histogram[${PYTHON_USEDEP}]
 	>=dev-python/tabulate-0.8.1[${PYTHON_USEDEP}]
@@ -73,31 +73,6 @@ DEPENDENCIES="dev-python/pyhf[${PYTHON_USEDEP}]
 	develop? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
 	develop? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	develop? ( dev-python/twine[${PYTHON_USEDEP}] )
-	develop? ( >=dev-python/typeguard-4.0.0[${PYTHON_USEDEP}] )
-	develop? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	develop? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
-	develop? ( dev-python/uproot[${PYTHON_USEDEP}] )
-	docs? ( >dev-python/sphinx-5.2.0_p0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-jsonschema[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	pyhf_backends? ( dev-python/pyhf[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-bugbear[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-import-order[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-print[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.6.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/typeguard-4.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
-	test? ( dev-python/uproot[${PYTHON_USEDEP}] )"
+	develop? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

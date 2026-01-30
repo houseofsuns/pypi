@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="docs"
+IUSE=""
 DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.4.4[${PYTHON_USEDEP}]
@@ -73,13 +73,6 @@ DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pyzbar-0.1.8[${PYTHON_USEDEP}]
 	~dev-python/qrcode-6.1[${PYTHON_USEDEP}]
-	>=dev-python/qtawesome-0.7.2[${PYTHON_USEDEP}]
-	dev-python/Quamash[${PYTHON_USEDEP}]
-	dev-python/random-username[${PYTHON_USEDEP}]
-	dev-python/rule-engine[${PYTHON_USEDEP}]
-	>=dev-python/strict-rfc3339-0.7[${PYTHON_USEDEP}]
-	dev-python/tortoise-orm[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.5.1[${PYTHON_USEDEP}]
-	docs? ( >=dev-python/sphinx-1.7.0[${PYTHON_USEDEP}] )"
+	>=dev-python/qtawesome-0.7.2[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

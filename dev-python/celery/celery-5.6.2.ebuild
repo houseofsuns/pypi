@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="arangodb auth azureblockblob brotli cassandra consul cosmosdbsql couchdb django dynamodb elasticsearch gcs gevent memcache mongodb msgpack pydantic pymemcache pytest redis s3 slmq solar sqlalchemy sqs tblib yaml zookeeper zstd"
+IUSE="arangodb auth azureblockblob brotli cassandra consul cosmosdbsql couchdb django dynamodb elasticsearch gcs gevent memcache mongodb msgpack pydantic pymemcache pytest redis s3 slmq solar sqlalchemy sqs tblib"
 DEPENDENCIES="dev-python/billiard[${PYTHON_USEDEP}]
 	>=dev-python/kombu-5.6.0[${PYTHON_USEDEP}]
 	<dev-python/vine-6.0[${PYTHON_USEDEP}]
@@ -67,9 +67,6 @@ DEPENDENCIES="dev-python/billiard[${PYTHON_USEDEP}]
 	sqs? ( >=dev-python/pycurl-7.45.4[${PYTHON_USEDEP}] )
 	sqs? ( >=dev-python/urllib3-1.26.16[${PYTHON_USEDEP}] )
 	sqs? ( >=dev-python/kombu-5.5.0[${PYTHON_USEDEP}] )
-	tblib? ( ~dev-python/tblib-3.2.2[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/kombu[${PYTHON_USEDEP}] )
-	zookeeper? ( dev-python/kazoo[${PYTHON_USEDEP}] )
-	zstd? ( ~dev-python/zstandard-0.23.0[${PYTHON_USEDEP}] )"
+	tblib? ( ~dev-python/tblib-3.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

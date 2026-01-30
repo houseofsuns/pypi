@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="deploy dev llm mlflow openblueprints spark"
+IUSE="deploy dev"
 DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	~dev-python/cloudpickle-2.2.1[${PYTHON_USEDEP}]
@@ -74,59 +74,6 @@ DEPENDENCIES="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	dev? ( dev-python/torch[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/langchain-openai[${PYTHON_USEDEP}] )
-	dev? ( dev-python/openai[${PYTHON_USEDEP}] )
-	dev? ( dev-python/datarobot-mlops[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/mypy-1.1.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-PyMySQL[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-Pygments[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-colorama[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-docutils[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-psutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-redis[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-typed-ast[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/flake8-6.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pylint-2.15.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/sphinx-6.2.0[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/docutils-0.19[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/furo-2023.5.20[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinx-rtd-theme-1.1[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/myst-parser-1.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	dev? ( <dev-python/sphinx-autodoc-typehints-1.23[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	dev? ( dev-python/langchain[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	llm? ( dev-python/datarobot-mlops[${PYTHON_USEDEP}] )
-	llm? ( dev-python/datarobot[${PYTHON_USEDEP}] )
-	llm? ( dev-python/langchain[${PYTHON_USEDEP}] )
-	llm? ( dev-python/langchain-community[${PYTHON_USEDEP}] )
-	llm? ( dev-python/openai[${PYTHON_USEDEP}] )
-	llm? ( <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}] )
-	llm? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	llm? ( dev-python/torch[${PYTHON_USEDEP}] )
-	mlflow? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	openblueprints? ( dev-python/black[${PYTHON_USEDEP}] )
-	openblueprints? ( dev-python/category-encoders[${PYTHON_USEDEP}] )
-	openblueprints? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	openblueprints? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	openblueprints? ( dev-python/vecstack[${PYTHON_USEDEP}] )
-	openblueprints? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	openblueprints? ( dev-python/gplearn[${PYTHON_USEDEP}] )
-	spark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

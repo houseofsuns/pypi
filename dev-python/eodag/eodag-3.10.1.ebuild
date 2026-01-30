@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all all-providers csw dev docs ecmwf notebook server stubs tutorials usgs"
+IUSE="all all-providers csw dev ecmwf notebook server tutorials usgs"
 DEPENDENCIES="dev-python/annotated-types[${PYTHON_USEDEP}]
 	dev-python/boto3[${PYTHON_USEDEP}]
 	dev-python/botocore[${PYTHON_USEDEP}]
@@ -73,43 +73,6 @@ DEPENDENCIES="dev-python/annotated-types[${PYTHON_USEDEP}]
 	tutorials? ( dev-python/covjsonkit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/eodag[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/py-1.8.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-socket[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-instafail[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox-uv[${PYTHON_USEDEP}] )
-	dev? ( dev-python/faker[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/moto-5.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( >dev-python/responses-0.24.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/stdlib-list[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-lxml[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-cachetools[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-shapely[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
-	stubs? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	docs? ( dev-python/eodag[${PYTHON_USEDEP}] )
-	docs? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-autodoc-typehints[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-book-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx_design[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-tabs[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-programoutput[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxemoji[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

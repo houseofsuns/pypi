@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all board cuml dask extra fg notebook tests zhcn"
+IUSE="all board cuml dask extra"
 DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	>=dev-python/pandas-0.25.3[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-0.22.1[${PYTHON_USEDEP}]
@@ -72,13 +72,6 @@ DEPENDENCIES=">=dev-python/numpy-1.16.5[${PYTHON_USEDEP}]
 	extra? ( <dev-python/protobuf-4.0[${PYTHON_USEDEP}] )
 	extra? ( >=dev-python/grpcio-1.24.0[${PYTHON_USEDEP}] )
 	extra? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	extra? ( dev-python/python-geohash[${PYTHON_USEDEP}] )
-	fg? ( dev-python/featuretools[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyterlab-widgets[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	zhcn? ( dev-python/jieba[${PYTHON_USEDEP}] )"
+	extra? ( dev-python/python-geohash[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

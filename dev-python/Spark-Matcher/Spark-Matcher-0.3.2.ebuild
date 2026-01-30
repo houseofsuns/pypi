@@ -73,9 +73,6 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	doc? ( dev-python/multipledispatch[${PYTHON_USEDEP}] )
 	doc? ( dev-python/dill[${PYTHON_USEDEP}] )
 	doc? ( dev-python/graphframes[${PYTHON_USEDEP}] )
-	doc? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
+	doc? ( dev-python/scipy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

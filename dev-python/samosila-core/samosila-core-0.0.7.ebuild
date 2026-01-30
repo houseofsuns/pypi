@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="full local providers"
+IUSE="full"
 DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
@@ -73,46 +73,6 @@ DEPENDENCIES="dev-python/appdirs[${PYTHON_USEDEP}]
 	full? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	full? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	full? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	full? ( dev-python/deepeval[${PYTHON_USEDEP}] )
-	full? ( dev-python/llmlingua[${PYTHON_USEDEP}] )
-	full? ( dev-python/lunary[${PYTHON_USEDEP}] )
-	full? ( dev-python/promptlayer[${PYTHON_USEDEP}] )
-	full? ( dev-python/omegaconf[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	local? ( dev-python/TTS[${PYTHON_USEDEP}] )
-	local? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	local? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
-	local? ( dev-python/gptcache[${PYTHON_USEDEP}] )
-	local? ( dev-python/librosa[${PYTHON_USEDEP}] )
-	local? ( dev-python/pyaudio[${PYTHON_USEDEP}] )
-	local? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
-	local? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	local? ( dev-python/timm[${PYTHON_USEDEP}] )
-	local? ( dev-python/torch[${PYTHON_USEDEP}] )
-	local? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
-	local? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	local? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	local? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	providers? ( dev-python/ai21[${PYTHON_USEDEP}] )
-	providers? ( dev-python/cohere[${PYTHON_USEDEP}] )
-	providers? ( dev-python/context-python[${PYTHON_USEDEP}] )
-	providers? ( dev-python/ctranslate2[${PYTHON_USEDEP}] )
-	providers? ( dev-python/edge-tts[${PYTHON_USEDEP}] )
-	providers? ( dev-python/elevenlabs[${PYTHON_USEDEP}] )
-	providers? ( dev-python/faster-whisper[${PYTHON_USEDEP}] )
-	providers? ( dev-python/fireworks-ai[${PYTHON_USEDEP}] )
-	providers? ( dev-python/g4f[${PYTHON_USEDEP}] )
-	providers? ( dev-python/google-generativeai[${PYTHON_USEDEP}] )
-	providers? ( dev-python/gradientai[${PYTHON_USEDEP}] )
-	providers? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
-	providers? ( dev-python/novita-client[${PYTHON_USEDEP}] )
-	providers? ( dev-python/replicate[${PYTHON_USEDEP}] )
-	providers? ( dev-python/together[${PYTHON_USEDEP}] )
-	providers? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	providers? ( dev-python/TTS[${PYTHON_USEDEP}] )
-	providers? ( dev-python/voyageai[${PYTHON_USEDEP}] )
-	providers? ( dev-python/gptcache[${PYTHON_USEDEP}] )
-	providers? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )"
+	full? ( dev-python/deepeval[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

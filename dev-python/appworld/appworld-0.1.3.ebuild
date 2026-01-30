@@ -78,21 +78,6 @@ DEPENDENCIES="dev-python/fastapi[${PYTHON_USEDEP}]
 	all? ( dev-python/plotext[${PYTHON_USEDEP}] )
 	all? ( <dev-python/coverage-8.0.0[${PYTHON_USEDEP}] )
 	all? ( dev-python/icecream[${PYTHON_USEDEP}] )
-	all? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/pyperclip-2.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	all? ( <dev-python/types-psutil-6.0.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-tqdm[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-decorator[${PYTHON_USEDEP}] )
-	all? ( <dev-python/types-setuptools-70.0.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-six[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-typed-ast[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-ujson[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
-	all? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	all? ( <dev-python/black-25.0.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/mypy-2.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pre-commit[${PYTHON_USEDEP}] )"
+	all? ( <dev-python/gitpython-4.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

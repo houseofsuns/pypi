@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev dm doc full ml ml-full ml-viz spider test viz"
+IUSE="dev dm doc full ml"
 DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
 	dev-python/fire[${PYTHON_USEDEP}]
@@ -73,46 +73,6 @@ DEPENDENCIES="dev-python/pip[${PYTHON_USEDEP}]
 	ml? ( >=dev-python/numpy-1.16.5[${PYTHON_USEDEP}] )
 	ml? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	ml? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	ml? ( dev-python/nni[${PYTHON_USEDEP}] )
-	ml-full? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	ml-full? ( >=dev-python/numpy-1.16.5[${PYTHON_USEDEP}] )
-	ml-full? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	ml-full? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	ml-full? ( dev-python/nni[${PYTHON_USEDEP}] )
-	ml-full? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	ml-full? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
-	ml-full? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	ml-viz? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	ml-viz? ( >=dev-python/numpy-1.16.5[${PYTHON_USEDEP}] )
-	ml-viz? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	ml-viz? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	ml-viz? ( dev-python/nni[${PYTHON_USEDEP}] )
-	ml-viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	ml-viz? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
-	ml-viz? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	spider? ( dev-python/requests[${PYTHON_USEDEP}] )
-	spider? ( dev-python/rarfile[${PYTHON_USEDEP}] )
-	spider? ( dev-python/bs4[${PYTHON_USEDEP}] )
-	spider? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	spider? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-4.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/numpy-1.16.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	test? ( dev-python/nni[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
-	test? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	test? ( dev-python/requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/rarfile[${PYTHON_USEDEP}] )
-	test? ( dev-python/bs4[${PYTHON_USEDEP}] )
-	test? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	test? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	viz? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	viz? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
-	viz? ( dev-python/tensorboard[${PYTHON_USEDEP}] )"
+	ml? ( dev-python/nni[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

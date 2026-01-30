@@ -73,27 +73,6 @@ DEPENDENCIES="dev-python/dagit[${PYTHON_USEDEP}]
 	integration-tests? ( dev-python/types-requests[${PYTHON_USEDEP}] )
 	integration-tests? ( dev-python/dagit[${PYTHON_USEDEP}] )
 	integration-tests? ( >dev-python/deepdiff-8.0.0[${PYTHON_USEDEP}] )
-	integration-tests? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/build[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/tox[${PYTHON_USEDEP}] )
-	integration-tests? ( >=dev-python/coverage-5.1[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/types-tabulate[${PYTHON_USEDEP}] )
-	integration-tests? ( >=dev-python/pytest-cov-2.8.1[${PYTHON_USEDEP}] )
-	integration-tests? ( >=dev-python/pydantic-1.10.0[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/types-dataclasses[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/types-six[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/types-freezegun[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/dagster-snowflake[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/requests-mock[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/jsonpickle[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/twine[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/dagster-aws[${PYTHON_USEDEP}] )
-	integration-tests? ( dev-python/acryl-datahub[${PYTHON_USEDEP}] )
-	integration-tests? ( >=dev-python/mypy-1.4.0[${PYTHON_USEDEP}] )
-	integration-tests? ( >=dev-python/pytest-asyncio-0.16.0[${PYTHON_USEDEP}] )"
+	integration-tests? ( >=dev-python/pytest-6.2.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

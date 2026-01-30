@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="development development-stable gui gui-stable stable"
+IUSE="development development-stable gui"
 DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
@@ -73,18 +73,6 @@ DEPENDENCIES="dev-python/jinja2[${PYTHON_USEDEP}]
 	development-stable? ( dev-python/progressbar[${PYTHON_USEDEP}] )
 	gui? ( dev-python/panel[${PYTHON_USEDEP}] )
 	gui? ( dev-python/dash[${PYTHON_USEDEP}] )
-	gui? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	gui-stable? ( dev-python/panel[${PYTHON_USEDEP}] )
-	gui-stable? ( dev-python/dash[${PYTHON_USEDEP}] )
-	gui-stable? ( ~dev-python/matplotlib-3.4.3[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/jinja2-3.1.2[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/numpy-1.23.5[${PYTHON_USEDEP}] )
-	stable? ( >=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
-	stable? ( dev-python/dask[${PYTHON_USEDEP}] )
-	stable? ( dev-python/numba[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/multiprocess-0.70.14[${PYTHON_USEDEP}] )
-	stable? ( dev-python/wget[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}] )
-	stable? ( ~dev-python/pyarrow-17.0.0[${PYTHON_USEDEP}] )"
+	gui? ( dev-python/matplotlib[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

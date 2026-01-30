@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all category_encoders dev feature_engine featuretools skits test tsfresh"
+IUSE="all category_encoders dev"
 DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev-python/cookiecutter[${PYTHON_USEDEP}]
 	>=dev-python/click-6.0[${PYTHON_USEDEP}]
@@ -71,20 +71,6 @@ DEPENDENCIES="dev-python/black[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/twine-1.10.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/wheel-0.30.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/responses-0.13.2[${PYTHON_USEDEP}] )
-	feature_engine? ( dev-python/feature-engine[${PYTHON_USEDEP}] )
-	featuretools? ( dev-python/featuretools-sklearn-transformer[${PYTHON_USEDEP}] )
-	skits? ( dev-python/skits[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/coverage-4.5.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.6[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-virtualenv[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/tox-2.9.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/responses-0.13.2[${PYTHON_USEDEP}] )
-	tsfresh? ( dev-python/tsfresh[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

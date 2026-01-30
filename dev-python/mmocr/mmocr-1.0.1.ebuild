@@ -73,11 +73,6 @@ DEPENDENCIES="dev-python/imgaug[${PYTHON_USEDEP}]
 	tests? ( dev-python/kwarray[${PYTHON_USEDEP}] )
 	tests? ( dev-python/lanms-neo[${PYTHON_USEDEP}] )
 	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

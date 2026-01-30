@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="docs markdown-extensions ui-pyqt-5-13 ui-pyqt-5-15"
+IUSE=""
 DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
@@ -74,26 +74,6 @@ DEPENDENCIES=">=dev-python/aiodns-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/python-magic-0.4.15[${PYTHON_USEDEP}]
 	dev-python/python3-crdt[${PYTHON_USEDEP}]
-	dev-python/py-multibase[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
-	>=dev-python/pyzbar-0.1.8[${PYTHON_USEDEP}]
-	~dev-python/qrcode-6.1[${PYTHON_USEDEP}]
-	>=dev-python/qtawesome-0.7.2[${PYTHON_USEDEP}]
-	dev-python/random-username[${PYTHON_USEDEP}]
-	dev-python/rule-engine[${PYTHON_USEDEP}]
-	>=dev-python/strict-rfc3339-0.7[${PYTHON_USEDEP}]
-	dev-python/tortoise-orm[${PYTHON_USEDEP}]
-	>=dev-python/validators-0.18.1[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.5.1[${PYTHON_USEDEP}]
-	docs? ( ~dev-python/sphinx-1.8.5[${PYTHON_USEDEP}] )
-	markdown-extensions? ( dev-python/mdx-unimoji[${PYTHON_USEDEP}] )
-	markdown-extensions? ( dev-python/mkdocs-blog-plugin[${PYTHON_USEDEP}] )
-	ui-pyqt-5-13? ( ~dev-python/pyqt5-5.13.2[${PYTHON_USEDEP}] )
-	ui-pyqt-5-13? ( dev-python/PyQtChart[${PYTHON_USEDEP}] )
-	ui-pyqt-5-13? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
-	ui-pyqt-5-15? ( >=dev-python/pyqt5-5.15.2[${PYTHON_USEDEP}] )
-	ui-pyqt-5-15? ( dev-python/PyQtChart[${PYTHON_USEDEP}] )
-	ui-pyqt-5-15? ( dev-python/pyqtwebengine[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

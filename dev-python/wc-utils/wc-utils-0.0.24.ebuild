@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all chem docs git logging protonation quilt tests"
+IUSE="all chem docs git"
 DEPENDENCIES="dev-python/abduct[${PYTHON_USEDEP}]
 	dev-python/attrdict[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
@@ -73,14 +73,6 @@ DEPENDENCIES="dev-python/abduct[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinxcontrib-spelling[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxprettysearchresults[${PYTHON_USEDEP}] )
 	git? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	git? ( dev-python/pygithub[${PYTHON_USEDEP}] )
-	logging? ( dev-python/logging2[${PYTHON_USEDEP}] )
-	protonation? ( dev-python/pyjnius[${PYTHON_USEDEP}] )
-	quilt? ( dev-python/boto3[${PYTHON_USEDEP}] )
-	quilt? ( dev-python/quilt3[${PYTHON_USEDEP}] )
-	tests? ( dev-python/capturer[${PYTHON_USEDEP}] )
-	tests? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/scipy[${PYTHON_USEDEP}] )"
+	git? ( dev-python/pygithub[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

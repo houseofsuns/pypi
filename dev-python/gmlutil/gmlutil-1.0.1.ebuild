@@ -73,7 +73,6 @@ DEPENDENCIES="dev-python/aiobotocore[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0[${PYTHON_USEDEP}]
 	dev-python/typing-inspect[${PYTHON_USEDEP}]
 	>=dev-python/uvicorn-0.22.0[${PYTHON_USEDEP}]
-	>=dev-python/watchdog-3.0[${PYTHON_USEDEP}]
-	dev-python/xgboost[${PYTHON_USEDEP}]"
+	>=dev-python/watchdog-3.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

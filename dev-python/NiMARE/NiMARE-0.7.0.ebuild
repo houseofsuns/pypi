@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all cbmr doc gzip tests"
+IUSE="all cbmr doc"
 DEPENDENCIES="dev-python/cognitiveatlas[${PYTHON_USEDEP}]
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
@@ -73,23 +73,6 @@ DEPENDENCIES="dev-python/cognitiveatlas[${PYTHON_USEDEP}]
 	doc? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
 	doc? ( dev-python/mistune[${PYTHON_USEDEP}] )
 	doc? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )
-	doc? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/sphinx-3.5[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-gallery[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/sphinx-rtd-theme-1.3.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-bibtex[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
-	doc? ( <dev-python/docutils-0.21[${PYTHON_USEDEP}] )
-	gzip? ( >=dev-python/indexed-gzip-1.4.0[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/coverage-7.7[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	doc? ( dev-python/recommonmark[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

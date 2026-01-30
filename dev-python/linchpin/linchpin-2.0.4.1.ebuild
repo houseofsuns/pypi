@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="azure beaker docker docs krbv libvirt openshift tests vmware"
+IUSE="azure"
 DEPENDENCIES=">=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-17.5.0[${PYTHON_USEDEP}]
 	dev-python/boto[${PYTHON_USEDEP}]
@@ -73,46 +73,6 @@ DEPENDENCIES=">=dev-python/setuptools-40.8.0[${PYTHON_USEDEP}]
 	azure? ( dev-python/azure-mgmt-keyvault[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-mgmt-loganalytics[${PYTHON_USEDEP}] )
 	azure? ( dev-python/azure-mgmt-marketplaceordering[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-monitor[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-network[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-nspkg[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-rdbms[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-redis[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-resource[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-servicebus[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-sql[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-storage[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-trafficmanager[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-mgmt-web[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-nspkg[${PYTHON_USEDEP}] )
-	azure? ( dev-python/azure-storage[${PYTHON_USEDEP}] )
-	azure? ( dev-python/msrest[${PYTHON_USEDEP}] )
-	azure? ( dev-python/msrestazure[${PYTHON_USEDEP}] )
-	azure? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	azure? ( dev-python/requests[${PYTHON_USEDEP}] )
-	azure? ( dev-python/xmltodict[${PYTHON_USEDEP}] )
-	beaker? ( dev-python/beaker-client[${PYTHON_USEDEP}] )
-	beaker? ( dev-python/bottle[${PYTHON_USEDEP}] )
-	beaker? ( dev-python/gssapi[${PYTHON_USEDEP}] )
-	docker? ( dev-python/docker-py[${PYTHON_USEDEP}] )
-	docs? ( dev-python/docutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-automodapi[${PYTHON_USEDEP}] )
-	krbv? ( dev-python/python-krbv[${PYTHON_USEDEP}] )
-	libvirt? ( >=dev-python/libvirt-python-3.0.0[${PYTHON_USEDEP}] )
-	libvirt? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	openshift? ( dev-python/openshift[${PYTHON_USEDEP}] )
-	openshift? ( dev-python/kubernetes-validate[${PYTHON_USEDEP}] )
-	tests? ( dev-python/nose[${PYTHON_USEDEP}] )
-	tests? ( dev-python/mock[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( <=dev-python/pytest-4.4.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	tests? ( dev-python/molecule[${PYTHON_USEDEP}] )
-	tests? ( dev-python/molecule[${PYTHON_USEDEP}] )
-	tests? ( dev-python/radon[${PYTHON_USEDEP}] )
-	vmware? ( dev-python/pyvmomi[${PYTHON_USEDEP}] )"
+	azure? ( dev-python/azure-mgmt-monitor[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

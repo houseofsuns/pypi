@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="chainconsumer dev docs pycuda style test wheel"
+IUSE="chainconsumer dev docs pycuda style"
 DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/corner[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
@@ -73,13 +73,6 @@ DEPENDENCIES="dev-python/attrs[${PYTHON_USEDEP}]
 	style? ( dev-python/flake8[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	style? ( dev-python/flake8-executable[${PYTHON_USEDEP}] )
-	style? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	style? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/flaky[${PYTHON_USEDEP}] )
-	test? ( dev-python/nbmake[${PYTHON_USEDEP}] )
-	wheel? ( dev-python/wheel[${PYTHON_USEDEP}] )
-	wheel? ( dev-python/check-wheel-contents[${PYTHON_USEDEP}] )"
+	style? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

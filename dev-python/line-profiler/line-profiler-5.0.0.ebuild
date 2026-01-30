@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all all-strict ipython ipython-strict optional optional-strict tests tests-strict"
+IUSE="all all-strict optional tests"
 DEPENDENCIES="all? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
@@ -52,31 +52,6 @@ DEPENDENCIES="all? ( >=dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	optional? ( >=dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
 	all-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/coverage-7.3.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/ubelt-1.3.4[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/xdoctest-1.1.3[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/rich-12.3.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/cython-3.0.3[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/setuptools-68.2.2[${PYTHON_USEDEP}] )
-	all-strict? ( ~dev-python/scikit-build-0.11.1[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/cmake[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/ninja[${PYTHON_USEDEP}] )
-	all-strict? ( dev-python/cibuildwheel[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/coverage-7.3.0[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/coverage-6.5.0[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/ubelt-1.3.4[${PYTHON_USEDEP}] )
-	tests-strict? ( ~dev-python/xdoctest-1.1.3[${PYTHON_USEDEP}] )
-	optional-strict? ( ~dev-python/rich-12.3.0[${PYTHON_USEDEP}] )
-	optional-strict? ( ~dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
-	ipython? ( >=dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )
-	ipython-strict? ( ~dev-python/ipython-8.14.0[${PYTHON_USEDEP}] )"
+	all-strict? ( ~dev-python/pytest-7.4.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

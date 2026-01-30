@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="test"
+IUSE=""
 DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/colander[${PYTHON_USEDEP}]
 	dev-python/cornice[${PYTHON_USEDEP}]
@@ -72,8 +72,6 @@ DEPENDENCIES="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/zope-location[${PYTHON_USEDEP}]
 	dev-python/zope-principalannotation[${PYTHON_USEDEP}]
 	dev-python/zope-schema[${PYTHON_USEDEP}]
-	dev-python/zope-traversing[${PYTHON_USEDEP}]
-	test? ( dev-python/pyramid-zcml[${PYTHON_USEDEP}] )
-	test? ( dev-python/zope-exceptions[${PYTHON_USEDEP}] )"
+	dev-python/zope-traversing[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

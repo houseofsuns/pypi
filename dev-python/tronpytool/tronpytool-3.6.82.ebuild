@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs tester"
+IUSE="dev docs"
 DEPENDENCIES="dev-python/eth-abi[${PYTHON_USEDEP}]
 	>=dev-python/ecdsa-0.15[${PYTHON_USEDEP}]
 	dev-python/eth-utils[${PYTHON_USEDEP}]
@@ -73,17 +73,6 @@ DEPENDENCIES="dev-python/eth-abi[${PYTHON_USEDEP}]
 	docs? ( dev-python/configparser[${PYTHON_USEDEP}] )
 	docs? ( dev-python/contextlib2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/py-solc[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/pytest-2.7.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-rtd-theme-0.1.9[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/toposort-1.4[${PYTHON_USEDEP}] )
-	docs? ( dev-python/urllib3[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/wheel-0.31.0[${PYTHON_USEDEP}] )
-	tester? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pep8[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pyflakes[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pylint[${PYTHON_USEDEP}] )
-	tester? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	docs? ( >=dev-python/pytest-2.7.2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

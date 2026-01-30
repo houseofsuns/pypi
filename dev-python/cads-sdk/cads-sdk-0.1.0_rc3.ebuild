@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all base cads-sdk de-operator nosql nosql-audio nosql-image pytorch spark-sdk"
+IUSE="all base cads-sdk"
 DEPENDENCIES="dev-python/hmsclient[${PYTHON_USEDEP}]
 	dev-python/thrift-sasl[${PYTHON_USEDEP}]
 	dev-python/datahub[${PYTHON_USEDEP}]
@@ -74,53 +74,6 @@ DEPENDENCIES="dev-python/hmsclient[${PYTHON_USEDEP}]
 	cads-sdk? ( >=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}] )
 	cads-sdk? ( dev-python/pure-sasl[${PYTHON_USEDEP}] )
 	cads-sdk? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	cads-sdk? ( dev-python/pyiceberg[${PYTHON_USEDEP}] )
-	cads-sdk? ( dev-python/thrift[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/fsspec[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/hmsclient[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/cryptography[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	de-operator? ( <=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/pyiceberg[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/findspark[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	de-operator? ( >=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/pure-sasl[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/pyiceberg[${PYTHON_USEDEP}] )
-	de-operator? ( dev-python/thrift[${PYTHON_USEDEP}] )
-	nosql? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	nosql? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	nosql? ( dev-python/pydub[${PYTHON_USEDEP}] )
-	nosql? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	nosql? ( dev-python/petastorm[${PYTHON_USEDEP}] )
-	nosql? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	nosql-audio? ( dev-python/pydub[${PYTHON_USEDEP}] )
-	nosql-audio? ( dev-python/petastorm[${PYTHON_USEDEP}] )
-	nosql-audio? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	nosql-audio? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	nosql-image? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	nosql-image? ( dev-python/petastorm[${PYTHON_USEDEP}] )
-	nosql-image? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	nosql-image? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	pytorch? ( dev-python/pytorch[${PYTHON_USEDEP}] )
-	pytorch? ( dev-python/petastorm[${PYTHON_USEDEP}] )
-	pytorch? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/hmsclient[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	spark-sdk? ( <=dev-python/pandas-1.5.3[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/pyiceberg[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/findspark[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/pycryptodome[${PYTHON_USEDEP}] )
-	spark-sdk? ( >=dev-python/pyarrow-4.0.0[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/pure-sasl[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/sqlglot[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/pyiceberg[${PYTHON_USEDEP}] )
-	spark-sdk? ( dev-python/thrift[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

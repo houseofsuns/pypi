@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="ldap s3 sentry"
+IUSE="ldap"
 DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	dev-python/django-any-js[${PYTHON_USEDEP}]
 	<dev-python/django-tables2-3.0[${PYTHON_USEDEP}]
@@ -73,35 +73,6 @@ DEPENDENCIES="<dev-python/django-6.0[${PYTHON_USEDEP}]
 	dev-python/django-uwsgi-ng[${PYTHON_USEDEP}]
 	dev-python/django-extensions[${PYTHON_USEDEP}]
 	<dev-python/ipython-9.0.0[${PYTHON_USEDEP}]
-	dev-python/django-oauth-toolkit[${PYTHON_USEDEP}]
-	s3? ( dev-python/django-storages[${PYTHON_USEDEP}] )
-	<dev-python/boto3-2.0.0[${PYTHON_USEDEP}]
-	dev-python/django-cleanup[${PYTHON_USEDEP}]
-	<dev-python/djangorestframework-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/whoosh-3.0.0[${PYTHON_USEDEP}]
-	dev-python/django-titofisto[${PYTHON_USEDEP}]
-	dev-python/haystack-redis[${PYTHON_USEDEP}]
-	<dev-python/python-gnupg-0.6.0[${PYTHON_USEDEP}]
-	sentry? ( dev-python/sentry-sdk[${PYTHON_USEDEP}] )
-	<dev-python/pycountry-25.0.0[${PYTHON_USEDEP}]
-	dev-python/django-iconify[${PYTHON_USEDEP}]
-	dev-python/customidenticon[${PYTHON_USEDEP}]
-	dev-python/graphene-django[${PYTHON_USEDEP}]
-	<dev-python/selenium-5.0.0[${PYTHON_USEDEP}]
-	dev-python/django-vite[${PYTHON_USEDEP}]
-	dev-python/graphene-django-cud[${PYTHON_USEDEP}]
-	dev-python/django-ical[${PYTHON_USEDEP}]
-	dev-python/django-recurrence[${PYTHON_USEDEP}]
-	<dev-python/django-timezone-field-8.0[${PYTHON_USEDEP}]
-	dev-python/uWSGI[${PYTHON_USEDEP}]
-	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	dev-python/django-pg-rrule[${PYTHON_USEDEP}]
-	<dev-python/libsass-0.24.0[${PYTHON_USEDEP}]
-	dev-python/graphene-django-optimizer-reloaded[${PYTHON_USEDEP}]
-	<dev-python/defusedxml-0.8.0[${PYTHON_USEDEP}]
-	dev-python/graphene-file-upload[${PYTHON_USEDEP}]
-	dev-python/django-countries[${PYTHON_USEDEP}]
-	dev-python/webdriver-manager[${PYTHON_USEDEP}]
-	dev-python/color-contrast[${PYTHON_USEDEP}]"
+	dev-python/django-oauth-toolkit[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -74,14 +74,6 @@ DEPENDENCIES="dev-python/aliyun-python-sdk-core[${PYTHON_USEDEP}]
 	~dev-python/soupsieve-1.9.5[${PYTHON_USEDEP}]
 	~dev-python/tornado-6.0.3[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.46.0[${PYTHON_USEDEP}]
-	~dev-python/twine-3.1.1[${PYTHON_USEDEP}]
-	dev-python/typed-ast[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]
-	~dev-python/webencodings-0.5.1[${PYTHON_USEDEP}]
-	~dev-python/wrapt-1.11.2[${PYTHON_USEDEP}]
-	~dev-python/xlwt-1.3.0[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.1.0[${PYTHON_USEDEP}]
-	~dev-python/pika-1.1.0[${PYTHON_USEDEP}]
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

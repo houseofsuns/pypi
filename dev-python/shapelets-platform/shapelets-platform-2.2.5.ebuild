@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs vfs-all vfs-azure vfs-dropbox vfs-git vfs-google vfs-libarchive vfs-oci vfs-ossfs vfs-s3 vfs-sftp vfs-smb vfs-ssh vfs-wandb vfs-webdav vfs-xrootd"
+IUSE="dev docs vfs-all"
 DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
 	dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/argparse[${PYTHON_USEDEP}]
@@ -73,25 +73,6 @@ DEPENDENCIES="dev-python/adlfs[${PYTHON_USEDEP}]
 	vfs-all? ( dev-python/ocifs[${PYTHON_USEDEP}] )
 	vfs-all? ( dev-python/ossfs[${PYTHON_USEDEP}] )
 	vfs-all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	vfs-all? ( dev-python/pygit2[${PYTHON_USEDEP}] )
-	vfs-all? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	vfs-all? ( dev-python/smbprotocol[${PYTHON_USEDEP}] )
-	vfs-all? ( dev-python/webdav4[${PYTHON_USEDEP}] )
-	vfs-azure? ( dev-python/adlfs[${PYTHON_USEDEP}] )
-	vfs-dropbox? ( dev-python/dropboxdrivefs[${PYTHON_USEDEP}] )
-	vfs-dropbox? ( dev-python/dropbox[${PYTHON_USEDEP}] )
-	vfs-google? ( dev-python/gcsfs[${PYTHON_USEDEP}] )
-	vfs-google? ( dev-python/gdrivefs[${PYTHON_USEDEP}] )
-	vfs-oci? ( dev-python/ocifs[${PYTHON_USEDEP}] )
-	vfs-git? ( dev-python/pygit2[${PYTHON_USEDEP}] )
-	vfs-libarchive? ( dev-python/libarchive[${PYTHON_USEDEP}] )
-	vfs-ossfs? ( dev-python/ossfs[${PYTHON_USEDEP}] )
-	vfs-s3? ( dev-python/s3fs[${PYTHON_USEDEP}] )
-	vfs-sftp? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	vfs-ssh? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	vfs-smb? ( dev-python/smbprotocol[${PYTHON_USEDEP}] )
-	vfs-wandb? ( dev-python/wandbfs[${PYTHON_USEDEP}] )
-	vfs-webdav? ( dev-python/webdav4[${PYTHON_USEDEP}] )
-	vfs-xrootd? ( dev-python/fsspec-xrootd[${PYTHON_USEDEP}] )"
+	vfs-all? ( dev-python/pygit2[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

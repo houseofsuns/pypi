@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev full runtime test"
+IUSE="dev full"
 DEPENDENCIES=">=dev-python/boto3-1.25.0[${PYTHON_USEDEP}]
 	>=dev-python/click-7.0[${PYTHON_USEDEP}]
 	~dev-python/cachetools-5.0.0[${PYTHON_USEDEP}]
@@ -71,58 +71,6 @@ DEPENDENCIES=">=dev-python/boto3-1.25.0[${PYTHON_USEDEP}]
 	full? ( ~dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
 	full? ( ~dev-python/flask-2.1.3[${PYTHON_USEDEP}] )
 	full? ( <dev-python/flask-cors-3.1.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/flask-swagger[${PYTHON_USEDEP}] )
-	full? ( ~dev-python/hypercorn-0.14.2[${PYTHON_USEDEP}] )
-	full? ( ~dev-python/json5-0.9.11[${PYTHON_USEDEP}] )
-	full? ( <dev-python/jsonpatch-2.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/jsonpath-rw[${PYTHON_USEDEP}] )
-	full? ( dev-python/moto-ext[${PYTHON_USEDEP}] )
-	full? ( ~dev-python/opensearch-py-2.1.1[${PYTHON_USEDEP}] )
-	full? ( dev-python/pproxy[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/pymongo-4.2.0[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}] )
-	full? ( ~dev-python/quart-0.17[${PYTHON_USEDEP}] )
-	full? ( dev-python/readerwriterlock[${PYTHON_USEDEP}] )
-	full? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
-	full? ( dev-python/vosk[${PYTHON_USEDEP}] )
-	full? ( ~dev-python/werkzeug-2.1.2[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/airspeed[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/amazon-kclpy[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/antlr4-python3-runtime-4.11.1[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/aws-sam-translator-1.15.1[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/awscli[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/awscrt[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/boto[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/botocore-1.28.0[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/cbor2-5.2.0[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/crontab[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/dnslib[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/dnspython-1.16.0[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/docker-6.0.1[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/flask-2.1.3[${PYTHON_USEDEP}] )
-	runtime? ( <dev-python/flask-cors-3.1.0[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/flask-swagger[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/hypercorn-0.14.2[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/json5-0.9.11[${PYTHON_USEDEP}] )
-	runtime? ( <dev-python/jsonpatch-2.0[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/jsonpath-rw[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/moto-ext[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/opensearch-py-2.1.1[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/pproxy[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/pymongo-4.2.0[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/pyopenssl-23.0.0[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/quart-0.17[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/readerwriterlock[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
-	runtime? ( dev-python/vosk[${PYTHON_USEDEP}] )
-	runtime? ( ~dev-python/werkzeug-2.1.2[${PYTHON_USEDEP}] )
-	runtime? ( >=dev-python/xmltodict-0.11.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/coverage-5.5[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/deepdiff-5.5.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/jsonpath-ng-1.5.3[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-6.2.4[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-httpserver-1.0.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-rerunfailures-10.0[${PYTHON_USEDEP}] )"
+	full? ( dev-python/flask-swagger[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

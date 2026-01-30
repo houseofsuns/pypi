@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all auto-gptq build deepspeed dev docs flash-attn quality tests train"
+IUSE="all auto-gptq build deepspeed dev docs"
 DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20.0[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
@@ -73,19 +73,6 @@ DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	flash-attn? ( dev-python/flash-attn[${PYTHON_USEDEP}] )
-	quality? ( dev-python/black[${PYTHON_USEDEP}] )
-	quality? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	quality? ( dev-python/mypy-extensions[${PYTHON_USEDEP}] )
-	quality? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	quality? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-html[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	train? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
-	train? ( dev-python/flash-attn[${PYTHON_USEDEP}] )
-	train? ( dev-python/auto-gptq[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

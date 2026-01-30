@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all boto3 cassandra couchbase couchdb dataframe default elasticsearch hazelcast influxdb jdbc mariadb memcache mongodb msqlserver mysql odbc oracle postgres postgresql pyspark redis rethinkdb sqlalchemy sqlite"
+IUSE="all"
 DEPENDENCIES="~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	~dev-python/cryptography-37.0.4[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
@@ -73,62 +73,6 @@ DEPENDENCIES="~dev-python/numpy-1.23.4[${PYTHON_USEDEP}]
 	all? ( dev-python/pymssql[${PYTHON_USEDEP}] )
 	all? ( dev-python/couchbase[${PYTHON_USEDEP}] )
 	all? ( dev-python/aiocouch[${PYTHON_USEDEP}] )
-	all? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/mysqlclient-2.1.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	all? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	all? ( dev-python/oracledb[${PYTHON_USEDEP}] )
-	all? ( dev-python/hazelcast-python-client[${PYTHON_USEDEP}] )
-	boto3? ( ~dev-python/botocore-1.27.59[${PYTHON_USEDEP}] )
-	boto3? ( ~dev-python/boto3-1.24.59[${PYTHON_USEDEP}] )
-	boto3? ( dev-python/aiobotocore[${PYTHON_USEDEP}] )
-	boto3? ( dev-python/aioboto3[${PYTHON_USEDEP}] )
-	cassandra? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
-	couchbase? ( dev-python/couchbase[${PYTHON_USEDEP}] )
-	couchdb? ( dev-python/aiocouch[${PYTHON_USEDEP}] )
-	dataframe? ( dev-python/dask[${PYTHON_USEDEP}] )
-	dataframe? ( dev-python/datatable[${PYTHON_USEDEP}] )
-	dataframe? ( dev-python/polars[${PYTHON_USEDEP}] )
-	dataframe? ( ~dev-python/pyarrow-11.0.0[${PYTHON_USEDEP}] )
-	dataframe? ( dev-python/connectorx[${PYTHON_USEDEP}] )
-	dataframe? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	default? ( dev-python/aioredis[${PYTHON_USEDEP}] )
-	default? ( ~dev-python/pylibmc-1.6.3[${PYTHON_USEDEP}] )
-	default? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
-	default? ( >=dev-python/aiosqlite-0.15.0[${PYTHON_USEDEP}] )
-	default? ( dev-python/cassandra-driver[${PYTHON_USEDEP}] )
-	default? ( dev-python/rethinkdb[${PYTHON_USEDEP}] )
-	default? ( dev-python/influxdb[${PYTHON_USEDEP}] )
-	default? ( dev-python/influxdb-client[${PYTHON_USEDEP}] )
-	default? ( dev-python/pymssql[${PYTHON_USEDEP}] )
-	elasticsearch? ( ~dev-python/elasticsearch-8.6.1[${PYTHON_USEDEP}] )
-	hazelcast? ( dev-python/hazelcast-python-client[${PYTHON_USEDEP}] )
-	influxdb? ( dev-python/influxdb[${PYTHON_USEDEP}] )
-	influxdb? ( dev-python/influxdb-client[${PYTHON_USEDEP}] )
-	jdbc? ( dev-python/JayDeBeApi[${PYTHON_USEDEP}] )
-	mariadb? ( dev-python/aiomysql[${PYTHON_USEDEP}] )
-	memcache? ( ~dev-python/pylibmc-1.6.3[${PYTHON_USEDEP}] )
-	memcache? ( dev-python/aiomcache[${PYTHON_USEDEP}] )
-	mongodb? ( ~dev-python/pymongo-4.3.3[${PYTHON_USEDEP}] )
-	mongodb? ( dev-python/motor[${PYTHON_USEDEP}] )
-	msqlserver? ( dev-python/pymssql[${PYTHON_USEDEP}] )
-	mysql? ( dev-python/asyncmy[${PYTHON_USEDEP}] )
-	mysql? ( ~dev-python/mysqlclient-2.1.1[${PYTHON_USEDEP}] )
-	odbc? ( dev-python/aioodbc[${PYTHON_USEDEP}] )
-	odbc? ( dev-python/pyodbc[${PYTHON_USEDEP}] )
-	oracle? ( dev-python/oracledb[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/aiopg[${PYTHON_USEDEP}] )
-	postgres? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
-	pyspark? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	redis? ( dev-python/jsonpath-rw[${PYTHON_USEDEP}] )
-	redis? ( dev-python/jsonpath-rw-ext[${PYTHON_USEDEP}] )
-	redis? ( ~dev-python/redis-4.4.2[${PYTHON_USEDEP}] )
-	redis? ( dev-python/aioredis[${PYTHON_USEDEP}] )
-	redis? ( ~dev-python/hiredis-2.2.1[${PYTHON_USEDEP}] )
-	redis? ( dev-python/objectpath[${PYTHON_USEDEP}] )
-	rethinkdb? ( dev-python/rethinkdb[${PYTHON_USEDEP}] )
-	sqlalchemy? ( ~dev-python/sqlalchemy-1.4.46[${PYTHON_USEDEP}] )
-	sqlite? ( >=dev-python/aiosqlite-0.15.0[${PYTHON_USEDEP}] )"
+	all? ( dev-python/asyncmy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

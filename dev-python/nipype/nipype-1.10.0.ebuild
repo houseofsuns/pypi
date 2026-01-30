@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all data dev doc duecredit maint nipy profiler pybids specs ssh tests xvfbwrapper"
+IUSE="all data doc duecredit maint nipy profiler pybids specs ssh tests xvfbwrapper"
 DEPENDENCIES=">=dev-python/click-6.6.0[${PYTHON_USEDEP}]
 	>=dev-python/networkx-2.5[${PYTHON_USEDEP}]
 	dev-python/nibabel[${PYTHON_USEDEP}]
@@ -73,48 +73,6 @@ DEPENDENCIES=">=dev-python/click-6.6.0[${PYTHON_USEDEP}]
 	xvfbwrapper? ( dev-python/xvfbwrapper[${PYTHON_USEDEP}] )
 	all? ( dev-python/fuzzywuzzy[${PYTHON_USEDEP}] )
 	all? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-timeout-1.4[${PYTHON_USEDEP}] )
-	all? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-cov-2.11[${PYTHON_USEDEP}] )
-	all? ( dev-python/pybids[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/psutil-5.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	all? ( dev-python/duecredit[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/black[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	all? ( dev-python/gitpython[${PYTHON_USEDEP}] )
-	all? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/nilearn[${PYTHON_USEDEP}] )
-	all? ( dev-python/dipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/nitime[${PYTHON_USEDEP}] )
-	all? ( dev-python/paramiko[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/xvfbwrapper[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pytest-xdist-2.5[${PYTHON_USEDEP}] )
-	all? ( dev-python/nipy[${PYTHON_USEDEP}] )
-	all? ( dev-python/datalad[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-env[${PYTHON_USEDEP}] )
-	dev? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-6.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-doctestplus[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-timeout-1.4[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pandas-1.5.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-xdist-2.5[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/dipy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pytest-cov-2.11[${PYTHON_USEDEP}] )
-	dev? ( dev-python/nbsphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-argparse[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/coverage-5.2.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinx-2.1.2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinx-7.0[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/pytest-timeout-1.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

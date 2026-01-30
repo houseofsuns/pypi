@@ -61,7 +61,7 @@ DEPENDENCIES="~dev-python/python-gnupg-0.5.1[${PYTHON_USEDEP}]
 	dev-python/webauthn[${PYTHON_USEDEP}]
 	~dev-python/pyotp-2.9.0[${PYTHON_USEDEP}]
 	~dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	dev-python/zxcvbn[${PYTHON_USEDEP}]
+	~dev-python/zxcvbn-4.4.28[${PYTHON_USEDEP}]
 	dev-python/wtforms-bootstrap5[${PYTHON_USEDEP}]
 	~dev-python/email-validator-2.0.0_p2[${PYTHON_USEDEP}]
 	dev-python/asgi-logger[${PYTHON_USEDEP}]"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all console dbtmetricflowapi docs genericjsonapi genericxmlapi githubapi gsheetsapi holidaysmemory htmltableapi multicorn pandasmemory s3selectapi systemapi testing"
+IUSE="all testing"
 DEPENDENCIES=">=dev-python/apsw-3.43.2.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
@@ -72,46 +72,6 @@ DEPENDENCIES=">=dev-python/apsw-3.43.2.0[${PYTHON_USEDEP}]
 	all? ( >=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/boto3-1.24.28[${PYTHON_USEDEP}] )
 	all? ( >=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/google-auth-1.23.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/holidays[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pandas-1.2.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/prison[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/pygments-2.8[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-graphql-client[${PYTHON_USEDEP}] )
-	all? ( dev-python/python-jsonpath[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/sqlglot-23.0.2[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/yarl-1.8.1[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-4.0.1[${PYTHON_USEDEP}] )
-	console? ( >=dev-python/pyyaml-5.4[${PYTHON_USEDEP}] )
-	console? ( >=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}] )
-	console? ( >=dev-python/prompt-toolkit-3.0[${PYTHON_USEDEP}] )
-	console? ( >=dev-python/pygments-2.8[${PYTHON_USEDEP}] )
-	console? ( >=dev-python/tabulate-0.8.9[${PYTHON_USEDEP}] )
-	dbtmetricflowapi? ( >=dev-python/pyarrow-14.0.1[${PYTHON_USEDEP}] )
-	dbtmetricflowapi? ( dev-python/python-graphql-client[${PYTHON_USEDEP}] )
-	dbtmetricflowapi? ( >=dev-python/sqlglot-23.0.2[${PYTHON_USEDEP}] )
-	genericjsonapi? ( dev-python/prison[${PYTHON_USEDEP}] )
-	genericjsonapi? ( dev-python/python-jsonpath[${PYTHON_USEDEP}] )
-	genericjsonapi? ( >=dev-python/yarl-1.8.1[${PYTHON_USEDEP}] )
-	genericxmlapi? ( >=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}] )
-	genericxmlapi? ( dev-python/prison[${PYTHON_USEDEP}] )
-	genericxmlapi? ( >=dev-python/yarl-1.8.1[${PYTHON_USEDEP}] )
-	githubapi? ( dev-python/python-jsonpath[${PYTHON_USEDEP}] )
-	gsheetsapi? ( >=dev-python/google-auth-1.23.0[${PYTHON_USEDEP}] )
-	gsheetsapi? ( >=dev-python/pyopenssl-24.0.0[${PYTHON_USEDEP}] )
-	holidaysmemory? ( dev-python/holidays[${PYTHON_USEDEP}] )
-	htmltableapi? ( >=dev-python/beautifulsoup4-4.11.1[${PYTHON_USEDEP}] )
-	htmltableapi? ( >=dev-python/html5lib-1.1[${PYTHON_USEDEP}] )
-	htmltableapi? ( >=dev-python/pandas-1.2.2[${PYTHON_USEDEP}] )
-	multicorn? ( dev-python/psycopg2-binary[${PYTHON_USEDEP}] )
-	pandasmemory? ( >=dev-python/pandas-1.2.2[${PYTHON_USEDEP}] )
-	s3selectapi? ( >=dev-python/boto3-1.24.28[${PYTHON_USEDEP}] )
-	systemapi? ( >=dev-python/psutil-5.8.0[${PYTHON_USEDEP}] )"
+	all? ( >=dev-python/google-auth-1.23.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

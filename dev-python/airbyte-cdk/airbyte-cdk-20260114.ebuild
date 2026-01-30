@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev file-based manifest-server sql vector-db-based"
+IUSE="dev file-based manifest-server vector-db-based"
 DEPENDENCIES="<dev-python/jinja2-3.2.0[${PYTHON_USEDEP}]
 	<dev-python/pyyaml-7.0.0[${PYTHON_USEDEP}]
 	dev-python/airbyte-protocol-models-dataclasses[${PYTHON_USEDEP}]
@@ -73,19 +73,6 @@ DEPENDENCIES="<dev-python/jinja2-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/referencing-0.36.2[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/requests-cache[${PYTHON_USEDEP}]
-	dev-python/rich[${PYTHON_USEDEP}]
-	<dev-python/rich-click-2.0.0[${PYTHON_USEDEP}]
-	dev-python/serpyco-rs[${PYTHON_USEDEP}]
-	<dev-python/setuptools-81.0.0[${PYTHON_USEDEP}]
-	sql? ( <dev-python/sqlalchemy-3.0[${PYTHON_USEDEP}] )
-	vector-db-based? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]
-	file-based? ( dev-python/unstructured-pytesseract[${PYTHON_USEDEP}] )
-	file-based? ( dev-python/unstructured[${PYTHON_USEDEP}] )
-	manifest-server? ( >=dev-python/uvicorn-0.35.0[${PYTHON_USEDEP}] )
-	~dev-python/wcmatch-10.0[${PYTHON_USEDEP}]
-	<dev-python/whenever-0.9.0[${PYTHON_USEDEP}]
-	<dev-python/xmltodict-0.15[${PYTHON_USEDEP}]"
+	dev-python/rich[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

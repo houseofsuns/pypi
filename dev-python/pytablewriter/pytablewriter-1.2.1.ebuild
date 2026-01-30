@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all docs es es8 excel from html logging pandas sqlite test theme toml yaml"
+IUSE="all docs es es8 excel from html logging pandas sqlite test"
 DEPENDENCIES=">=dev-python/setuptools-38.3.0[${PYTHON_USEDEP}]
 	dev-python/DataProperty[${PYTHON_USEDEP}]
 	dev-python/mbstrdecoder[${PYTHON_USEDEP}]
@@ -73,23 +73,6 @@ DEPENDENCIES=">=dev-python/setuptools-38.3.0[${PYTHON_USEDEP}]
 	test? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytablereader[${PYTHON_USEDEP}] )
 	test? ( <dev-python/dominate-3.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytablewriter-altrow-theme[${PYTHON_USEDEP}] )
-	test? ( dev-python/toml[${PYTHON_USEDEP}] )
-	test? ( <dev-python/simplejson-4.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-6.0.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/beautifulsoup4-4.10[${PYTHON_USEDEP}] )
-	test? ( dev-python/SimpleSQLite[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytablereader[${PYTHON_USEDEP}] )
-	test? ( <dev-python/elasticsearch-9.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/xlwt[${PYTHON_USEDEP}] )
-	test? ( dev-python/tablib[${PYTHON_USEDEP}] )
-	test? ( dev-python/sqliteschema[${PYTHON_USEDEP}] )
-	test? ( <dev-python/loguru-1.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/xlsxwriter-4.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pandas-3.0[${PYTHON_USEDEP}] )
-	theme? ( dev-python/pytablewriter-altrow-theme[${PYTHON_USEDEP}] )
-	theme? ( dev-python/pytablewriter-altcol-theme[${PYTHON_USEDEP}] )
-	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
-	yaml? ( <dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pytablewriter-altrow-theme[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all core db dev llm rag"
+IUSE="all core"
 DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}]
@@ -73,52 +73,6 @@ DEPENDENCIES=">=dev-python/numpy-1.21.0[${PYTHON_USEDEP}]
 	all? ( dev-python/python-docx[${PYTHON_USEDEP}] )
 	all? ( dev-python/spacy[${PYTHON_USEDEP}] )
 	all? ( dev-python/striprtf[${PYTHON_USEDEP}] )
-	core? ( >=dev-python/numpy-1.21.0[${PYTHON_USEDEP}] )
-	core? ( >=dev-python/scipy-1.8.0[${PYTHON_USEDEP}] )
-	core? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
-	core? ( dev-python/torch[${PYTHON_USEDEP}] )
-	core? ( dev-python/tqdm[${PYTHON_USEDEP}] )
-	core? ( dev-python/python-dotenv[${PYTHON_USEDEP}] )
-	core? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	db? ( dev-python/faiss-cpu[${PYTHON_USEDEP}] )
-	db? ( dev-python/pymilvus[${PYTHON_USEDEP}] )
-	db? ( dev-python/pinecone-client[${PYTHON_USEDEP}] )
-	db? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
-	db? ( dev-python/weaviate-client[${PYTHON_USEDEP}] )
-	llm? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	llm? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	llm? ( dev-python/ollama[${PYTHON_USEDEP}] )
-	llm? ( dev-python/groq[${PYTHON_USEDEP}] )
-	llm? ( dev-python/openai[${PYTHON_USEDEP}] )
-	rag? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	rag? ( dev-python/tabula-py[${PYTHON_USEDEP}] )
-	rag? ( dev-python/camelot-py[${PYTHON_USEDEP}] )
-	rag? ( dev-python/PyMuPDF[${PYTHON_USEDEP}] )
-	rag? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	rag? ( dev-python/gensim[${PYTHON_USEDEP}] )
-	rag? ( dev-python/layoutparser[${PYTHON_USEDEP}] )
-	rag? ( dev-python/pdf2image[${PYTHON_USEDEP}] )
-	rag? ( dev-python/pytesseract[${PYTHON_USEDEP}] )
-	rag? ( dev-python/pdfplumber[${PYTHON_USEDEP}] )
-	rag? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	rag? ( dev-python/jpype1[${PYTHON_USEDEP}] )
-	rag? ( dev-python/llama-index-core[${PYTHON_USEDEP}] )
-	rag? ( dev-python/llama-parse[${PYTHON_USEDEP}] )
-	rag? ( dev-python/llama-index-readers-file[${PYTHON_USEDEP}] )
-	rag? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	rag? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	rag? ( dev-python/python-pptx[${PYTHON_USEDEP}] )
-	rag? ( dev-python/moviepy[${PYTHON_USEDEP}] )
-	rag? ( dev-python/SpeechRecognition[${PYTHON_USEDEP}] )
-	rag? ( dev-python/EbookLib[${PYTHON_USEDEP}] )
-	rag? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	rag? ( dev-python/python-docx[${PYTHON_USEDEP}] )
-	rag? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	rag? ( dev-python/striprtf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )"
+	core? ( >=dev-python/numpy-1.21.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

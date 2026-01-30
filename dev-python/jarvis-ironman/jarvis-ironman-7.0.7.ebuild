@@ -73,9 +73,6 @@ DEPENDENCIES="~dev-python/gitpython-3.1.30[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.28.2[${PYTHON_USEDEP}]
 	dev-python/sounddevice[${PYTHON_USEDEP}]
-	dev-python/gmail-connector[${PYTHON_USEDEP}]
-	dev-python/vpn-server[${PYTHON_USEDEP}]
-	dev-python/pynotification[${PYTHON_USEDEP}]
-	dev-python/volume-control[${PYTHON_USEDEP}]"
+	dev-python/gmail-connector[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

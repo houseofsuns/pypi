@@ -73,9 +73,6 @@ DEPENDENCIES="dev-python/einops[${PYTHON_USEDEP}]
 	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
 	ray? ( dev-python/setproctitle[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/pytest-6.2.5[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-xdist-2.4.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-rerunfailures-10.2[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/hypothesis-6.24.6[${PYTHON_USEDEP}] )"
+	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

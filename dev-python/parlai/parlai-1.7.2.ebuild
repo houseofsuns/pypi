@@ -73,16 +73,6 @@ DEPENDENCIES="dev-python/coloredlogs[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.62.1[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/unidecode[${PYTHON_USEDEP}]
-	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/jsonlines[${PYTHON_USEDEP}]
-	~dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
-	<=dev-python/markdown-3.3.2[${PYTHON_USEDEP}]
-	dev-python/jinja2[${PYTHON_USEDEP}]
-	dev-python/ninja[${PYTHON_USEDEP}]
-	<=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]
-	dev-python/contractions[${PYTHON_USEDEP}]
-	~dev-python/fsspec-2022.2.0[${PYTHON_USEDEP}]
-	<=dev-python/google-api-core-2.11.0[${PYTHON_USEDEP}]"
+	<dev-python/urllib3-1.27[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

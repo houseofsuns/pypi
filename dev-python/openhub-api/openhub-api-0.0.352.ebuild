@@ -73,10 +73,6 @@ DEPENDENCIES="dev-python/plotly[${PYTHON_USEDEP}]
 	dev-python/sysv-ipc[${PYTHON_USEDEP}]
 	~dev-python/twisted-21.2.0[${PYTHON_USEDEP}]
 	~dev-python/txaio-21.2.1[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.24.1[${PYTHON_USEDEP}]
-	~dev-python/websockets-9.1[${PYTHON_USEDEP}]
-	~dev-python/zeroconf-0.31.0[${PYTHON_USEDEP}]
-	~dev-python/zope-interface-5.4.0[${PYTHON_USEDEP}]"
+	~dev-python/typing-extensions-3.10.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

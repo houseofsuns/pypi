@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="apache-beam dev docs quality tensorflow tensorflow_gpu tests torch"
+IUSE="apache-beam dev docs quality tensorflow tensorflow_gpu tests"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/pyarrow-0.16.0[${PYTHON_USEDEP}]
 	dev-python/dill[${PYTHON_USEDEP}]
@@ -72,8 +72,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
 	tests? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
 	tests? ( dev-python/torch[${PYTHON_USEDEP}] )
-	tests? ( dev-python/tldextract[${PYTHON_USEDEP}] )
-	tests? ( dev-python/zstandard[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/tldextract[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

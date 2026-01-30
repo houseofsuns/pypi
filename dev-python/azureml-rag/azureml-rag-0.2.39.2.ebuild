@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="azure azure-cosmos-mongo-vcore azure-cosmos-nosql azureml-core cognitive-search data-generation document-parsing elasticsearch faiss hugging-face langchain local-tests milvus mongodb pinecone qdrant remote-tests validate-deployments weaviate"
+IUSE="azure azure-cosmos-mongo-vcore azure-cosmos-nosql azureml-core cognitive-search data-generation document-parsing elasticsearch faiss hugging-face langchain milvus mongodb pinecone qdrant remote-tests weaviate"
 DEPENDENCIES="dev-python/azureml-dataprep[${PYTHON_USEDEP}]
 	dev-python/azureml-fsspec[${PYTHON_USEDEP}]
 	~dev-python/fsspec-2023.3[${PYTHON_USEDEP}]
@@ -74,12 +74,6 @@ DEPENDENCIES="dev-python/azureml-dataprep[${PYTHON_USEDEP}]
 	remote-tests? ( dev-python/azure-ai-ml[${PYTHON_USEDEP}] )
 	remote-tests? ( dev-python/azure-cli[${PYTHON_USEDEP}] )
 	remote-tests? ( dev-python/azure-core[${PYTHON_USEDEP}] )
-	remote-tests? ( dev-python/azure-mgmt-core[${PYTHON_USEDEP}] )
-	remote-tests? ( dev-python/azure-keyvault-secrets[${PYTHON_USEDEP}] )
-	local-tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	local-tests? ( dev-python/wikipedia[${PYTHON_USEDEP}] )
-	local-tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	validate-deployments? ( dev-python/azure-mgmt-cognitiveservices[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

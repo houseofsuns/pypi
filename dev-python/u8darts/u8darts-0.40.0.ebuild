@@ -73,8 +73,6 @@ DEPENDENCIES="dev-python/holidays[${PYTHON_USEDEP}]
 	torch? ( dev-python/safetensors[${PYTHON_USEDEP}] )
 	notorch? ( dev-python/prophet[${PYTHON_USEDEP}] )
 	notorch? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	notorch? ( dev-python/lightgbm[${PYTHON_USEDEP}] )
-	notorch? ( dev-python/statsforecast[${PYTHON_USEDEP}] )
-	notorch? ( dev-python/xgboost[${PYTHON_USEDEP}] )"
+	notorch? ( dev-python/lightgbm[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

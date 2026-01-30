@@ -73,10 +73,6 @@ DEPENDENCIES=">=dev-python/awkward-2.0[${PYTHON_USEDEP}]
 	dev? ( >=dev-python/sphinx-rtd-theme-0.3[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/sphinx-5.2.1[${PYTHON_USEDEP}] )
 	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinxcontrib-programoutput-0.11[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/sphinxcontrib-websupport-1.0.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-autoapi[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )
-	dev? ( dev-python/wheel[${PYTHON_USEDEP}] )"
+	dev? ( >=dev-python/sphinxcontrib-programoutput-0.11[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

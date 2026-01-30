@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all ci dev doc gridfs qa s3 swift test"
+IUSE="all ci doc gridfs qa s3 swift test"
 DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
 	>=dev-python/werkzeug-2.0.0[${PYTHON_USEDEP}]
@@ -74,35 +74,6 @@ DEPENDENCIES=">=dev-python/flask-2.0.0[${PYTHON_USEDEP}]
 	ci? ( dev-python/pytest-faker[${PYTHON_USEDEP}] )
 	ci? ( ~dev-python/pytest-sugar-1.1.1[${PYTHON_USEDEP}] )
 	ci? ( ~dev-python/pytest-mock-3.15.1[${PYTHON_USEDEP}] )
-	ci? ( ~dev-python/pillow-12.1.0[${PYTHON_USEDEP}] )
-	ci? ( dev-python/flask-mongoengine_3[${PYTHON_USEDEP}] )
-	ci? ( ~dev-python/flake8-7.3.0[${PYTHON_USEDEP}] )
-	ci? ( ~dev-python/pytest-cov-7.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/tox-4.34.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-25.12.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/autoflake[${PYTHON_USEDEP}] )
-	dev? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/boto3-1.28.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pymongo-4.5.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/python-swiftclient-4.4.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/python-keystoneclient-5.2.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-9.0.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-faker[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-sugar-1.1.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-mock-3.15.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pillow-12.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flask-mongoengine_3[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/boto3-1.28.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/python-swiftclient-4.4.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/python-keystoneclient-5.2.0[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/pymongo-4.5.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-9.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/alabaster-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pillow-12.1.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/flake8-7.3.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pytest-cov-7.0.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all bigquery confluence datafactory datahub dbt great-expectations hive kafka looker monday mongodb monte-carlo mssql mysql notion oracle postgresql power-bi quicksight redshift s3 sharepoint snowflake static-web synapse tableau thought-spot trino unity-catalog"
+IUSE="all bigquery confluence datafactory datahub dbt great-expectations hive kafka looker monday mongodb monte-carlo mssql mysql notion oracle postgresql power-bi quicksight redshift s3 sharepoint static-web synapse unity-catalog"
 DEPENDENCIES="all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	postgresql? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	redshift? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
@@ -127,36 +127,6 @@ DEPENDENCIES="all? ( dev-python/asyncpg[${PYTHON_USEDEP}] )
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
 	all? ( dev-python/sasl[${PYTHON_USEDEP}] )
 	hive? ( dev-python/sasl[${PYTHON_USEDEP}] )
-	dev-python/smart-open[${PYTHON_USEDEP}]
-	all? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	great-expectations? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	snowflake? ( dev-python/snowflake-connector-python[${PYTHON_USEDEP}] )
-	all? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	great-expectations? ( dev-python/snowflake-sqlalchemy[${PYTHON_USEDEP}] )
-	all? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
-	great-expectations? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
-	mysql? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
-	oracle? ( <dev-python/sqlalchemy-3.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/sql_metadata[${PYTHON_USEDEP}] )
-	bigquery? ( dev-python/sql_metadata[${PYTHON_USEDEP}] )
-	all? ( <dev-python/sqlglot-27.0.0[${PYTHON_USEDEP}] )
-	snowflake? ( <dev-python/sqlglot-27.0.0[${PYTHON_USEDEP}] )
-	unity-catalog? ( <dev-python/sqlglot-27.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/sqllineage[${PYTHON_USEDEP}] )
-	tableau? ( dev-python/sqllineage[${PYTHON_USEDEP}] )
-	thought-spot? ( dev-python/sqllineage[${PYTHON_USEDEP}] )
-	all? ( dev-python/tableauserverclient[${PYTHON_USEDEP}] )
-	tableau? ( dev-python/tableauserverclient[${PYTHON_USEDEP}] )
-	all? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
-	quicksight? ( <dev-python/tenacity-9.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/thoughtspot-rest-api-v1[${PYTHON_USEDEP}] )
-	thought-spot? ( dev-python/thoughtspot-rest-api-v1[${PYTHON_USEDEP}] )
-	all? ( <dev-python/thrift-0.21.0[${PYTHON_USEDEP}] )
-	hive? ( <dev-python/thrift-0.21.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	hive? ( dev-python/thrift-sasl[${PYTHON_USEDEP}] )
-	all? ( dev-python/trino[${PYTHON_USEDEP}] )
-	trino? ( dev-python/trino[${PYTHON_USEDEP}] )
-	<dev-python/trio-0.29.0[${PYTHON_USEDEP}]"
+	dev-python/smart-open[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

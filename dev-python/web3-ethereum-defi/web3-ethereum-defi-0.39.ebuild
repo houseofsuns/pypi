@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="ccxt cloudflare-r2 data docs duckdb hypersync test web3v6"
+IUSE="data docs hypersync test web3v6"
 DEPENDENCIES=">=dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.0[${PYTHON_USEDEP}]
 	dev-python/eth-bloom[${PYTHON_USEDEP}]
@@ -75,13 +75,6 @@ DEPENDENCIES=">=dev-python/urllib3-2.0[${PYTHON_USEDEP}]
 	dev-python/eth-typing[${PYTHON_USEDEP}]
 	web3v6? ( dev-python/eth-typing[${PYTHON_USEDEP}] )
 	<dev-python/atomicwrites-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]
-	<dev-python/zstandard-0.26.0[${PYTHON_USEDEP}]
-	cloudflare-r2? ( <dev-python/boto3-2.0.0[${PYTHON_USEDEP}] )
-	ccxt? ( dev-python/ccxt[${PYTHON_USEDEP}] )
-	duckdb? ( dev-python/duckdb[${PYTHON_USEDEP}] )
-	<dev-python/python-slugify-9.0.0[${PYTHON_USEDEP}]
-	dev-python/requests-ratelimiter[${PYTHON_USEDEP}]
-	dev-python/strictyaml[${PYTHON_USEDEP}]"
+	<dev-python/filelock-4.0.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

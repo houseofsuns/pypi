@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="arrow dev jupyter pandas"
+IUSE="arrow dev"
 DEPENDENCIES="dev-python/influxdb-client[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
@@ -73,21 +73,6 @@ DEPENDENCIES="dev-python/influxdb-client[${PYTHON_USEDEP}]
 	dev? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-coding[${PYTHON_USEDEP}] )
 	dev? ( dev-python/flake8-length[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-functions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-expression-complexity[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-cognitive-complexity[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-annotations-complexity[${PYTHON_USEDEP}] )
-	dev? ( dev-python/cohesion[${PYTHON_USEDEP}] )
-	dev? ( dev-python/darglint[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tryceratops[${PYTHON_USEDEP}] )
-	dev? ( dev-python/radon[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pyroma[${PYTHON_USEDEP}] )
-	dev? ( dev-python/vulture[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8-type-checking[${PYTHON_USEDEP}] )
-	dev? ( dev-python/isort[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sourcery-cli[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	jupyter? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/flake8-functions[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

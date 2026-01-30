@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all doc stan tests"
+IUSE="all doc stan"
 DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/sympy[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
@@ -71,15 +71,6 @@ DEPENDENCIES="dev-python/pandas[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinxcontrib-mermaid[${PYTHON_USEDEP}] )
 	doc? ( <dev-python/docutils-0.21[${PYTHON_USEDEP}] )
 	stan? ( dev-python/pystan[${PYTHON_USEDEP}] )
-	stan? ( dev-python/arviz[${PYTHON_USEDEP}] )
-	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coveralls[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-black[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )"
+	stan? ( dev-python/arviz[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

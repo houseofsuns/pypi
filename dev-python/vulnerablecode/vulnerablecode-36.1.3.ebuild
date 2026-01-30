@@ -73,7 +73,6 @@ DEPENDENCIES="<=dev-python/django-5.0[${PYTHON_USEDEP}]
 	dev? ( dev-python/commoncode[${PYTHON_USEDEP}] )
 	dev? ( dev-python/django-debug-toolbar[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pyinstrument[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flot[${PYTHON_USEDEP}] )
-	dev? ( dev-python/twine[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/flot[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

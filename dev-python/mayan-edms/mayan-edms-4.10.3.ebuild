@@ -73,9 +73,6 @@ DEPENDENCIES="~dev-python/django-4.2.27[${PYTHON_USEDEP}]
 	~dev-python/pytz-2025.2[${PYTHON_USEDEP}]
 	~dev-python/qrcode-8.2[${PYTHON_USEDEP}]
 	~dev-python/requests-2.32.5[${PYTHON_USEDEP}]
-	dev-python/sentry-sdk[${PYTHON_USEDEP}]
-	~dev-python/sh-2.2.2[${PYTHON_USEDEP}]
-	~dev-python/swagger-spec-validator-3.0.4[${PYTHON_USEDEP}]
-	dev-python/whitenoise[${PYTHON_USEDEP}]"
+	dev-python/sentry-sdk[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

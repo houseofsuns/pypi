@@ -73,11 +73,6 @@ DEPENDENCIES="~dev-python/asttokens-2.4.1[${PYTHON_USEDEP}]
 	~dev-python/traitlets-5.14.0[${PYTHON_USEDEP}]
 	~dev-python/trio-0.23.1[${PYTHON_USEDEP}]
 	~dev-python/trio-websocket-0.11.1[${PYTHON_USEDEP}]
-	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
-	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
-	~dev-python/wcwidth-0.2.12[${PYTHON_USEDEP}]
-	dev-python/webdriver-manager[${PYTHON_USEDEP}]
-	~dev-python/websocket-client-1.7.0[${PYTHON_USEDEP}]
-	~dev-python/wsproto-1.2.0[${PYTHON_USEDEP}]"
+	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

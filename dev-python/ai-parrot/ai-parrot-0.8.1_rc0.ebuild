@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Live Chatbots based on Langchain chatbots and Agents     Integrated into Navigator Framework or used into any aiohttp applications. [top-max 0.18.5]"
+DESCRIPTION="Live Chatbots based on Langchain chatbots and Agents     Integrated into Navigator Framework or used into any aiohttp applications. [top-max 0.20.2]"
 
 HOMEPAGE="https://github.com/phenobarbital/ai-parrot"
 LICENSE="MIT"
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="agents analytics anthropic chroma crew google groq hunggingfaces images loaders milvus openai qdrant vector"
+IUSE="agents images loaders"
 DEPENDENCIES="~dev-python/cython-3.0.11[${PYTHON_USEDEP}]
 	dev-python/langchain[${PYTHON_USEDEP}]
 	dev-python/langchain-core[${PYTHON_USEDEP}]
@@ -73,60 +73,6 @@ DEPENDENCIES="~dev-python/cython-3.0.11[${PYTHON_USEDEP}]
 	images? ( dev-python/torchvision[${PYTHON_USEDEP}] )
 	images? ( dev-python/timm[${PYTHON_USEDEP}] )
 	images? ( dev-python/ultralytics[${PYTHON_USEDEP}] )
-	images? ( dev-python/albumentations[${PYTHON_USEDEP}] )
-	images? ( ~dev-python/filetype-1.2.0[${PYTHON_USEDEP}] )
-	images? ( dev-python/ImageHash[${PYTHON_USEDEP}] )
-	images? ( dev-python/pgvector[${PYTHON_USEDEP}] )
-	images? ( dev-python/pyheif[${PYTHON_USEDEP}] )
-	images? ( dev-python/exif[${PYTHON_USEDEP}] )
-	images? ( dev-python/pillow-avif-plugin[${PYTHON_USEDEP}] )
-	images? ( dev-python/pillow-heif[${PYTHON_USEDEP}] )
-	vector? ( dev-python/torch[${PYTHON_USEDEP}] )
-	vector? ( dev-python/langchain-huggingface[${PYTHON_USEDEP}] )
-	vector? ( dev-python/fastembed[${PYTHON_USEDEP}] )
-	vector? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	vector? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	vector? ( dev-python/llama-index[${PYTHON_USEDEP}] )
-	vector? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
-	vector? ( dev-python/bitsandbytes[${PYTHON_USEDEP}] )
-	vector? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	vector? ( dev-python/safetensors[${PYTHON_USEDEP}] )
-	vector? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	vector? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	vector? ( dev-python/tokenizers[${PYTHON_USEDEP}] )
-	vector? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	vector? ( dev-python/tf-keras[${PYTHON_USEDEP}] )
-	vector? ( >=dev-python/simsimd-4.3.1[${PYTHON_USEDEP}] )
-	vector? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	vector? ( dev-python/langchain-chroma[${PYTHON_USEDEP}] )
-	vector? ( dev-python/chromadb[${PYTHON_USEDEP}] )
-	vector? ( dev-python/langchain-duckdb[${PYTHON_USEDEP}] )
-	vector? ( dev-python/langchain-ollama[${PYTHON_USEDEP}] )
-	anthropic? ( dev-python/anthropic[${PYTHON_USEDEP}] )
-	anthropic? ( dev-python/langchain-anthropic[${PYTHON_USEDEP}] )
-	openai? ( dev-python/langchain-openai[${PYTHON_USEDEP}] )
-	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
-	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )
-	google? ( dev-python/langchain-google-genai[${PYTHON_USEDEP}] )
-	google? ( dev-python/langchain-google-vertexai[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-cloud-texttospeech[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-genai[${PYTHON_USEDEP}] )
-	hunggingfaces? ( dev-python/llama-index-llms-huggingface[${PYTHON_USEDEP}] )
-	groq? ( dev-python/groq[${PYTHON_USEDEP}] )
-	groq? ( dev-python/langchain-groq[${PYTHON_USEDEP}] )
-	qdrant? ( dev-python/qdrant-client[${PYTHON_USEDEP}] )
-	qdrant? ( dev-python/langchain-qdrant[${PYTHON_USEDEP}] )
-	milvus? ( dev-python/langchain-milvus[${PYTHON_USEDEP}] )
-	milvus? ( dev-python/pymilvus[${PYTHON_USEDEP}] )
-	milvus? ( dev-python/milvus[${PYTHON_USEDEP}] )
-	chroma? ( dev-python/Chroma[${PYTHON_USEDEP}] )
-	chroma? ( dev-python/langchain-chroma[${PYTHON_USEDEP}] )
-	crew? ( dev-python/colbert-ai[${PYTHON_USEDEP}] )
-	crew? ( dev-python/vanna[${PYTHON_USEDEP}] )
-	crew? ( dev-python/crewai[${PYTHON_USEDEP}] )
-	analytics? ( dev-python/annoy[${PYTHON_USEDEP}] )
-	analytics? ( dev-python/gradio-tools[${PYTHON_USEDEP}] )
-	analytics? ( dev-python/gradio-client[${PYTHON_USEDEP}] )
-	analytics? ( dev-python/streamlit[${PYTHON_USEDEP}] )"
+	images? ( dev-python/albumentations[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

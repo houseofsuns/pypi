@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev devtools doc mat nifti style test viz"
+IUSE="all dev devtools doc mat nifti style"
 DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	dev-python/duecredit[${PYTHON_USEDEP}]
 	all? ( dev-python/nibabel[${PYTHON_USEDEP}] )
@@ -73,25 +73,6 @@ DEPENDENCIES=">=dev-python/numpy-1.17[${PYTHON_USEDEP}]
 	mat? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
 	mat? ( dev-python/scipy[${PYTHON_USEDEP}] )
 	nifti? ( dev-python/nibabel[${PYTHON_USEDEP}] )
-	style? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
-	style? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
-	style? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
-	style? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	style? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	test? ( dev-python/nibabel[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymatreader[${PYTHON_USEDEP}] )
-	test? ( dev-python/scipy[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/nilearn[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/black-23.0.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/isort-6.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-8.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	viz? ( >=dev-python/matplotlib-3.1.1[${PYTHON_USEDEP}] )
-	viz? ( dev-python/nilearn[${PYTHON_USEDEP}] )"
+	style? ( >=dev-python/flake8-4.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

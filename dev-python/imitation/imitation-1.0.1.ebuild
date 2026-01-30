@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="atari dev docs mujoco parallel test"
+IUSE="atari dev"
 DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.15[${PYTHON_USEDEP}]
@@ -73,63 +73,6 @@ DEPENDENCIES="dev-python/gymnasium[${PYTHON_USEDEP}]
 	dev? ( ~dev-python/setuptools-scm-7.0.5[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
 	dev? ( dev-python/ray[${PYTHON_USEDEP}] )
-	dev? ( dev-python/seals[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytype[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/hypothesis-6.54.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-autodoc-typehints-1.19.1[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx-github-changelog[${PYTHON_USEDEP}] )
-	dev? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/ipykernel-6.15.2[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-5.1.1[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-autodoc-typehints-1.19.1[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinxcontrib-napoleon[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/furo-2022.6.21[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-copybutton-0.5.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-github-changelog[${PYTHON_USEDEP}] )
-	docs? ( dev-python/myst-nb[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/ipykernel-6.15.2[${PYTHON_USEDEP}] )
-	docs? ( dev-python/seals[${PYTHON_USEDEP}] )
-	docs? ( dev-python/ray[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/hypothesis-6.54.1[${PYTHON_USEDEP}] )
-	mujoco? ( dev-python/gymnasium[${PYTHON_USEDEP}] )
-	parallel? ( dev-python/ray[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-22.6.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/coverage-6.4.2[${PYTHON_USEDEP}] )
-	test? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	test? ( dev-python/codespell[${PYTHON_USEDEP}] )
-	test? ( dev-python/darglint[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/filelock-3.7.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/flake8-4.0.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-blind-except[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-builtins[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-commas[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-isort[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/ipykernel-6.15.1[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/jupyter-1.0.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/jupyter-client-6.1.12[${PYTHON_USEDEP}] )
-	test? ( dev-python/moviepy[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/mypy-0.990[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pandas-1.4.3[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-7.1.2[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest_notebook[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pytest-xdist-2.5.0[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/scipy-1.9.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/setuptools-scm-7.0.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	test? ( dev-python/ray[${PYTHON_USEDEP}] )
-	test? ( dev-python/seals[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytype[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/hypothesis-6.54.1[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/seals[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

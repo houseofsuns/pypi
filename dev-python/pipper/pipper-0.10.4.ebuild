@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="A serverless Python package manager for private packages that runs on S3."
+DESCRIPTION="A serverless Python package manager for private packages that runs on S3. [top-max 0.11.1]"
 
 HOMEPAGE="https://gitlab.com/rocket-boosters/pipper"
 LICENSE="MIT"

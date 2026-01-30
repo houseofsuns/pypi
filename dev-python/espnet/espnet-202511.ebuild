@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all doc recipe test train"
+IUSE="all recipe train"
 DEPENDENCIES="<dev-python/setuptools-74.0.0[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/configargparse-1.2.1[${PYTHON_USEDEP}]
@@ -73,55 +73,6 @@ DEPENDENCIES="<dev-python/setuptools-74.0.0[${PYTHON_USEDEP}]
 	recipe? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
 	recipe? ( dev-python/praatio[${PYTHON_USEDEP}] )
 	recipe? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
-	all? ( dev-python/torch-optimizer[${PYTHON_USEDEP}] )
-	all? ( dev-python/fairscale[${PYTHON_USEDEP}] )
-	all? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	all? ( dev-python/evaluate[${PYTHON_USEDEP}] )
-	all? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	all? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	all? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	all? ( dev-python/espnet-model-zoo[${PYTHON_USEDEP}] )
-	all? ( dev-python/gdown[${PYTHON_USEDEP}] )
-	all? ( dev-python/resampy[${PYTHON_USEDEP}] )
-	all? ( dev-python/pysptk[${PYTHON_USEDEP}] )
-	all? ( dev-python/Morfessor[${PYTHON_USEDEP}] )
-	all? ( dev-python/youtube_dl[${PYTHON_USEDEP}] )
-	all? ( dev-python/nnmnkwii[${PYTHON_USEDEP}] )
-	all? ( dev-python/museval[${PYTHON_USEDEP}] )
-	all? ( dev-python/pystoi[${PYTHON_USEDEP}] )
-	all? ( dev-python/mir_eval[${PYTHON_USEDEP}] )
-	all? ( dev-python/fastdtw[${PYTHON_USEDEP}] )
-	all? ( dev-python/nara-wpe[${PYTHON_USEDEP}] )
-	all? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
-	all? ( dev-python/praatio[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/scikit-learn-1.0.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/pytest-8.4.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-timeouts[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-pythonpath[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/hacking[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/mock-2.0.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pycodestyle[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/jsondiff-2.0.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/flake8-3.7.8[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-docstrings[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/matplotlib[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/pillow-9.5.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	test? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	doc? ( <=dev-python/jinja2-3.1[${PYTHON_USEDEP}] )
-	doc? ( <dev-python/sphinx-9.0.0[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/sphinx-rtd-theme-0.2.4[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/sphinx-argparse-0.2.5[${PYTHON_USEDEP}] )
-	doc? ( ~dev-python/commonmark-0.8.1[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/nbsphinx-0.4.2[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	doc? ( <dev-python/jupyterlab-5.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-markdown-builder[${PYTHON_USEDEP}] )"
+	all? ( dev-python/torchaudio[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

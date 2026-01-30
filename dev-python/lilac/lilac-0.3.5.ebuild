@@ -98,11 +98,6 @@ DEPENDENCIES="dev-python/Authlib[${PYTHON_USEDEP}]
 	sources? ( dev-python/langsmith[${PYTHON_USEDEP}] )
 	langsmith? ( dev-python/langsmith[${PYTHON_USEDEP}] )
 	all? ( dev-python/llama-index[${PYTHON_USEDEP}] )
-	github? ( dev-python/llama-index[${PYTHON_USEDEP}] )
-	all? ( dev-python/llama-hub[${PYTHON_USEDEP}] )
-	github? ( dev-python/llama-hub[${PYTHON_USEDEP}] )
-	all? ( dev-python/umap-learn[${PYTHON_USEDEP}] )
-	all? ( dev-python/hdbscan[${PYTHON_USEDEP}] )
-	signals? ( dev-python/hdbscan[${PYTHON_USEDEP}] )"
+	github? ( dev-python/llama-index[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

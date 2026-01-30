@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all alldev base clientelg clientgatecloud clientgooglenlp clientibm clientperspective clients clienttagme clienttextrazor dev formats github java mltner nltk notebook ray spacy stanza"
+IUSE="all alldev base clientelg clientgatecloud clientgooglenlp clientibm clientperspective clients"
 DEPENDENCIES=">=dev-python/sortedcontainers-2.0.0[${PYTHON_USEDEP}]
 	dev-python/iobes[${PYTHON_USEDEP}]
 	all? ( >=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
@@ -73,46 +73,6 @@ DEPENDENCIES=">=dev-python/sortedcontainers-2.0.0[${PYTHON_USEDEP}]
 	clientperspective? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
 	clients? ( dev-python/requests[${PYTHON_USEDEP}] )
 	clients? ( dev-python/elg[${PYTHON_USEDEP}] )
-	clients? ( dev-python/ibm-watson[${PYTHON_USEDEP}] )
-	clients? ( dev-python/google-cloud-language[${PYTHON_USEDEP}] )
-	clients? ( dev-python/google-api-python-client[${PYTHON_USEDEP}] )
-	clienttagme? ( dev-python/requests[${PYTHON_USEDEP}] )
-	clienttextrazor? ( dev-python/requests[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	dev? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pdoc3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/bandit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/prospector[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-tornasync[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( dev-python/black[${PYTHON_USEDEP}] )
-	formats? ( dev-python/msgpack[${PYTHON_USEDEP}] )
-	formats? ( >=dev-python/pyyaml-5.2[${PYTHON_USEDEP}] )
-	formats? ( >=dev-python/beautifulsoup4-4.9.3[${PYTHON_USEDEP}] )
-	formats? ( dev-python/requests[${PYTHON_USEDEP}] )
-	formats? ( dev-python/conllu[${PYTHON_USEDEP}] )
-	formats? ( dev-python/iobes[${PYTHON_USEDEP}] )
-	github? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	github? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	github? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	github? ( dev-python/pytest-pep8[${PYTHON_USEDEP}] )
-	java? ( dev-python/py4j[${PYTHON_USEDEP}] )
-	mltner? ( dev-python/tner[${PYTHON_USEDEP}] )
-	nltk? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipython[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipykernel[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/jupyterlab[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/voila[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/rise[${PYTHON_USEDEP}] )
-	notebook? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	ray? ( dev-python/ray[${PYTHON_USEDEP}] )
-	spacy? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	stanza? ( dev-python/stanza[${PYTHON_USEDEP}] )"
+	clients? ( dev-python/ibm-watson[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

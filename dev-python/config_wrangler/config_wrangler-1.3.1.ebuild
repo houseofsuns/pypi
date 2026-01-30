@@ -36,7 +36,7 @@ DEPENDENCIES=">=dev-python/pydantic-2.0[${PYTHON_USEDEP}]
 	aws-request-auth? ( dev-python/requests-aws4auth[${PYTHON_USEDEP}] )
 	s3? ( >=dev-python/cachetools-5.3.1[${PYTHON_USEDEP}] )
 	aws? ( >=dev-python/cachetools-5.3.1[${PYTHON_USEDEP}] )
-	pykeepass? ( dev-python/pykeepass[${PYTHON_USEDEP}] )
+	pykeepass? ( >=dev-python/pykeepass-4.0.0[${PYTHON_USEDEP}] )
 	toml? ( dev-python/toml[${PYTHON_USEDEP}] )
 	keyring? ( >=dev-python/keyring-23.9.3[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"

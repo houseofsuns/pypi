@@ -73,8 +73,6 @@ DEPENDENCIES=">=dev-python/pip-22.3.1[${PYTHON_USEDEP}]
 	dev-python/torchtext[${PYTHON_USEDEP}]
 	<dev-python/tox-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tqdm-5.0[${PYTHON_USEDEP}]
-	<dev-python/unidecode-2.0[${PYTHON_USEDEP}]
-	dev-python/wikipedia[${PYTHON_USEDEP}]
-	<dev-python/babel-3.0.0[${PYTHON_USEDEP}]"
+	<dev-python/unidecode-2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

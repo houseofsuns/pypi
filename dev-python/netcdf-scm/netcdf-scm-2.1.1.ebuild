@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="ar6regions deploy dev docs notebooks tests"
+IUSE="ar6regions deploy dev docs notebooks"
 DEPENDENCIES="dev-python/cf-units[${PYTHON_USEDEP}]
 	>=dev-python/cftime-1.4[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
@@ -73,16 +73,6 @@ DEPENDENCIES="dev-python/cf-units[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/notebook[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/expectexception[${PYTHON_USEDEP}] )
-	notebooks? ( dev-python/seaborn[${PYTHON_USEDEP}] )
-	tests? ( dev-python/codecov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/nbval[${PYTHON_USEDEP}] )
-	tests? ( <dev-python/pytest-5.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-benchmark[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-console-scripts[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	notebooks? ( dev-python/ipywidgets[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

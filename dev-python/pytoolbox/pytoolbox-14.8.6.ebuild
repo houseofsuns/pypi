@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all atlassian aws django django-filter django-formtools doc flask imaging jinja2 mongodb network pandas rest-framework selenium smpte2022 test vision voluptuous"
+IUSE="all atlassian aws django django-filter django-formtools doc flask imaging jinja2 mongodb network pandas rest-framework selenium smpte2022"
 DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
@@ -73,26 +73,6 @@ DEPENDENCIES="dev-python/argparse[${PYTHON_USEDEP}]
 	rest-framework? ( dev-python/django-oauth-toolkit[${PYTHON_USEDEP}] )
 	rest-framework? ( >=dev-python/djangorestframework-3.0[${PYTHON_USEDEP}] )
 	selenium? ( dev-python/selenium[${PYTHON_USEDEP}] )
-	smpte2022? ( dev-python/fastxor[${PYTHON_USEDEP}] )
-	test? ( dev-python/colored[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/coverage-7.4.4[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/flake8-7.0.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/mypy-1.9.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pylint-3.1.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-8.1.1[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-4.1.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-pylint[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/ruff[${PYTHON_USEDEP}] )
-	test? ( dev-python/PyGObject-stubs[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-pytz[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-requests[${PYTHON_USEDEP}] )
-	test? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	vision? ( dev-python/dlib[${PYTHON_USEDEP}] )
-	vision? ( dev-python/keras[${PYTHON_USEDEP}] )
-	vision? ( dev-python/numpy[${PYTHON_USEDEP}] )
-	vision? ( dev-python/opencv-python[${PYTHON_USEDEP}] )
-	vision? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	voluptuous? ( dev-python/voluptuous[${PYTHON_USEDEP}] )"
+	smpte2022? ( dev-python/fastxor[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

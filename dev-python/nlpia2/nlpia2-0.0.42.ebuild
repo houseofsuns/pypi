@@ -73,14 +73,6 @@ DEPENDENCIES="<dev-python/babel-3.0.0[${PYTHON_USEDEP}]
 	<dev-python/seaborn-0.14.0[${PYTHON_USEDEP}]
 	dev-python/sentence-transformers[${PYTHON_USEDEP}]
 	dev-python/spacy[${PYTHON_USEDEP}]
-	dev-python/spacy-experimental[${PYTHON_USEDEP}]
-	<dev-python/sphinx-8.0.0[${PYTHON_USEDEP}]
-	dev-python/streamlit[${PYTHON_USEDEP}]
-	dev-python/textacy[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
-	<dev-python/tox-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/tqdm-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/unidecode-2.0.0[${PYTHON_USEDEP}]
-	<dev-python/xmltodict-0.14.0[${PYTHON_USEDEP}]"
+	dev-python/spacy-experimental[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

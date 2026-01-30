@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="develop doc test"
+IUSE=""
 DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
 	dev-python/g2p-en[${PYTHON_USEDEP}]
@@ -74,27 +74,6 @@ DEPENDENCIES="dev-python/braceexpand[${PYTHON_USEDEP}]
 	dev-python/rich[${PYTHON_USEDEP}]
 	dev-python/pattern-singleton[${PYTHON_USEDEP}]
 	dev-python/websockets[${PYTHON_USEDEP}]
-	develop? ( dev-python/configargparse[${PYTHON_USEDEP}] )
-	develop? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	develop? ( dev-python/gpustat[${PYTHON_USEDEP}] )
-	develop? ( dev-python/paddlespeech-ctcdecoders[${PYTHON_USEDEP}] )
-	develop? ( dev-python/phkit[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pypi-kenlm[${PYTHON_USEDEP}] )
-	develop? ( dev-python/snakeviz[${PYTHON_USEDEP}] )
-	develop? ( dev-python/sox[${PYTHON_USEDEP}] )
-	develop? ( dev-python/soxbindings[${PYTHON_USEDEP}] )
-	develop? ( dev-python/unidecode[${PYTHON_USEDEP}] )
-	develop? ( dev-python/yq[${PYTHON_USEDEP}] )
-	develop? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
-	doc? ( dev-python/numpydoc[${PYTHON_USEDEP}] )
-	doc? ( dev-python/myst-parser[${PYTHON_USEDEP}] )
-	doc? ( >=dev-python/recommonmark-0.5.0[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	doc? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
-	test? ( dev-python/nose[${PYTHON_USEDEP}] )
-	test? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,11 +73,6 @@ DEPENDENCIES="<dev-python/django-4.0[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/sentry-sdk[${PYTHON_USEDEP}]
 	<dev-python/setuptools-81.0[${PYTHON_USEDEP}]
-	dev-python/schwifty[${PYTHON_USEDEP}]
-	dev-python/social-auth-app-django[${PYTHON_USEDEP}]
-	dev-python/sqlparse[${PYTHON_USEDEP}]
-	dev-python/trml2pdf[${PYTHON_USEDEP}]
-	dev-python/whoosh[${PYTHON_USEDEP}]
-	<dev-python/icalendar-7.0.0[${PYTHON_USEDEP}]"
+	dev-python/schwifty[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

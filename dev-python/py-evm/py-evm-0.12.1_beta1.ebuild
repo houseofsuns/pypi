@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="benchmark dev docs eth eth-extra test"
+IUSE="benchmark dev docs eth"
 DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	dev-python/eth-bloom[${PYTHON_USEDEP}]
 	dev-python/eth-keys[${PYTHON_USEDEP}]
@@ -73,24 +73,6 @@ DEPENDENCIES="dev-python/cached-property[${PYTHON_USEDEP}]
 	docs? ( >=dev-python/sphinx-rtd-theme-1.0.0[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxcontrib-asyncio[${PYTHON_USEDEP}] )
 	docs? ( <dev-python/towncrier-25.0[${PYTHON_USEDEP}] )
-	eth? ( dev-python/cached-property[${PYTHON_USEDEP}] )
-	eth? ( dev-python/eth-bloom[${PYTHON_USEDEP}] )
-	eth? ( dev-python/eth-keys[${PYTHON_USEDEP}] )
-	eth? ( dev-python/eth-typing[${PYTHON_USEDEP}] )
-	eth? ( dev-python/eth-utils[${PYTHON_USEDEP}] )
-	eth? ( dev-python/lru-dict[${PYTHON_USEDEP}] )
-	eth? ( dev-python/py-ecc[${PYTHON_USEDEP}] )
-	eth? ( dev-python/rlp[${PYTHON_USEDEP}] )
-	eth? ( dev-python/trie[${PYTHON_USEDEP}] )
-	eth? ( dev-python/ckzg[${PYTHON_USEDEP}] )
-	eth-extra? ( dev-python/blake2b-py[${PYTHON_USEDEP}] )
-	eth-extra? ( dev-python/coincurve[${PYTHON_USEDEP}] )
-	test? ( dev-python/factory-boy[${PYTHON_USEDEP}] )
-	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-asyncio-0.20.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-timeout-2.0.0[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-xdist-3.0[${PYTHON_USEDEP}] )"
+	eth? ( dev-python/cached-property[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

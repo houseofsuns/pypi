@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev lint tensorflow test torch"
+IUSE="dev lint tensorflow test"
 DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	~dev-python/boto3-1.14.50[${PYTHON_USEDEP}]
 	>=dev-python/click-6.0[${PYTHON_USEDEP}]
@@ -73,11 +73,6 @@ DEPENDENCIES="~dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
 	test? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
 	test? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
 	test? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
-	test? ( dev-python/torch[${PYTHON_USEDEP}] )
-	test? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	test? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	torch? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
+	test? ( dev-python/torch[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

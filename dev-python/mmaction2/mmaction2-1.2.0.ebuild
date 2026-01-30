@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all mim multimodal optional tests"
+IUSE="all mim multimodal optional"
 DEPENDENCIES="dev-python/decord[${PYTHON_USEDEP}]
 	dev-python/einops[${PYTHON_USEDEP}]
 	dev-python/matplotlib[${PYTHON_USEDEP}]
@@ -73,19 +73,6 @@ DEPENDENCIES="dev-python/decord[${PYTHON_USEDEP}]
 	optional? ( dev-python/moviepy[${PYTHON_USEDEP}] )
 	optional? ( dev-python/openai-clip[${PYTHON_USEDEP}] )
 	optional? ( dev-python/packaging[${PYTHON_USEDEP}] )
-	optional? ( dev-python/PIMS[${PYTHON_USEDEP}] )
-	optional? ( dev-python/PyTurboJPEG[${PYTHON_USEDEP}] )
-	optional? ( dev-python/soundfile[${PYTHON_USEDEP}] )
-	optional? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	optional? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	tests? ( dev-python/coverage[${PYTHON_USEDEP}] )
-	tests? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
-	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	optional? ( dev-python/PIMS[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

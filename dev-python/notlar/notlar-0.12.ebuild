@@ -73,8 +73,6 @@ DEPENDENCIES="~dev-python/aniso8601-9.0.1[${PYTHON_USEDEP}]
 	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/virtualenv-20.25.0[${PYTHON_USEDEP}]
 	~dev-python/werkzeug-2.3.0[${PYTHON_USEDEP}]
-	dev-python/yamllint[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]
-	~dev-python/pillow-10.1.0[${PYTHON_USEDEP}]"
+	dev-python/yamllint[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

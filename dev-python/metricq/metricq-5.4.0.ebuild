@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="cli dev docs examples lint pandas test typing"
+IUSE="dev docs examples lint test typing"
 DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
 	<dev-python/protobuf-3.13[${PYTHON_USEDEP}]
 	~dev-python/deprecated-1.2.13[${PYTHON_USEDEP}]
@@ -74,46 +74,6 @@ DEPENDENCIES="dev-python/aio-pika[${PYTHON_USEDEP}]
 	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
 	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/black-23.1.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/isort-5.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/check-manifest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiomonitor-ng[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click-log[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/mypy-1.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mypy-protobuf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-Deprecated[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-setuptools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-protobuf[${PYTHON_USEDEP}] )
-	dev? ( dev-python/types-python-dateutil[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pandas-stubs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/uvloop[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/aiomonitor-ng[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click-log[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click-log[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-6.1.3[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-rtd-theme-1.2.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinx-autodoc-typehints-1.22.0[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/sphinxcontrib-trio-1.1.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/scanpydoc[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click[${PYTHON_USEDEP}] )
-	dev? ( dev-python/click-log[${PYTHON_USEDEP}] )
-	dev? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
-	dev? ( dev-python/tox[${PYTHON_USEDEP}] )
-	pandas? ( ~dev-python/pandas-2.2.0[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click[${PYTHON_USEDEP}] )
-	cli? ( dev-python/click-log[${PYTHON_USEDEP}] )
-	cli? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

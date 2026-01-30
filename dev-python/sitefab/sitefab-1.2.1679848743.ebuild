@@ -73,11 +73,6 @@ DEPENDENCIES="dev-python/blis[${PYTHON_USEDEP}]
 	~dev-python/toolz-0.12.0[${PYTHON_USEDEP}]
 	~dev-python/toposort-1.10[${PYTHON_USEDEP}]
 	~dev-python/tqdm-4.65.0[${PYTHON_USEDEP}]
-	~dev-python/typer-0.7.0[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.15[${PYTHON_USEDEP}]
-	dev-python/wasabi[${PYTHON_USEDEP}]
-	~dev-python/xxhash-3.2.0[${PYTHON_USEDEP}]
-	~dev-python/yapsy-1.12.2[${PYTHON_USEDEP}]"
+	~dev-python/typer-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

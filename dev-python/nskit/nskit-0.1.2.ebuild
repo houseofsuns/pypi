@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="azure_devops dev dev-build dev-docs dev-licenses dev-lint dev-security dev-test dev-types github"
+IUSE="azure_devops dev dev-build dev-docs dev-licenses dev-lint dev-security dev-test dev-types"
 DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-python/gitpython[${PYTHON_USEDEP}]
 	dev-python/jinja2[${PYTHON_USEDEP}]
@@ -70,8 +70,6 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	dev-test? ( >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}] )
 	dev-test? ( dev-python/pytest-subtests[${PYTHON_USEDEP}] )
 	dev-test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	dev-types? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	dev-types? ( dev-python/lxml[${PYTHON_USEDEP}] )
-	github? ( dev-python/ghapi[${PYTHON_USEDEP}] )"
+	dev-types? ( dev-python/mypy[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

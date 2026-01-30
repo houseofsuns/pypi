@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="autoai-fairness dev fairness full test tutorial"
+IUSE="autoai-fairness dev fairness full test"
 DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	>=dev-python/black-22.1.0[${PYTHON_USEDEP}]
 	dev-python/hyperopt[${PYTHON_USEDEP}]
@@ -73,22 +73,6 @@ DEPENDENCIES="dev-python/numpy[${PYTHON_USEDEP}]
 	test? ( >=dev-python/sphinx-rtd-theme-0.5.2[${PYTHON_USEDEP}] )
 	test? ( <dev-python/docutils-0.17[${PYTHON_USEDEP}] )
 	test? ( dev-python/m2r2[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )
-	test? ( dev-python/sphinxcontrib-svg2pdfconverter[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pyspark[${PYTHON_USEDEP}] )
-	test? ( dev-python/func-timeout[${PYTHON_USEDEP}] )
-	test? ( dev-python/category-encoders[${PYTHON_USEDEP}] )
-	test? ( dev-python/pynisher[${PYTHON_USEDEP}] )
-	tutorial? ( <dev-python/ipython-8.8.0[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/jupyter[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/graphviz[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/imbalanced-learn[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/liac-arff[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/aif360[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/BlackBoxAuditing[${PYTHON_USEDEP}] )
-	tutorial? ( dev-python/typing-extensions[${PYTHON_USEDEP}] )
-	tutorial? ( <dev-python/pandas-2.0.0[${PYTHON_USEDEP}] )"
+	test? ( dev-python/sphinxcontrib-apidoc[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

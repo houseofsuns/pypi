@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all bootstrapnas neural_compressor test"
+IUSE="all bootstrapnas"
 DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	dev-python/fairseq[${PYTHON_USEDEP}]
 	dev-python/gdown[${PYTHON_USEDEP}]
@@ -73,59 +73,6 @@ DEPENDENCIES="dev-python/autograd[${PYTHON_USEDEP}]
 	bootstrapnas? ( dev-python/fairseq[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/gdown[${PYTHON_USEDEP}] )
 	bootstrapnas? ( dev-python/jstyleson[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/numba[${PYTHON_USEDEP}] )
-	bootstrapnas? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
-	bootstrapnas? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/pymoo[${PYTHON_USEDEP}] )
-	bootstrapnas? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	bootstrapnas? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
-	bootstrapnas? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/tensorboard[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/texttable[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/torch[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/torchprofile[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	bootstrapnas? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/autograd[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/fairseq[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/gdown[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/neural-compressor[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/numba[${PYTHON_USEDEP}] )
-	neural_compressor? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
-	neural_compressor? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/pymoo[${PYTHON_USEDEP}] )
-	neural_compressor? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	neural_compressor? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
-	neural_compressor? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/torch[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/torchprofile[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	neural_compressor? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	test? ( dev-python/autograd[${PYTHON_USEDEP}] )
-	test? ( dev-python/black[${PYTHON_USEDEP}] )
-	test? ( dev-python/fairseq[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8-html[${PYTHON_USEDEP}] )
-	test? ( dev-python/gdown[${PYTHON_USEDEP}] )
-	test? ( dev-python/isort[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy[${PYTHON_USEDEP}] )
-	test? ( dev-python/numba[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/numpy-1.21.6[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pandas-1.3.5[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymoo[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/requests-2.28.1[${PYTHON_USEDEP}] )
-	test? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/scikit-learn-1.0.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/scipy-1.7.3[${PYTHON_USEDEP}] )
-	test? ( dev-python/torch[${PYTHON_USEDEP}] )
-	test? ( dev-python/torchprofile[${PYTHON_USEDEP}] )
-	test? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	test? ( dev-python/tox[${PYTHON_USEDEP}] )
-	test? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	test? ( dev-python/pymarkdownlnt[${PYTHON_USEDEP}] )"
+	bootstrapnas? ( dev-python/numba[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

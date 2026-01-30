@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="itt itt2 rag stt tts ttt"
+IUSE="itt itt2 stt ttt"
 DEPENDENCIES="ttt? ( dev-python/torch[${PYTHON_USEDEP}] )
 	ttt? ( dev-python/exllama[${PYTHON_USEDEP}] )
 	ttt? ( dev-python/llama-cpp-python[${PYTHON_USEDEP}] )
@@ -73,35 +73,6 @@ DEPENDENCIES="ttt? ( dev-python/torch[${PYTHON_USEDEP}] )
 	itt2? ( dev-python/openai[${PYTHON_USEDEP}] )
 	stt? ( dev-python/accelerate[${PYTHON_USEDEP}] )
 	stt? ( ~dev-python/ipykernel-6.27.1[${PYTHON_USEDEP}] )
-	stt? ( dev-python/openai[${PYTHON_USEDEP}] )
-	stt? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
-	stt? ( dev-python/torch[${PYTHON_USEDEP}] )
-	stt? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
-	stt? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	stt? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	stt? ( ~dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}] )
-	stt? ( dev-python/pydub[${PYTHON_USEDEP}] )
-	stt? ( ~dev-python/python-multipart-0.0.6[${PYTHON_USEDEP}] )
-	stt? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	tts? ( dev-python/torch[${PYTHON_USEDEP}] )
-	tts? ( dev-python/torchaudio[${PYTHON_USEDEP}] )
-	tts? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	tts? ( dev-python/openai[${PYTHON_USEDEP}] )
-	tts? ( ~dev-python/python-dotenv-1.0.0[${PYTHON_USEDEP}] )
-	tts? ( dev-python/TTS[${PYTHON_USEDEP}] )
-	tts? ( dev-python/deepspeed[${PYTHON_USEDEP}] )
-	tts? ( ~dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}] )
-	tts? ( dev-python/ninja[${PYTHON_USEDEP}] )
-	tts? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	rag? ( dev-python/chromadb[${PYTHON_USEDEP}] )
-	rag? ( ~dev-python/uvicorn-0.23.2[${PYTHON_USEDEP}] )
-	rag? ( dev-python/InstructorEmbedding[${PYTHON_USEDEP}] )
-	rag? ( ~dev-python/pymysql-1.1.0[${PYTHON_USEDEP}] )
-	rag? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	rag? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	rag? ( dev-python/langchain[${PYTHON_USEDEP}] )
-	rag? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	rag? ( dev-python/python-multipart[${PYTHON_USEDEP}] )
-	rag? ( dev-python/pandas[${PYTHON_USEDEP}] )"
+	stt? ( dev-python/openai[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

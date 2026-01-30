@@ -73,7 +73,6 @@ DEPENDENCIES="~dev-python/attrs-22.1.0[${PYTHON_USEDEP}]
 	~dev-python/typer-0.7.0[${PYTHON_USEDEP}]
 	~dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	~dev-python/urllib3-1.26.13[${PYTHON_USEDEP}]
-	dev-python/wasabi[${PYTHON_USEDEP}]
-	~dev-python/wcwidth-0.2.5[${PYTHON_USEDEP}]"
+	dev-python/wasabi[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

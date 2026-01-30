@@ -73,8 +73,6 @@ DEPENDENCIES=">=dev-python/xmltodict-0.12.0[${PYTHON_USEDEP}]
 	test? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
 	test? ( dev-python/flake8-debugger[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-raises[${PYTHON_USEDEP}] )
-	test? ( dev-python/aioresponses[${PYTHON_USEDEP}] )"
+	test? ( >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="analysis full mlops models nlp tuners"
+IUSE="analysis full"
 DEPENDENCIES=">=dev-python/ipython-5.5.0[${PYTHON_USEDEP}]
 	~dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	<dev-python/pandas-1.5.0[${PYTHON_USEDEP}]
@@ -73,36 +73,6 @@ DEPENDENCIES=">=dev-python/ipython-5.5.0[${PYTHON_USEDEP}]
 	full? ( dev-python/gradio[${PYTHON_USEDEP}] )
 	full? ( dev-python/fastapi[${PYTHON_USEDEP}] )
 	full? ( >=dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}] )
-	full? ( dev-python/m2cgen[${PYTHON_USEDEP}] )
-	full? ( dev-python/evidently[${PYTHON_USEDEP}] )
-	full? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	full? ( dev-python/pyLDAvis[${PYTHON_USEDEP}] )
-	full? ( dev-python/gensim[${PYTHON_USEDEP}] )
-	full? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	full? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
-	full? ( dev-python/textblob[${PYTHON_USEDEP}] )
-	full? ( >=dev-python/psutil-5.9.0[${PYTHON_USEDEP}] )
-	full? ( dev-python/fugue[${PYTHON_USEDEP}] )
-	mlops? ( dev-python/mlflow[${PYTHON_USEDEP}] )
-	mlops? ( dev-python/gradio[${PYTHON_USEDEP}] )
-	mlops? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	mlops? ( >=dev-python/uvicorn-0.17.6[${PYTHON_USEDEP}] )
-	mlops? ( dev-python/m2cgen[${PYTHON_USEDEP}] )
-	mlops? ( dev-python/evidently[${PYTHON_USEDEP}] )
-	models? ( dev-python/xgboost[${PYTHON_USEDEP}] )
-	models? ( dev-python/catboost[${PYTHON_USEDEP}] )
-	models? ( dev-python/kmodes[${PYTHON_USEDEP}] )
-	models? ( dev-python/mlxtend[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/pyLDAvis[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/gensim[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/wordcloud[${PYTHON_USEDEP}] )
-	nlp? ( dev-python/textblob[${PYTHON_USEDEP}] )
-	tuners? ( dev-python/tune-sklearn[${PYTHON_USEDEP}] )
-	tuners? ( dev-python/ray[${PYTHON_USEDEP}] )
-	tuners? ( dev-python/hyperopt[${PYTHON_USEDEP}] )
-	tuners? ( dev-python/optuna[${PYTHON_USEDEP}] )
-	tuners? ( dev-python/scikit-optimize[${PYTHON_USEDEP}] )"
+	full? ( dev-python/m2cgen[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all build mim multimodal optional tests tracking"
+IUSE="all build mim multimodal optional tests"
 DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	dev-python/pycocotools[${PYTHON_USEDEP}]
@@ -73,20 +73,6 @@ DEPENDENCIES="dev-python/matplotlib[${PYTHON_USEDEP}]
 	tests? ( dev-python/mmtrack[${PYTHON_USEDEP}] )
 	tests? ( dev-python/nltk[${PYTHON_USEDEP}] )
 	tests? ( dev-python/onnx[${PYTHON_USEDEP}] )
-	tests? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )
-	tests? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	tests? ( dev-python/prettytable[${PYTHON_USEDEP}] )
-	tests? ( <=dev-python/protobuf-3.20.1[${PYTHON_USEDEP}] )
-	tests? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )
-	tracking? ( dev-python/mmpretrain[${PYTHON_USEDEP}] )
-	tracking? ( dev-python/motmetrics[${PYTHON_USEDEP}] )
-	tracking? ( <dev-python/numpy-1.24.0[${PYTHON_USEDEP}] )
-	tracking? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	tracking? ( dev-python/seaborn[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/onnxruntime[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

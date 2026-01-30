@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all all-connectors all-databases all-parsers common connector-matrix connector-matrix-e2e connector-mattermost connector-slack connector-teams connector-telegram connector-webex database-matrix database-mongo database-redis database-sqlite docs parser-dialogflow parser-watson test"
+IUSE="connector-matrix connector-matrix-e2e connector-mattermost connector-slack connector-teams connector-telegram connector-webex database-matrix database-mongo database-redis database-sqlite parser-dialogflow parser-watson test"
 DEPENDENCIES=">=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	dev-python/aiohttp-middlewares[${PYTHON_USEDEP}]
 	>=dev-python/appdirs-1.4.4[${PYTHON_USEDEP}]
@@ -73,58 +73,6 @@ DEPENDENCIES=">=dev-python/aiohttp-3.6.2[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-cov-2.7.1[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-mock-3.2.0[${PYTHON_USEDEP}] )
 	test? ( >=dev-python/pytest-timeout-1.4.0[${PYTHON_USEDEP}] )
-	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )
-	test? ( dev-python/mypy-lang[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/mock-4.0.2[${PYTHON_USEDEP}] )
-	test? ( >=dev-python/vcrpy-4.1.1[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/pytest-5.4.2[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-3.0.4[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-autodoc-typehints-1.11.1[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-click[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/myst-parser-2.0.0[${PYTHON_USEDEP}] )
-	docs? ( dev-python/deadlinks[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/docutils-0.20[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/linkify-it-py-2.0.3[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/bleach-3.1.5[${PYTHON_USEDEP}] )
-	all? ( dev-python/matrix-nio[${PYTHON_USEDEP}] )
-	all? ( dev-python/mattermostdriver[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/certifi-2020.4.5.2[${PYTHON_USEDEP}] )
-	all? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/emoji-2.1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/webexteamssdk[${PYTHON_USEDEP}] )
-	all? ( dev-python/botbuilder-core[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/emoji-2.1.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/dialogflow[${PYTHON_USEDEP}] )
-	all? ( dev-python/ibm-watson[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/redis-5.1[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/aiosqlite-0.15.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/motor[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/dnspython-2.1.0[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/wrapt-1.12.1[${PYTHON_USEDEP}] )
-	all-connectors? ( >=dev-python/bleach-3.1.5[${PYTHON_USEDEP}] )
-	all-connectors? ( dev-python/matrix-nio[${PYTHON_USEDEP}] )
-	all-connectors? ( >=dev-python/bleach-3.1.5[${PYTHON_USEDEP}] )
-	all-connectors? ( dev-python/matrix-nio[${PYTHON_USEDEP}] )
-	all-connectors? ( dev-python/python-olm[${PYTHON_USEDEP}] )
-	all-connectors? ( dev-python/mattermostdriver[${PYTHON_USEDEP}] )
-	all-connectors? ( >=dev-python/certifi-2020.4.5.2[${PYTHON_USEDEP}] )
-	all-connectors? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
-	all-connectors? ( >=dev-python/emoji-2.1.0[${PYTHON_USEDEP}] )
-	all-connectors? ( dev-python/webexteamssdk[${PYTHON_USEDEP}] )
-	all-connectors? ( dev-python/botbuilder-core[${PYTHON_USEDEP}] )
-	all-connectors? ( >=dev-python/emoji-2.1.0[${PYTHON_USEDEP}] )
-	all-databases? ( >=dev-python/redis-5.1[${PYTHON_USEDEP}] )
-	all-databases? ( >=dev-python/aiosqlite-0.15.0[${PYTHON_USEDEP}] )
-	all-databases? ( dev-python/motor[${PYTHON_USEDEP}] )
-	all-databases? ( >=dev-python/dnspython-2.1.0[${PYTHON_USEDEP}] )
-	all-databases? ( >=dev-python/wrapt-1.12.1[${PYTHON_USEDEP}] )
-	all-parsers? ( dev-python/dialogflow[${PYTHON_USEDEP}] )
-	all-parsers? ( dev-python/ibm-watson[${PYTHON_USEDEP}] )
-	common? ( >=dev-python/bleach-3.1.5[${PYTHON_USEDEP}] )
-	common? ( dev-python/matrix-nio[${PYTHON_USEDEP}] )
-	common? ( >=dev-python/certifi-2020.4.5.2[${PYTHON_USEDEP}] )
-	common? ( dev-python/slack-sdk[${PYTHON_USEDEP}] )
-	common? ( >=dev-python/emoji-2.1.0[${PYTHON_USEDEP}] )
-	common? ( >=dev-python/aiosqlite-0.15.0[${PYTHON_USEDEP}] )"
+	test? ( dev-python/pydocstyle[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

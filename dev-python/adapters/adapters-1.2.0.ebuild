@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs quality sentencepiece sklearn testing torch torchvision"
+IUSE="dev docs"
 DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
@@ -73,39 +73,6 @@ DEPENDENCIES="dev-python/transformers[${PYTHON_USEDEP}]
 	docs? ( ~dev-python/sphinx-rtd-theme-2.0.0[${PYTHON_USEDEP}] )
 	docs? ( ~dev-python/sphinx-copybutton-0.5.2[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinxext-opengraph[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )
-	docs? ( ~dev-python/sphinx-multiversion-0.2.4[${PYTHON_USEDEP}] )
-	quality? ( ~dev-python/black-24.4.0[${PYTHON_USEDEP}] )
-	quality? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	quality? ( >=dev-python/isort-5.5.4[${PYTHON_USEDEP}] )
-	quality? ( >=dev-python/flake8-3.8.3[${PYTHON_USEDEP}] )
-	quality? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
-	sentencepiece? ( dev-python/sentencepiece[${PYTHON_USEDEP}] )
-	sentencepiece? ( dev-python/protobuf[${PYTHON_USEDEP}] )
-	sklearn? ( dev-python/scikit-learn[${PYTHON_USEDEP}] )
-	testing? ( <dev-python/pytest-8.0.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-rich[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	testing? ( dev-python/timeout-decorator[${PYTHON_USEDEP}] )
-	testing? ( dev-python/parameterized[${PYTHON_USEDEP}] )
-	testing? ( dev-python/psutil[${PYTHON_USEDEP}] )
-	testing? ( dev-python/datasets[${PYTHON_USEDEP}] )
-	testing? ( <dev-python/dill-0.3.5[${PYTHON_USEDEP}] )
-	testing? ( dev-python/evaluate[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-timeout[${PYTHON_USEDEP}] )
-	testing? ( ~dev-python/black-24.4.0[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sacrebleu[${PYTHON_USEDEP}] )
-	testing? ( dev-python/rouge-score[${PYTHON_USEDEP}] )
-	testing? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	testing? ( <dev-python/gitpython-3.1.19[${PYTHON_USEDEP}] )
-	testing? ( dev-python/sacremoses[${PYTHON_USEDEP}] )
-	testing? ( dev-python/rjieba[${PYTHON_USEDEP}] )
-	testing? ( dev-python/beautifulsoup4[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pillow[${PYTHON_USEDEP}] )
-	testing? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	testing? ( dev-python/torchvision[${PYTHON_USEDEP}] )
-	torch? ( dev-python/torch[${PYTHON_USEDEP}] )
-	torch? ( dev-python/accelerate[${PYTHON_USEDEP}] )
-	torchvision? ( dev-python/torchvision[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinx-intl[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="aliyun-oss databricks extras gateway genai sqlserver xethub"
+IUSE="aliyun-oss databricks extras gateway genai"
 DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	<dev-python/cloudpickle-4.0[${PYTHON_USEDEP}]
 	dev-python/databricks-cli[${PYTHON_USEDEP}]
@@ -71,13 +71,6 @@ DEPENDENCIES="<dev-python/click-9.0[${PYTHON_USEDEP}]
 	gateway? ( <dev-python/watchfiles-1.0[${PYTHON_USEDEP}] )
 	gateway? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
 	gateway? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
-	genai? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )
-	genai? ( dev-python/fastapi[${PYTHON_USEDEP}] )
-	genai? ( <dev-python/uvicorn-1.0[${PYTHON_USEDEP}] )
-	genai? ( <dev-python/watchfiles-1.0[${PYTHON_USEDEP}] )
-	genai? ( <dev-python/aiohttp-4.0[${PYTHON_USEDEP}] )
-	genai? ( <dev-python/boto3-2.0[${PYTHON_USEDEP}] )
-	sqlserver? ( dev-python/mlflow-dbstore[${PYTHON_USEDEP}] )
-	xethub? ( dev-python/mlflow-xethub[${PYTHON_USEDEP}] )"
+	genai? ( <dev-python/pydantic-3.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="db dev docs web"
+IUSE="dev"
 DEPENDENCIES="dev-python/sdsstools[${PYTHON_USEDEP}]
 	dev-python/sdss-tree[${PYTHON_USEDEP}]
 	dev-python/sdss-access[${PYTHON_USEDEP}]
@@ -73,45 +73,6 @@ DEPENDENCIES="dev-python/sdsstools[${PYTHON_USEDEP}]
 	dev? ( dev-python/codecov[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/coverage-5.0[${PYTHON_USEDEP}] )
 	dev? ( >=dev-python/ipdb-0.12.3[${PYTHON_USEDEP}] )
-	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/twine-3.1.1[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/wheel-0.33.6[${PYTHON_USEDEP}] )
-	dev? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/selenium-3.3.1[${PYTHON_USEDEP}] )
-	dev? ( dev-python/page-objects[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/decorator-4.1.2[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Pympler[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mpl-scatter-density[${PYTHON_USEDEP}] )
-	dev? ( >=dev-python/msgpack-0.5.4[${PYTHON_USEDEP}] )
-	dev? ( dev-python/msgpack-numpy[${PYTHON_USEDEP}] )
-	dev? ( dev-python/Flask-Testing[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-3.1.0[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-bootstrap-theme-0.4.12[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinxcontrib-httpdomain-1.5.0[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-issues-1.0.0[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/sphinx-rtd-theme-0.4.2[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/nbsphinx-0.3.5[${PYTHON_USEDEP}] )
-	docs? ( dev-python/photutils[${PYTHON_USEDEP}] )
-	docs? ( dev-python/mpl-scatter-density[${PYTHON_USEDEP}] )
-	docs? ( >=dev-python/jupyter-client-5.2.3[${PYTHON_USEDEP}] )
-	docs? ( >dev-python/ipykernel-5.0[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/blinker-1.4[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/flask-2.0[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/werkzeug-2.0[${PYTHON_USEDEP}] )
-	web? ( dev-python/Flask-FeatureFlags[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/flask-compress-1.4[${PYTHON_USEDEP}] )
-	web? ( dev-python/Flask-Limiter[${PYTHON_USEDEP}] )
-	web? ( dev-python/flask_profiler[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/flask-caching-1.4.0[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/flask-login-0.4.1[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/flask-cors-3.0.8[${PYTHON_USEDEP}] )
-	web? ( dev-python/Flask-Session[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/redis-3.3[${PYTHON_USEDEP}] )
-	web? ( >=dev-python/validators-0.10.3[${PYTHON_USEDEP}] )
-	web? ( dev-python/intervals[${PYTHON_USEDEP}] )
-	db? ( dev-python/pgpasslib[${PYTHON_USEDEP}] )
-	db? ( dev-python/psycopg2[${PYTHON_USEDEP}] )
-	db? ( >=dev-python/flask-login-0.4.1[${PYTHON_USEDEP}] )
-	db? ( <dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/invoke[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

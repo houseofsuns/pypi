@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all anthropic cohere dev google huggingface openai"
+IUSE="all anthropic cohere dev"
 DEPENDENCIES=">=dev-python/loguru-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.23.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.27.0[${PYTHON_USEDEP}]
@@ -73,23 +73,6 @@ DEPENDENCIES=">=dev-python/loguru-0.5.0[${PYTHON_USEDEP}]
 	cohere? ( dev-python/cohere[${PYTHON_USEDEP}] )
 	dev? ( dev-python/black[${PYTHON_USEDEP}] )
 	dev? ( dev-python/bumpver[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-autorefs[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-jupyter[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-material-extensions[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocs-table-reader-plugin[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings[${PYTHON_USEDEP}] )
-	dev? ( dev-python/mkdocstrings-python[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pip-tools[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pytest-mock[${PYTHON_USEDEP}] )
-	dev? ( dev-python/pre-commit[${PYTHON_USEDEP}] )
-	google? ( dev-python/google-cloud-aiplatform[${PYTHON_USEDEP}] )
-	huggingface? ( dev-python/transformers[${PYTHON_USEDEP}] )
-	huggingface? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	openai? ( dev-python/openai[${PYTHON_USEDEP}] )
-	openai? ( dev-python/tiktoken[${PYTHON_USEDEP}] )"
+	dev? ( dev-python/mkdocs[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

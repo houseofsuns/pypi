@@ -74,11 +74,6 @@ DEPENDENCIES="dev-python/aenum[${PYTHON_USEDEP}]
 	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/openpyxl-3.0.9[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pandas[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	tests? ( ~dev-python/xlrd-1.2.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )
 	virtual/allow-pypi-wheels"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

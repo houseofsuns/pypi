@@ -73,8 +73,6 @@ DEPENDENCIES="~dev-python/amqp-5.2.0[${PYTHON_USEDEP}]
 	~dev-python/versioneer-0.29[${PYTHON_USEDEP}]
 	~dev-python/vine-5.1.0[${PYTHON_USEDEP}]
 	~dev-python/virtualenv-20.25.0[${PYTHON_USEDEP}]
-	~dev-python/wcwidth-0.2.12[${PYTHON_USEDEP}]
-	dev-python/webdriver-manager[${PYTHON_USEDEP}]
-	~dev-python/wsproto-1.2.0[${PYTHON_USEDEP}]"
+	~dev-python/wcwidth-0.2.12[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

@@ -73,10 +73,6 @@ DEPENDENCIES="~dev-python/alabaster-0.7.12[${PYTHON_USEDEP}]
 	~dev-python/termcolor-1.1.0[${PYTHON_USEDEP}]
 	~dev-python/texttable-1.6.2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]
-	~dev-python/urllib3-1.26.0[${PYTHON_USEDEP}]
-	~dev-python/wcwidth-0.1.8[${PYTHON_USEDEP}]
-	~dev-python/zipp-1.0.0[${PYTHON_USEDEP}]
-	dev-python/activedirectory[${PYTHON_USEDEP}]"
+	~dev-python/tzlocal-2.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

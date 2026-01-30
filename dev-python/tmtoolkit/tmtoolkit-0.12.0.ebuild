@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all dev doc gensim recommended rinterop sklearn test textproc textproc_extra topic_modeling_eval_extra"
+IUSE="all dev doc gensim recommended rinterop sklearn test"
 DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	<dev-python/scipy-2.0[${PYTHON_USEDEP}]
 	dev-python/globre[${PYTHON_USEDEP}]
@@ -73,11 +73,6 @@ DEPENDENCIES="<dev-python/numpy-2.0[${PYTHON_USEDEP}]
 	rinterop? ( <dev-python/rpy2-3.6[${PYTHON_USEDEP}] )
 	sklearn? ( <dev-python/scikit-learn-2.0[${PYTHON_USEDEP}] )
 	test? ( <dev-python/pytest-8.0[${PYTHON_USEDEP}] )
-	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )
-	textproc? ( dev-python/spacy[${PYTHON_USEDEP}] )
-	textproc? ( <dev-python/loky-4.0[${PYTHON_USEDEP}] )
-	textproc_extra? ( <dev-python/pyicu-3.0[${PYTHON_USEDEP}] )
-	textproc_extra? ( dev-python/nltk[${PYTHON_USEDEP}] )
-	topic_modeling_eval_extra? ( <dev-python/gmpy2-3.0[${PYTHON_USEDEP}] )"
+	test? ( <dev-python/hypothesis-7.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

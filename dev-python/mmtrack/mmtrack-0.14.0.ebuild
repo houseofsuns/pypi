@@ -73,9 +73,6 @@ DEPENDENCIES="dev-python/attributee[${PYTHON_USEDEP}]
 	tests? ( dev-python/interrogate[${PYTHON_USEDEP}] )
 	tests? ( ~dev-python/isort-4.3.21[${PYTHON_USEDEP}] )
 	tests? ( dev-python/kwarray[${PYTHON_USEDEP}] )
-	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	tests? ( dev-python/ubelt[${PYTHON_USEDEP}] )
-	tests? ( >=dev-python/xdoctest-0.10.0[${PYTHON_USEDEP}] )
-	tests? ( dev-python/yapf[${PYTHON_USEDEP}] )"
+	tests? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

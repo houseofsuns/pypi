@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all apigateway apigatewayv2 appsync awslambda batch cloudformation cognitoidp dynamodb dynamodbstreams events glue proxy quicksight resourcegroupstaggingapi s3 s3crc32c server ssm stepfunctions xray"
+IUSE="all proxy server"
 DEPENDENCIES=">=dev-python/boto3-1.9.201[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.20.88[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
@@ -73,56 +73,6 @@ DEPENDENCIES=">=dev-python/boto3-1.9.201[${PYTHON_USEDEP}]
 	server? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
 	server? ( <=dev-python/cfn-lint-1.41.0[${PYTHON_USEDEP}] )
 	server? ( >=dev-python/openapi-spec-validator-0.5.0[${PYTHON_USEDEP}] )
-	server? ( <=dev-python/pydantic-2.12.4[${PYTHON_USEDEP}] )
-	server? ( >=dev-python/pyparsing-3.0.7[${PYTHON_USEDEP}] )
-	server? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
-	server? ( >=dev-python/aws-xray-sdk-0.93[${PYTHON_USEDEP}] )
-	server? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	server? ( >dev-python/flask-2.2.0[${PYTHON_USEDEP}] )
-	server? ( dev-python/flask-cors[${PYTHON_USEDEP}] )
-	apigateway? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
-	apigateway? ( dev-python/joserfc[${PYTHON_USEDEP}] )
-	apigateway? ( >=dev-python/openapi-spec-validator-0.5.0[${PYTHON_USEDEP}] )
-	apigatewayv2? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
-	apigatewayv2? ( >=dev-python/openapi-spec-validator-0.5.0[${PYTHON_USEDEP}] )
-	appsync? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
-	awslambda? ( >=dev-python/docker-3.0.0[${PYTHON_USEDEP}] )
-	batch? ( >=dev-python/docker-3.0.0[${PYTHON_USEDEP}] )
-	cloudformation? ( dev-python/joserfc[${PYTHON_USEDEP}] )
-	cloudformation? ( >=dev-python/docker-3.0.0[${PYTHON_USEDEP}] )
-	cloudformation? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
-	cloudformation? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
-	cloudformation? ( <=dev-python/cfn-lint-1.41.0[${PYTHON_USEDEP}] )
-	cloudformation? ( >=dev-python/openapi-spec-validator-0.5.0[${PYTHON_USEDEP}] )
-	cloudformation? ( >=dev-python/pyparsing-3.0.7[${PYTHON_USEDEP}] )
-	cloudformation? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
-	cloudformation? ( >=dev-python/aws-xray-sdk-0.93[${PYTHON_USEDEP}] )
-	cloudformation? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	cognitoidp? ( dev-python/joserfc[${PYTHON_USEDEP}] )
-	dynamodb? ( >=dev-python/docker-3.0.0[${PYTHON_USEDEP}] )
-	dynamodb? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
-	dynamodbstreams? ( >=dev-python/docker-3.0.0[${PYTHON_USEDEP}] )
-	dynamodbstreams? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
-	events? ( dev-python/jsonpath-ng[${PYTHON_USEDEP}] )
-	glue? ( >=dev-python/pyparsing-3.0.7[${PYTHON_USEDEP}] )
-	quicksight? ( dev-python/jsonschema[${PYTHON_USEDEP}] )
-	resourcegroupstaggingapi? ( dev-python/joserfc[${PYTHON_USEDEP}] )
-	resourcegroupstaggingapi? ( >=dev-python/docker-3.0.0[${PYTHON_USEDEP}] )
-	resourcegroupstaggingapi? ( dev-python/graphql-core[${PYTHON_USEDEP}] )
-	resourcegroupstaggingapi? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
-	resourcegroupstaggingapi? ( <=dev-python/cfn-lint-1.41.0[${PYTHON_USEDEP}] )
-	resourcegroupstaggingapi? ( >=dev-python/openapi-spec-validator-0.5.0[${PYTHON_USEDEP}] )
-	resourcegroupstaggingapi? ( >=dev-python/pyparsing-3.0.7[${PYTHON_USEDEP}] )
-	resourcegroupstaggingapi? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
-	s3? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
-	s3? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
-	s3crc32c? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
-	s3crc32c? ( dev-python/py-partiql-parser[${PYTHON_USEDEP}] )
-	s3crc32c? ( dev-python/crc32c[${PYTHON_USEDEP}] )
-	ssm? ( >=dev-python/pyyaml-5.1[${PYTHON_USEDEP}] )
-	stepfunctions? ( dev-python/antlr4-python3-runtime[${PYTHON_USEDEP}] )
-	stepfunctions? ( dev-python/jsonpath-ng[${PYTHON_USEDEP}] )
-	xray? ( >=dev-python/aws-xray-sdk-0.93[${PYTHON_USEDEP}] )
-	xray? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
+	server? ( <=dev-python/pydantic-2.12.4[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

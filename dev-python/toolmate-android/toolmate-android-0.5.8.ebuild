@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="bible"
+IUSE=""
 DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/pipdeptree[${PYTHON_USEDEP}]
@@ -73,36 +73,6 @@ DEPENDENCIES="dev-python/wheel[${PYTHON_USEDEP}]
 	dev-python/langchain-ollama[${PYTHON_USEDEP}]
 	dev-python/langchain-text-splitters[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/argparse[${PYTHON_USEDEP}]
-	dev-python/folium[${PYTHON_USEDEP}]
-	dev-python/sympy[${PYTHON_USEDEP}]
-	dev-python/prompt-toolkit[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]
-	dev-python/DateTime[${PYTHON_USEDEP}]
-	dev-python/geocoder[${PYTHON_USEDEP}]
-	dev-python/art[${PYTHON_USEDEP}]
-	dev-python/gTTS[${PYTHON_USEDEP}]
-	dev-python/yt-dlp[${PYTHON_USEDEP}]
-	dev-python/qrcode[${PYTHON_USEDEP}]
-	dev-python/pyperclip[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/einops[${PYTHON_USEDEP}]
-	dev-python/python-magic[${PYTHON_USEDEP}]
-	dev-python/feedparser[${PYTHON_USEDEP}]
-	dev-python/html2text[${PYTHON_USEDEP}]
-	dev-python/pypdf[${PYTHON_USEDEP}]
-	dev-python/setuptools-rust[${PYTHON_USEDEP}]
-	dev-python/SpeechRecognition[${PYTHON_USEDEP}]
-	dev-python/pydub[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/geopy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/flashtext[${PYTHON_USEDEP}]
-	dev-python/wikipedia[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/edge-tts[${PYTHON_USEDEP}]
-	dev-python/ftfy[${PYTHON_USEDEP}]
-	bible? ( dev-python/uniquebible[${PYTHON_USEDEP}] )"
+	dev-python/argparse[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

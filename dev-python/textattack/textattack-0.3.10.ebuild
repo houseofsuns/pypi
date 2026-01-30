@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="dev docs optional tensorflow test"
+IUSE="dev docs"
 DEPENDENCIES="dev-python/bert-score[${PYTHON_USEDEP}]
 	dev-python/editdistance[${PYTHON_USEDEP}]
 	dev-python/flair[${PYTHON_USEDEP}]
@@ -73,22 +73,6 @@ DEPENDENCIES="dev-python/bert-score[${PYTHON_USEDEP}]
 	docs? ( dev-python/sphinx-autobuild[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}] )
 	docs? ( dev-python/sphinx-markdown-tables[${PYTHON_USEDEP}] )
-	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )
-	optional? ( dev-python/sentence-transformers[${PYTHON_USEDEP}] )
-	optional? ( dev-python/stanza[${PYTHON_USEDEP}] )
-	optional? ( dev-python/visdom[${PYTHON_USEDEP}] )
-	optional? ( dev-python/wandb[${PYTHON_USEDEP}] )
-	optional? ( dev-python/gensim[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow-hub[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow-text[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorboardX[${PYTHON_USEDEP}] )
-	tensorflow? ( dev-python/tensorflow-estimator[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/black-20.8_beta1[${PYTHON_USEDEP}] )
-	test? ( dev-python/docformatter[${PYTHON_USEDEP}] )
-	test? ( ~dev-python/isort-5.6.4[${PYTHON_USEDEP}] )
-	test? ( dev-python/flake8[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
-	test? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
+	docs? ( dev-python/sphinx-copybutton[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

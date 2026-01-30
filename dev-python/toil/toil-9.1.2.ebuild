@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all aws cwl encryption google htcondor kubernetes server wdl"
+IUSE="aws cwl encryption google kubernetes server wdl"
 DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	<=dev-python/requests-2.32.5[${PYTHON_USEDEP}]
 	<dev-python/docker-8.0[${PYTHON_USEDEP}]
@@ -71,40 +71,6 @@ DEPENDENCIES="<dev-python/dill-0.4[${PYTHON_USEDEP}]
 	server? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
 	server? ( dev-python/celery[${PYTHON_USEDEP}] )
 	server? ( dev-python/wes-service[${PYTHON_USEDEP}] )
-	server? ( <dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}] )
-	htcondor? ( dev-python/htcondor[${PYTHON_USEDEP}] )
-	all? ( dev-python/boto3-stubs[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy-boto3-iam[${PYTHON_USEDEP}] )
-	all? ( dev-python/mypy-boto3-s3[${PYTHON_USEDEP}] )
-	all? ( <dev-python/moto-6.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/ec2-metadata[${PYTHON_USEDEP}] )
-	all? ( dev-python/cwltool[${PYTHON_USEDEP}] )
-	all? ( dev-python/schema-salad[${PYTHON_USEDEP}] )
-	all? ( dev-python/galaxy-tool-util[${PYTHON_USEDEP}] )
-	all? ( dev-python/galaxy-util[${PYTHON_USEDEP}] )
-	all? ( <=dev-python/ruamel-yaml-0.19[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/ruamel-yaml-clib-0.2.6[${PYTHON_USEDEP}] )
-	all? ( <dev-python/networkx-4.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/cachecontrol[${PYTHON_USEDEP}] )
-	all? ( dev-python/cwl-utils[${PYTHON_USEDEP}] )
-	all? ( <dev-python/pynacl-2.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/apache-libcloud-4.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/google-cloud-storage[${PYTHON_USEDEP}] )
-	all? ( <dev-python/google-auth-3.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/kubernetes[${PYTHON_USEDEP}] )
-	all? ( dev-python/kubernetes-stubs[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-urllib3[${PYTHON_USEDEP}] )
-	all? ( dev-python/types-PyYAML[${PYTHON_USEDEP}] )
-	all? ( >=dev-python/idna-2.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/miniwdl[${PYTHON_USEDEP}] )
-	all? ( dev-python/wdlparse[${PYTHON_USEDEP}] )
-	all? ( dev-python/connexion[${PYTHON_USEDEP}] )
-	all? ( <dev-python/flask-4.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/werkzeug-4.0[${PYTHON_USEDEP}] )
-	all? ( <dev-python/flask-cors-7.0[${PYTHON_USEDEP}] )
-	all? ( dev-python/gunicorn[${PYTHON_USEDEP}] )
-	all? ( dev-python/celery[${PYTHON_USEDEP}] )
-	all? ( dev-python/wes-service[${PYTHON_USEDEP}] )
-	all? ( <dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}] )"
+	server? ( <dev-python/ruamel-yaml-1.0[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

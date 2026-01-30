@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="all anthropic dev linting math multilingual openai sentencepiece testing vllm"
+IUSE="all anthropic dev linting math multilingual openai sentencepiece testing"
 DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	dev-python/bullet[${PYTHON_USEDEP}]
 	dev-python/evaluate[${PYTHON_USEDEP}]
@@ -73,7 +73,6 @@ DEPENDENCIES="dev-python/accelerate[${PYTHON_USEDEP}]
 	sentencepiece? ( >=dev-python/protobuf-4.22.1[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest[${PYTHON_USEDEP}] )
 	testing? ( dev-python/pytest-cov[${PYTHON_USEDEP}] )
-	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )
-	vllm? ( dev-python/vllm[${PYTHON_USEDEP}] )"
+	testing? ( dev-python/pytest-xdist[${PYTHON_USEDEP}] )"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

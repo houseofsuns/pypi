@@ -73,12 +73,6 @@ DEPENDENCIES="~dev-python/annotated-types-0.6.0[${PYTHON_USEDEP}]
 	~dev-python/secretstorage-3.3.3[${PYTHON_USEDEP}]
 	~dev-python/six-1.16.0[${PYTHON_USEDEP}]
 	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]
-	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]
-	~dev-python/tox-4.11.4[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.8.0[${PYTHON_USEDEP}]
-	~dev-python/urllib3-2.0.7[${PYTHON_USEDEP}]
-	~dev-python/virtualenv-20.25.0[${PYTHON_USEDEP}]
-	~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]"
+	~dev-python/tomli-2.0.1[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

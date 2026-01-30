@@ -73,16 +73,6 @@ DEPENDENCIES="dev-python/altair[${PYTHON_USEDEP}]
 	dev-python/soxr[${PYTHON_USEDEP}]
 	dev-python/streamlit[${PYTHON_USEDEP}]
 	~dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]
-	~dev-python/threadpoolctl-3.2.0[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
-	~dev-python/toolz-0.12.0[${PYTHON_USEDEP}]
-	~dev-python/tornado-6.4[${PYTHON_USEDEP}]
-	~dev-python/typing-extensions-4.9.0[${PYTHON_USEDEP}]
-	~dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
-	~dev-python/tzlocal-5.2[${PYTHON_USEDEP}]
-	~dev-python/urllib3-2.1.0[${PYTHON_USEDEP}]
-	~dev-python/validators-0.22.0[${PYTHON_USEDEP}]
-	~dev-python/watchdog-3.0.0[${PYTHON_USEDEP}]
-	~dev-python/zipp-3.17.0[${PYTHON_USEDEP}]"
+	~dev-python/threadpoolctl-3.2.0[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

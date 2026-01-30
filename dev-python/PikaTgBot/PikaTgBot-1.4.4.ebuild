@@ -73,18 +73,6 @@ DEPENDENCIES=">=dev-python/pillow-5.3.0[${PYTHON_USEDEP}]
 	dev-python/speedtest-cli[${PYTHON_USEDEP}]
 	~dev-python/sqlalchemy-1.2[${PYTHON_USEDEP}]
 	dev-python/telegraph[${PYTHON_USEDEP}]
-	dev-python/asyncurban[${PYTHON_USEDEP}]
-	dev-python/urbandict[${PYTHON_USEDEP}]
-	dev-python/wikipedia[${PYTHON_USEDEP}]
-	dev-python/youtube_dl[${PYTHON_USEDEP}]
-	dev-python/jikanpy[${PYTHON_USEDEP}]
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/PyLyrics[${PYTHON_USEDEP}]
-	dev-python/uvloop[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/CairoSVG[${PYTHON_USEDEP}]
-	dev-python/lottie[${PYTHON_USEDEP}]
-	dev-python/glitch-this[${PYTHON_USEDEP}]
-	dev-python/pygments[${PYTHON_USEDEP}]"
+	dev-python/asyncurban[${PYTHON_USEDEP}]"
 BDEPEND="${DEPENDENCIES}"
 RDEPEND="${DEPENDENCIES}"

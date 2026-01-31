@@ -12,7 +12,7 @@ DISTUTILS_USE_PEP517=standalone
 
 inherit python-r1 gs-pypi
 
-DESCRIPTION="Seldon Core client and microservice wrapper [prod-max (True, <g_sorcery.g_collections.Version object at 0x7feac5d9fed0>)]"
+DESCRIPTION="Seldon Core client and microservice wrapper [prod-max (True, <g_sorcery.g_collections.Version object at 0x7f504611bae0>)]"
 
 HOMEPAGE="https://github.com/SeldonIO/seldon-core"
 LICENSE="Business Source License 1.1"
